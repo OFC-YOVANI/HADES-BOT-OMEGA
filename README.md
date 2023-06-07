@@ -119,7 +119,7 @@ npm start
 ```
 
 ### `—◉ 🔥 ACTIVAR EN BOXMINEHOST 🔥`
-<a href="https://boxmineworld.com"><img src="https://raw.githubusercontent.com/OFC-YOVANI/HATSUNE-MIKU/master/src/Pre%20Bot%20Publi.png" width="450" height="240" alt="JPG"/></a>
+<a href="https://boxmineworld.com"><img src="https://i.imgur.com/K46KVqw.jpeg" width="450" height="240" alt="JPG"/></a>
 - Pagina Oficial: [https://boxmineworld.com](https://boxmineworld.com)
 - Dashboard: [https://dash.boxmineworld.com](https://dash.boxmineworld.com)
 - Panel: [https://panel.boxmineworld.com](https://panel.boxmineworld.com)
@@ -132,10 +132,10 @@ npm start
 - EL BOT ES COMPARTIBLE CON WHATSAPP NORMAL O BUSINESS
 - ATENTO A LAS ACTUALIZACIONES QUE SE HAGAN EN ESTE REPOSITORIO
 - EL ADD Y EL KICK PUEDEN OCASIONAR QUE EL NUMERO SE VAYA A SOPORTE POR ELLO SE ACTIVA CON #enable restrict 
-- HATSUNE-MIKU - TEAM NO SE HACE RESPONSABLE DEL USO, NUMEROS, PRIVACIDAD Y CONTENIDO MANDADO, USADO O GESTIONADO POR USTEDES O EL BOT
+- HADES-BOT-OMEGA - TEAM NO SE HACE RESPONSABLE DEL USO, NUMEROS, PRIVACIDAD Y CONTENIDO MANDADO, USADO O GESTIONADO POR USTEDES O EL BOT
 
 
 ## `CREADO POR OFC-YOVANI` 
-<a href="https://github.com/OFC-YOVANI"><img src="https://i.imgur.com/JP52fdP.jpg" width="250" height="250" alt="YOVANI"/></a>
+<a href="https://github.com/OFC-YOVANI"><img src="https://i.imgur.com/uKSNdLg.jpg" width="250" height="250" alt="YOVANI"/></a>
   
-`HATSUNE-MIKU-ULTRA - By YOVANI`
+`HADES-BOT-OMEGA - By YOVANI`
