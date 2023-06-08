@@ -401,20 +401,6 @@ setInterval(async () => {
     await purgeOldFiles()
 console.log(chalk.cyanBright(`\n▣────────[ AUTO_PURGE_OLDFILES ]───────────···\n│\n▣─❧ ARCHIVOS ELIMINADOS ✅\n│\n▣────────────────────────────────────···\n`))
 }, 1000 * 60 * 60)
-setInterval(async () => {
-if (stopped == 'close') return        
-const status = global.db.data.settings[conn.user.jid] || {}
-let _uptime = process.uptime() * 1000    
-let uptime = clockString(_uptime)
-let bio = `🤖ᴇsᴛᴇ ᴜsᴜᴀʀɪᴏ ʜᴀᴄᴇ ᴜsᴏ ᴇʟ ʙᴏᴛ ☃️⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍⏱️ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ${uptime}`
-await conn.updateProfileStatus(bio).catch(_ => _)
-}, 60000)
-function clockString(ms) {
-let d = isNaN(ms) ? '--' : Math.floor(ms / 86400000)
-let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000) % 24
-let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
-let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
-return [d, ' Día(s) ️', h, ' Hora(s) ', m, ' Minuto(s) ', s, ' Segundo(s) '].map(v => v.toString().padStart(2, 0)).join('')}
 _quickTest()
 .then(() => conn.logger.info(`Ƈᴀʀɢᴀɴᴅᴏ．．．\n`))
 .catch(console.error)

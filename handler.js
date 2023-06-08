@@ -1369,7 +1369,7 @@ export async function participantsUpdate({ id, participants, action }) {
                     } catch (e) {
                     } finally {
                     let apii = await this.getFile(pp)
-                    const antiArab = JSON.parse(fs.readFileSync('./src/antiArab.json'))
+                    const antiArab = JSON.parse(fs.readFileSync('./views/antiArab.json'))
                     const userPrefix = antiArab.some(prefix => user.startsWith(prefix))                        
                     const botTt2 = groupMetadata.participants.find(u => this.decodeJid(u.id) == this.user.jid) || {} 
                     const isBotAdminNn = botTt2?.admin === "admin" || false
@@ -1481,7 +1481,7 @@ global.dfail = (type, m, conn) => {
         private: '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝚂𝙾𝙻𝙾 𝙿𝚄𝙴𝙳𝙴 𝚂𝙴𝚁 𝚄𝚃𝙸𝙻𝙸𝚉𝙰𝙳𝙾 𝙴𝙽 𝙲𝙷𝙰𝚃 𝙿𝚁𝙸𝚅𝙰𝙳𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃*\n\n\n[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ]*THIS COMMAND CAN ONLY BE USED IN A PRIVATE BOT CHAT*',
         admin: '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝚂𝙾𝙻𝙾 𝙿𝚄𝙴𝙳𝙴 𝚂𝙴𝚁 𝚄𝚃𝙸𝙻𝙸𝚉𝙰𝙳𝙾 𝙿𝙾𝚁 𝙰𝙳𝙼𝙸𝙽𝚂 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾*\n\n\n[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ]*THIS COMMAND CAN BE USED BY GROUP ADMINS*',
         botAdmin: '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] 𝙿𝙰𝚁𝙰 𝙿𝙾𝙳𝙴𝚁 𝚄𝚂𝙰𝚁 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙴𝚂 𝙽𝙴𝙲𝙴𝚂𝙰𝚁𝙸𝙾 𝚀𝚄𝙴 𝙴𝙻 𝙱𝙾𝚃 𝚂𝙴𝙰 𝙰𝙳𝙼𝙸𝙽, 𝙰𝙲𝙴𝙽𝙳𝙴𝚁 𝙰 𝙰𝙳𝙼𝙸𝙽 𝙴𝚂𝚃𝙴 𝙽𝚄𝙼𝙴𝚁𝙾*\n\n\n[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ]*TO BE ABLE TO USE THIS COMMAND, THE BOT NEEDS TO BE AN ADMIN, PROMOTE THIS NUMBER TO ADMIN*',
-        unreg: '*[ 🛑 𝐇𝐄𝐘!! 𝐀𝐋𝐓𝐎, 𝐍𝐎 𝐄𝐒𝐓𝐀𝐒 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐀𝐃𝐎 🛑 ]*\n\n*—◉ 𝙿𝙰𝚁𝙰 𝚄𝚂𝙰𝚁 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙳𝙴𝙱𝙴𝚂 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙰𝚁𝚃𝙴, 𝚄𝚂𝙰 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾*\n*➣ /reg nombre.edad*\n\n\n*[ 🛑 HEY ALTO, YOU ARE NOT REGISTERED🛑 ]* *TO USE THIS COMMAND YOU MUST REGISTER USING THE COMMAND\n/reg name.age*',
+        unreg: '*[ 🛑 𝐇𝐄𝐘!! 𝐀𝐋𝐓𝐎, 𝐍𝐎 𝐄𝐒𝐓𝐀𝐒 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐀𝐃𝐎 🛑 ]*\n\n*—◉ 𝙿𝙰𝚁𝙰 𝚄𝚂𝙰𝚁 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙳𝙴𝙱𝙴𝚂 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙰𝚁𝚃𝙴, 𝚄𝚂𝙰 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾*\n*➣ /reg nombre.edad*\n\n\n*[ 🛑 *HEY ALTO, YOU ARE NOT REGISTERED* 🛑 ]* *TO USE THIS COMMAND YOU MUST REGISTER USING THE COMMAND\n/reg name.age*',
         restrict: '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙴𝚂𝚃𝙰 𝚁𝙴𝚂𝚃𝚁𝙸𝙽𝙶𝙸𝙳𝙾/𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾 𝙿𝙾𝚁 𝙳𝙴𝚂𝙸𝙲𝙸𝙾𝙽 𝙳𝙴𝙻 𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾/𝙰 (𝙾𝚆𝙽𝙴𝚁) 𝙳𝙴𝙻 𝙱𝙾𝚃*\n\n\n[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ]*THIS COMMAND IS REGISTERED/DISABLED BY DECISION OF THE OWNER OF THE BOT*'
          }[type]
     let aa = { quoted: m, userJid: conn.user.jid }
