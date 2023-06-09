@@ -13,4 +13,5 @@ conn.reply(m.chat, `
 
 handler.command = /^(Follar|violar)/i
 handler.fail = null
+handler.register = true
 export default handler

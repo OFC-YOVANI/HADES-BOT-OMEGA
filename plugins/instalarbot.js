@@ -29,15 +29,31 @@ let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻
 │➯ *ᴜsᴜᴀʀɪᴏs:➟${rtotalreg}
 ︎╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
-╭「➻❥ *INFO* ➻❥」
+╭「➻❥ *INFO*➻❥」
 │➯ *INSTALACIÓN*
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
-╭「➻❥📽️𝚃𝚄𝚃𝙾𝚁𝙸𝙰𝙻➻❥」
-│➯
+╭「➻❥ *APK-TERMUX* ➻❥」
+│➯ https://www.mediafire.com/file/190g4b86nhyof7b/com.termux_118.apk/file?dkey=wfddtbi5jtj98
+╰───────────────╯
+🍁᭢━━━━━━━━━᭥🍁᭢
+╭「➻❥Número para ayuda➻❥」
+│➯Wa.me/5212412377467
+╰───────────────╯
+🍁᭢━━━━━━━━━᭥🍁᭢
+╭「➻❥ *📽️tutorial* ➻❥」
+│➯https://youtu.be/AtI8nyBWrZk
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭「➻❥𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 𝚃𝙴𝚁𝙼𝚄𝚇➻❥」
+│➯opción 1 estos comandos son para los que no pudieron hacer con los comandos normales estos comandos lo van a instalar solito 
+│➯termux-setup-storage
+│➯pkg update -y && pkg upgrade -y && pkg install -y bash && pkg install -y wget && pkg install yarn
+│➯wget -O - https://raw.githubusercontent.com/OFC-YOVANI/HADES-BOT-OMEGA/master/install.sh | bash
+╰───────────────╯
+🍁᭢━━━━━━━━━᭥🍁᭢
+╭「➻❥𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 𝚃𝙴𝚁𝙼𝚄𝚇➻❥」
+│➯*opción 2 de instalación"
 │➯cd && termux-setup-storage
 │➯apt-get update -y && apt-get upgrade -y
 │➯pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn 
@@ -46,13 +62,6 @@ let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻
 │➯npm install
 │➯npm update
 │➯npm start
-╰───────────────╯
-🍁᭢━━━━━━━━━᭥🍁᭢
-╭「➻❥𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 𝚃𝙴𝚁𝙼𝚄𝚇➻❥」
-│➯opción 2 estos comandos son para los que no pudieron hacer con los comandos normales estos comandos lo van a instalar solito 
-│➯termux-setup-storage
-│➯pkg update -y && pkg upgrade -y && pkg install -y bash && pkg install -y wget && pkg install yarn
-│➯wget -O - https://raw.githubusercontent.com/OFC-YOVANI/HADES-BOT-OMEGA/master/install.sh | bash
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭「➻❥ *ACTIVAR* ➻❥」
@@ -78,8 +87,8 @@ conn.reply(m.chat, '*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝙼𝙴𝙽𝚄 𝚃𝙸
 }}
 handler.command = /^(instalarbot|Lnstalarbot|sc)$/i
 handler.exp = 50
-handler.fail = null
 handler.register = true
+handler.fail = null
 export default handler
 function clockString(ms) {
 let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
