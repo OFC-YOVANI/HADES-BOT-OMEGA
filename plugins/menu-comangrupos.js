@@ -33,6 +33,16 @@ let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻
 ╭「➻❥ *Activar&apagar* ➻❥」
 │➯ */enable welcome*
 │➯ */disable welcome*
+│➯ */enable public*
+│➯ */disable public*
+│➯ */enable restrict*
+│➯ */disable restrict*
+│➯ */enable pconly*
+│➯ */disable pconly*
+│➯ */enable anticall*
+│➯ */disable anticall*
+│➯ */enable simsimi*
+│➯ */disable simsimi*
 │➯ */enable modohorny*
 │➯ */disable modohorny*
 │➯ */enable antilink*
@@ -41,6 +51,8 @@ let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻
 │➯ */disable antilink2*
 │➯ */enable detect*
 │➯ */disable detect*
+│➯ */enable detect2*
+│➯ */disable detect2*
 │➯ */enable autosticker*
 │➯ */disable autosticker*
 │➯ */enable antiviewonce*
