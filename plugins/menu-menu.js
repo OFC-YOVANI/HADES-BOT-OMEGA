@@ -53,8 +53,9 @@ let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻
 │➯ *.grupos*
 │➯ *.owner*
 │➯ *.Menuhetai*
-│➯ *.enable.
-│➯ *.instalarbot.
+│➯ *.enable*
+│➯ *.instalarbot*
+│➯ *.comangrupos*
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭─「➻❥ *Stickers* ➻❥」
@@ -76,10 +77,8 @@ let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻
 │➯ *.animeinfo <nombre>*
 │➯ *.play nombre de tu canción*
 │➯ *.play2 nombre de tu video*
-│➯ *.play3 nombre de tu canción*
-│➯ *.play4 nombre de tu video*
-│➯ *.audio nombre de tu cancion* 
-│➯ *.video nombre de tu video*
+│➯ *.play3 nombre de tu canción,doc*
+│➯ *.play4 nombre de tu video,doc*
 │➯ *.facebook tu link de fb*
 │➯ *.tiktok link de video tiktok*
 │➯ *.mediafire link de mediafire*
