@@ -439,11 +439,12 @@ default:
 if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, { text: optionsFull }, { quoted: m })
 throw false
 }
-conn.sendMessage(m.chat, { text: `🧿𝐎𝐏𝐂𝐈𝐎𝐍: ${type}\n️🔮𝐄𝐒𝐓𝐀𝐃𝐎: ${isEnable ? 'ACTIVADO' : 'DESACTIVADO'}\n🗂️𝐏𝐀𝐑𝐀: ${isAll ? 'ESTE BOT' : isUser ? '' : 'ESTE CHAT'}` }, { quoted: m })        
-conn.sendMessage(m.chat, { text: `🧿 OPTION: ${type}\n️🔮 STATUS: ${isEnable ? 'ON' : 'OFF'}\n🗂️TO: ${isAll ? 'THIS BOT' : isUser ? '' : 'THIS CHAT'}` }, { quoted: m })        
+conn.sendMessage(m.chat, { text: `🧿𝐎𝐏𝐂𝐈𝐎𝐍: ${type}\n🔮𝐄𝐒𝐓𝐀𝐃𝐎: ${isEnable ? 'ACTIVADO' : 'DESACTIVADO'}\n🗂️ 𝐏𝐀𝐑𝐀: ${isAll ? 'ESTE BOT' : isUser ? '' : 'ESTE CHAT'}` }, { quoted: m })        
 }
 handler.help = ['en', 'dis'].map(v => v + 'able <option>')
 handler.tags = ['group', 'owner']
 handler.command = /^((en|dis)able|(tru|fals)e|(turn)?[01])$/i
 handler.register = true
 export default handler
+
+
