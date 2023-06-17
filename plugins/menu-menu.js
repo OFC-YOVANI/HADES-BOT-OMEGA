@@ -39,6 +39,21 @@ let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻
 │➯ *🪙Tokens:* ${joincount}
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
+╭─「➻❥ *gana y compara* ➻❥」
+│➯ *.minar gana xp*
+│➯ *.minar2 gana Diamantes*
+│➯ *.minar3 gana Hades-Coins*
+│➯ *para ver tus diamantes usa el comando*
+│➯ *.bal*
+│➯ *puedes comprar diamantes usando los comandos* 
+│➯ *.shop*
+│➯ *.buy <cantidad>*
+│➯ *.buyall*
+│➯ *puedes dar diamantes o experiencia a otra persona con los comandos* 
+│➯ *.transfer limit mas <cantidad>*
+│➯ *.transfer exp mas <cantidad>*
+╰───────────────╯
+🍁᭢━━━━━━━━━᭥🍁᭢
 ╭─「➻❥ *Grupos* ➻❥」
 │➯ *.welcome @tag*
 │➯ *bye @tag*
@@ -130,7 +145,6 @@ let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻
 │➯ *.formarpareja parejas ramdon*
 │➯ *.hornycard licencia horny*
 │➯ *.slot ruleta*
-│➯ *.minar gana xp*
 │➯ *.trabajar trabaja para ganar xp*
 │➯ *.piropo piropo del bot*
 │➯ *.claim reclama xp*
