@@ -30,7 +30,16 @@ let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻
 │➯ *ᴜsᴜᴀʀɪᴏs:➟${rtotalreg}
 ︎╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
-╭─「➻❥*Grupos*➻❥」
+╭─「➻❥ *Estadísticas* ➻❥」
+│➯ *✳️️Nivel:* ${level}
+│➯ *🧿Experiencia:* ${exp}
+│➯ *⚓Rango:* ${role}
+│➯ *💎Diamantes:* ${limit}
+│➯ *👾Hades-Coins:* ${money}
+│➯ *🪙Tokens:* ${joincount}
+╰───────────────╯
+🍁᭢━━━━━━━━━᭥🍁᭢
+╭─「➻❥ *Grupos* ➻❥」
 │➯ *.welcome @tag*
 │➯ *bye @tag*
 │➯ *.promote @tag*
@@ -52,7 +61,7 @@ let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻
 │➯ *.animes*
 │➯ *.grupos*
 │➯ *.owner*
-│➯ *.Menuhetai*
+│➯ *.labiblia*
 │➯ *.enable*
 │➯ *.instalarbot*
 │➯ *.comangrupos*
@@ -79,6 +88,10 @@ let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻
 │➯ *.play2 nombre de tu video*
 │➯ *.play3 nombre de tu canción,doc*
 │➯ *.play4 nombre de tu video,doc*
+│➯ *.ytmp3 tu link  Audio*
+│➯ *.ytmp4 tu link  video*
+│➯ *.ytmp3doc link canción,doc*
+│➯ *.ytmp4doc link video,doc*
 │➯ *.facebook tu link de fb*
 │➯ *.tiktok link de video tiktok*
 │➯ *.mediafire link de mediafire*

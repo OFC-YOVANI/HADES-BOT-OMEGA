@@ -1,5 +1,5 @@
 let handler = async (m, { conn, isPrems}) => { //lastmiming
-let minar = `${pickRandom(['ǫᴜᴇ ᴘʀᴏ 😎 ʜᴀs ᴍɪɴᴀᴅᴏ','🌟✨ ɢᴇɴɪᴀʟ!! ᴏʙᴛɪᴇɴᴇs','ᴡᴏᴡ!! ᴇʀᴇs ᴜɴ(ᴀ) ɢʀᴀɴ ᴍɪɴᴇʀᴏ(ᴀ) ⛏️ ᴏʙᴛɪᴇɴᴇs','ғᴇʟɪᴄɪᴅᴀᴅᴇs!! ᴀʜᴏʀᴀ ᴛɪᴇɴᴇs','⛏️⛏️⛏️ ᴏʙᴛɪᴇɴᴇs'])}\n`
+let minar2 = `${pickRandom(['ǫᴜᴇ ᴘʀᴏ 😎 ʜᴀs ᴍɪɴᴀᴅᴏ','🌟✨ ɢᴇɴɪᴀʟ!! ᴏʙᴛɪᴇɴᴇs','ᴡᴏᴡ!! ᴇʀᴇs ᴜɴ(ᴀ) ɢʀᴀɴ ᴍɪɴᴇʀᴏ(ᴀ) ⛏️ ᴏʙᴛɪᴇɴᴇs','ғᴇʟɪᴄɪᴅᴀᴅᴇs!! ᴀʜᴏʀᴀ ᴛɪᴇɴᴇs','⛏️⛏️⛏️ ᴏʙᴛɪᴇɴᴇs'])}\n`
 let pp = './views/minar.mp4'
 
 let d = Math.floor(Math.random() * 10)
