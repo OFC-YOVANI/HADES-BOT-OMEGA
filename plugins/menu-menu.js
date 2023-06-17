@@ -43,6 +43,9 @@ let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻
 │➯ *.minar gana xp*
 │➯ *.minar2 gana Diamantes*
 │➯ *.minar3 gana Hades-Coins*
+│➯ *.claim reclama tu recompensa diaria exp*
+│➯ *.darxp recompensa diaria exp*
+│➯ *.coffer un cofre de recompensas diarias*
 │➯ *para ver tus diamantes usa el comando*
 │➯ *.bal*
 │➯ *puedes comprar diamantes usando los comandos* 
@@ -147,8 +150,6 @@ let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻
 │➯ *.slot ruleta*
 │➯ *.trabajar trabaja para ganar xp*
 │➯ *.piropo piropo del bot*
-│➯ *.claim reclama xp*
-│➯ *.darxp regala xp*
 ︎╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭─「➻❥*Efectos de audio*➻❥」
