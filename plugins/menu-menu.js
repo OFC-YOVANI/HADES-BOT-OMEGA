@@ -49,12 +49,18 @@ let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻
 │➯ *para ver tus diamantes usa el comando*
 │➯ *.bal*
 │➯ *puedes comprar diamantes usando los comandos* 
-│➯ *.shop*
+│➯ *.bus <cantidad>* 
+│➯ *.busyall te cobra Hades-Coins*
+│➯ *.bur <cantidad>*
+│➯ *.buryall te cobra Tokens*
 │➯ *.buy <cantidad>*
-│➯ *.buyall*
+│➯ *.buyall te cobra experiencia*
 │➯ *puedes dar diamantes o experiencia a otra persona con los comandos* 
 │➯ *.transfer limit mas <cantidad>*
 │➯ *.transfer exp mas <cantidad>*
+│➯ *tambien puedes robar experiencia o diamantes a otra persona con los comandos*
+│➯ *.robar roba experiencia*
+│➯ *.robardiamantes roba diamantes*
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭─「➻❥ *Grupos* ➻❥」
