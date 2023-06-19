@@ -32,6 +32,8 @@ let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻
 ╭「➻❥*Grupos y cuentas*➻❥」
 │➯𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰
 │➯https://chat.whatsapp.com/BgyxmpSY2VYE3MT0UbLAgf
+│➯𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰
+│➯https://chat.whatsapp.com/DpRVuXpKRF43iMOEtg85wz
 │➯𝙷𝙰𝚃𝚂𝚄𝙽𝙴-𝙼𝙸𝙺𝚄-𝚄𝙻𝚃𝚁𝙰
 │➯https://chat.whatsapp.com/BuloWd29LSnDZHXtUJDybF
 │➯𝚙á𝚐𝚒𝚗𝚊 𝚍𝚎 𝙵𝚊𝚌𝚎𝚋𝚘𝚘𝚔

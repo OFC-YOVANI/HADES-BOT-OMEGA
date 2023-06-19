@@ -16,7 +16,7 @@ let handler = async (m, { conn, command, args }) => {
 }
 handler.help = ['Buy', 'Buyall']
 handler.tags = ['xp']
-handler.command = ['buy', 'shop', 'buyall'] 
+handler.command = ['buy', 'buyall'] 
 handler.register = true
 handler.disabled = false
 
