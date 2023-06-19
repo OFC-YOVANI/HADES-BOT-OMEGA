@@ -9,8 +9,6 @@ let text = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰�
 │➯ *.claim reclama tu recompensa diaria exp* 🧿
 │➯ *.darxp recompensa diaria exp* 🧿
 │➯ *.coffer un cofre de recompensas diarias* ✨
-│➯ *para ver tus diamantes usa el comando* 💥
-│➯ *.bal* 💰
 │➯ *puedes comprar diamantes usando los comandos* 💥
 │➯ *.bus <cantidad>* 💎
 │➯ *.busyall te cobra Hades-Coins* 💰
