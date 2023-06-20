@@ -7,7 +7,6 @@ let text = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰�
 │➯ *.minar2 gana Diamantes* 💎
 │➯ *.minar3 gana Hades-Coins* 💰
 │➯ *.claim reclama tu recompensa diaria exp* 🧿
-│➯ *.darxp recompensa diaria exp* 🧿
 │➯ *.coffer un cofre de recompensas diarias* ✨
 │➯ *puedes comprar diamantes usando los comandos* 💥
 │➯ *.bus <cantidad>* 💎

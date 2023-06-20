@@ -58,9 +58,6 @@ let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻
 │➯ *puedes dar diamantes o experiencia a otra persona con los comandos* 
 │➯ *.transfer limit mas <cantidad>*
 │➯ *.transfer exp mas <cantidad>*
-│➯ *tambien puedes robar experiencia o diamantes a otra persona con los comandos*
-│➯ *.robar roba experiencia*
-│➯ *.robardiamantes roba diamantes*
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭─「➻❥ *Grupos* ➻❥」
