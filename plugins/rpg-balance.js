@@ -10,7 +10,7 @@ m.reply(`╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻�
 │➯‣❏ *💎𝙳𝚒𝚊𝚖𝚊𝚗𝚝𝚎𝚜:* ${global.db.data.users[who].limit}💎
 │➯‣❏ *💥Tokens* 🪙${global.db.data.users[who].joincount}
 │➯‣❏ *♦️ʜᴀᴅᴇs-ᴄᴏɪɴs* ${global.db.data.users[who].money}
-│➯‣❏ *🧿Exp*${global.db.data.users[who].exp}
+│➯‣❏ *🧿Exp* ${global.db.data.users[who].exp}
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」
@@ -21,6 +21,6 @@ m.reply(`╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻�
 }
 handler.help = ['bal']
 handler.tags = ['xp']
-handler.command = ['bal', 'diamantes', 'diamond', 'balance'] 
+handler.command = ['bal', 'diamantes', 'diamond', 'dinero', 'balance'] 
 handler.register = true
 export default handler

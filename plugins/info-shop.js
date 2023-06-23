@@ -3,12 +3,6 @@ var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.present
 var document = doc[Math.floor(Math.random() * doc.length)]    
 let text = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」
 │➯➻❥ *✳️TIENDA-SHOP✨* ➻❥
-│➯ *.minar gana xp* 🧿
-│➯ *.minar2 gana Diamantes* 💎
-│➯ *.minar3 gana Hades-Coins* 💰
-│➯ *.claim reclama tu recompensa diaria exp* 🧿
-│➯ *.coffer un cofre de recompensas diarias* ✨
-│➯ *puedes comprar diamantes usando los comandos* 💥
 │➯ *.bus <cantidad>* 💎
 │➯ *.busyall te cobra Hades-Coins* 💰
 │➯ *.bur <cantidad>* 🪙
@@ -20,6 +14,7 @@ let text = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰�
 ╭「➻❥ *🪙DINERO🪙* ➻❥」
 │➯ *para ver todo tu dinero usa el comando*
 │➯ *.bal*
+│➯ *.dinero*
 ︎╰───────────────╯`.trim()   
 let buttonMessage= {
 'document': { url: `https://github.com/OFC-YOVANI/HADES-BOT-OMEGA` },
