@@ -5,7 +5,7 @@ let optionsFull = `--------------------------------
 *Descripción:* Activa o desactiva la bienvenida en el grupo.
 --------------------------------
 *Option:* ✨ | WELCOME
-*Command:* /enable welcome
+*Command:* /disable welcome
 *Description:* Activates or deactivates the welcome in the group.
 --------------------------------
 *Opción:* 🌎 | MODO PUBLICO
@@ -14,7 +14,7 @@ let optionsFull = `--------------------------------
 *Nota:* Este comando solo podrá ser usado por owners del Bot.
 --------------------------------
 *Option:* 🌎 | PUBLIC MODE
-*Command:* /enable public
+*Command:* /disable public
 *Description:* The Bot becomes for public and/or private use.
 *Note:* This command can only be used by Bot owners.
 --------------------------------
@@ -24,7 +24,7 @@ let optionsFull = `--------------------------------
 *Nota:* Se necesita tener activo el restrict.
 --------------------------------
 *Option:* 🔗 | ANTI-LINK
-*Command:* /enable antilink
+*Command:* /disable antilink
 *Description:* Activate or deactivate the anti-links of WhatsApp.
 *Note:* You need to have the restrict active.
 --------------------------------
@@ -34,7 +34,7 @@ let optionsFull = `--------------------------------
 *Nota:* Se necesita tener activo el restrict.
 --------------------------------
 *Option:* 🔗 | ANTI-LINK 2
-*Command:* /enable antilink2
+*Command:* /disable antilink2
 *Description:* Enables or disables anti-links starting at HTTPS.
 *Note:* You need to have the restrict active.
 --------------------------------
@@ -42,17 +42,14 @@ let optionsFull = `--------------------------------
 *Comando:* /enable detect
 *Descripción:* Activa o desacriva las notificaciones de cambios en el grupo.
 --------------------------------
---------------------------------
 *Opción:* 🔎 | DETECT 2
-*Comando:* /enable detect2
+*Comando:* /disable detect2
 *Descripción:* Detecta modificaciones en el grupo y mantiene una mejor gestion.
 --------------------------------
---------------------------------
 *Opción:* ❗ | RESTRICT
-*Comando:* /enable restrict
+*Comando:* /disable restrict
 *Descripción:* Activa o desactiva las restricciones del Bot, como la de sacar o agregar personas a un grupo.
 *Nota:* Este comando solo podrá ser usado por owners del Bot.
---------------------------------
 --------------------------------
 *Opción:* ☑️ | AUTOREAD
 *Comando:* /enable autoread
@@ -60,7 +57,7 @@ let optionsFull = `--------------------------------
 *Nota:* Este comando solo podrá ser usado por owners del Bot.
 --------------------------------
 *Option:* ☑️ | AUTOREAD
-*Command:* /enable autoread
+*Command:* /disable autoread
 *Description:* Automatically mark messages and statuses as read.
 *Note:* This command can only be used by Bot owners.
 --------------------------------
@@ -69,7 +66,7 @@ let optionsFull = `--------------------------------
 *Descripción:* Activa o desactiva los comandos de audios sin prefijos, en el grupo.
 --------------------------------
 *Option:* 🔊 | SOUNDS
-*Command:* /enable audios
+*Command:* /disable audios
 *Description:* Activates or deactivates the audio commands without prefixes, in the group.
 --------------------------------
 *Opción:* 👾 | AUTOSTICKER
@@ -77,7 +74,7 @@ let optionsFull = `--------------------------------
 *Descripción:* Todas las imagenes o videos enviados en el grupo se convierten en stickers. 
 --------------------------------
 *Option:* 👾 | AUTOSTICKER
-*Command:* /enable autosticker
+*Command:* /disable autosticker
 *Description:* All images or videos sent in the group become stickers.
 --------------------------------
 *Opción:* 💬 | PCONLY
@@ -86,7 +83,7 @@ let optionsFull = `--------------------------------
 *Nota:* Este comando solo podrá ser usado por owners del Bot.
 --------------------------------
 *Option:* 💬 | PCONLY
-*Command:* /enable pconly
+*Command:* /disable pconly
 *Description:* The Bot will only respond to commands if it is a private chat.
 *Note:* This command can only be used by Bot owners.
 --------------------------------
@@ -100,7 +97,7 @@ let optionsFull = `--------------------------------
 *Descripción:* Las imagenes enviadas para ver solo una vez, son reenviadas normal por el Bot. 
 --------------------------------
 *Option:* ❌ | ANTIVIEW ONCE
-*Command:* /enable antiviewonce
+*Command:* /disable antiviewonce
 *Description:* The images sent to see only once, are resent normally by the Bot. 
 --------------------------------
 *Opción:* 🤬 | ANTITOXIC
@@ -109,7 +106,7 @@ let optionsFull = `--------------------------------
 *Nota:* Se necesita tener activo el restrict.
 --------------------------------
 *Option:* 🤬 | ANTITOXIC
-*Command:* /enable antitoxic
+*Command:* /disable antitoxic
 *Description:* Detects bad words and warns the group participant, before being eliminated.
 *Note:* You need to have the restrict active
 --------------------------------
@@ -119,7 +116,7 @@ let optionsFull = `--------------------------------
 *Nota:* Se necesita tener activo el restrict.
 --------------------------------
 *Option:* 🕸️ | ANTI-JAM
-*Command:* /enable antitraba
+*Command:* /disable antitraba
 *Description:* The Bot detects long texts that could be viruses and cause chat lag and deletes the user.
 *Note:* You need to have active
 --------------------------------
@@ -129,7 +126,7 @@ let optionsFull = `--------------------------------
 *Nota:* Se necesita tener activo el welcome y el restrict.
 --------------------------------
 *Option:* 👎 | ANTI-ARAB
-*Command:* /enable antiarabes
+*Command:* /disable antiarabes
 *Description:* If an Arabic number joins the group, the Bot automatically removes it.
 *Note:* You need to have the welcome and the restrict active.
 --------------------------------
@@ -139,7 +136,7 @@ let optionsFull = `--------------------------------
 *Nota:* Se necesita tener activo el restrict.
 --------------------------------
 *Option:* 👎 | ANTI-ARAB 2
-*Command:* /enable antiarabes2
+*Command:* /disable antiarabes2
 *Description:* If an Arabic number writes in the group, the Bot automatically deletes it.
 *Note:* You need to have the restrict active.
 --------------------------------
@@ -149,7 +146,7 @@ let optionsFull = `--------------------------------
 *Nota:* Este comando solo podrá ser usado por owners del Bot.
 --------------------------------
 *Option:* 🤖 | MODEJADIBOT
-*Command:* /enable modejadibot
+*Command:* /disable modejadibot
 *Description:* Enables or disables the use of the command for sub bots (${usedPrefix}serbot / ${usedPrefix}jadibot).
 *Note:* This command can only
 --------------------------------
@@ -158,7 +155,7 @@ let optionsFull = `--------------------------------
 *Descripción:* El Bot solo responderá a los admins del grupo.
 --------------------------------
 *Option:* 👑 | ADMIN MODE
-*Command:* /enable adminmode
+*Command:* /disable adminmode
 *Description:* The Bot will only respond to group admins.
 --------------------------------
 *Opción:* 😃 | SIMSIMI
@@ -166,7 +163,7 @@ let optionsFull = `--------------------------------
 *Descripción:* El Bot empezará a responder a los mensajes usando la IA de SimSimi.
 --------------------------------
 *Option:* 😃 | SIMSIMI
-*Command:* /enable simsimi
+*Command:* /disable simsimi
 *Description:* The Bot will start responding to messages using SimSimi's AI.
 --------------------------------
 *Opción:* ⏳ | ANTISPAM
@@ -175,7 +172,7 @@ let optionsFull = `--------------------------------
 *Nota:* Este comando solo podrá ser usado por owners del Bot.
 --------------------------------
 *Option:* ⏳ | ANTISPAM
-*Command:* /enable antispam
+*Command:* /disable antispam
 *Description:* The Bot detects when a user spams the command and bans them for 5 seconds and warns them.
 *Note:* This command can only be used
 --------------------------------`.trim()
