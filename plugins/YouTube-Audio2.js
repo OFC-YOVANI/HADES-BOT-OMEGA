@@ -24,7 +24,7 @@ var captionvid = ` ༴⃟🌹๋ོ࣭ꦿ⁩PLAY-DOCYouTube--⦿
 ➯➤🔗 *Link:* *${url}*
 ▢⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍
 ----------------------------------------------------------------------------------------------------------`    
-if (command == 'Audio2') {
+if (command == 'audiodocu') {
 var pesan = await conn.sendMessage(m.chat, {
 text: captionvid,
 contextInfo: {
@@ -50,7 +50,7 @@ let res = await fetch("https://violetics.pw/api/media/youtube-play?apikey=beta&q
 let json = await res.json()
 conn.sendFile(m.chat, json.result.url, 'error.mp4', `${wm}`, m)
 }}
-handler.command = ['Audio2']
+handler.command = ['audiodocu']
 handler.exp = 0
 handler.limit = 4
 handler.register = true

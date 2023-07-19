@@ -24,7 +24,7 @@ var captionvid = `༴⃟🌹๋ོ࣭ꦿ⁩PLAY-YouTube--⦿
 ➯➤🔗 *Link:* *${url}*
 ▢⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍
 ----------------------------------------------------------------------------------------------------------`    
-if (command == 'Audio') {	
+if (command == 'audio') {	
 var pesan = await conn.sendMessage(m.chat, {
 text: captionvid,
 contextInfo: {
@@ -48,7 +48,7 @@ showAdAttribution: true,
 renderLargerThumbnail: true
 }}} , { quoted: m })   
 }
-if (command == 'Video') {
+if (command == 'video') {
 var pesan = await conn.sendMessage(m.chat, {
 text: captionvid,
 contextInfo: {
@@ -74,7 +74,7 @@ let res = await fetch("https://violetics.pw/api/media/youtube-play?apikey=beta&q
 let json = await res.json()
 conn.sendFile(m.chat, json.result.url, 'error.mp4', `${wm}`, m)
 }}
-handler.command = ['Audio', 'Video']
+handler.command = ['audio', 'video']
 handler.exp = 0
 handler.limit = 4
 handler.register = true
