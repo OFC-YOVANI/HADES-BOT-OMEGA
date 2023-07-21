@@ -87,7 +87,7 @@ let optionsFull = `--------------------------------
 *Description:* The Bot will only respond to commands if it is a private chat.
 *Note:* This command can only be used by Bot owners.
 --------------------------------
-*Opción:* 🏢 | GCONLY
+*Opción:* 🏢 | GCONLY 
 *Comando:* /enable gconly
 *Descripción:* El Bot solo respondera a los comandos si es un grupo. 
 *Nota:* Este comando solo podrá ser usado por owners del Bot.
