@@ -24,7 +24,7 @@ var captionvid = ` ༴⃟🌹๋ོ࣭ꦿ⁩PLAY-DOCYouTube--⦿
 ➯➤🔗 *Link:* *${url}*
 ▢⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍
 ----------------------------------------------------------------------------------------------------------`    
-if (command == 'videodocu') {
+if (command == 'play3') {
 var pesan = await conn.sendMessage(m.chat, {
 text: captionvid,
 contextInfo: {
@@ -37,7 +37,7 @@ mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: true
 }}})   
-await conn.sendMessage(m.chat, { document: { url: lolh.result.video.link }, fileName: `Aqui Tines tu video.mp4`, mimetype: 'video/mp4', caption: `${wm}\n${title}` }, { quoted: m })
+await conn.sendMessage(m.chat, { document: { url: lolh.result.audio.link }, fileName: `Aqui Tines tu audio.mp3`, mimetype: 'audio/mp3', caption: `${wm}\n${title}` }, { quoted: m })
 }
 } catch (e) {
 conn.reply(m.chat, ` *[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾* \n\n\n *[❗]ERROR PLEASE TRY AGAIN*`, m, {
@@ -50,7 +50,7 @@ let res = await fetch("https://violetics.pw/api/media/youtube-play?apikey=beta&q
 let json = await res.json()
 conn.sendFile(m.chat, json.result.url, 'error.mp4', `${wm}`, m)
 }}
-handler.command = ['videodocu']
+handler.command = ['play3']
 handler.exp = 0
 handler.limit = 4
 handler.register = true
