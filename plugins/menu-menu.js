@@ -35,8 +35,8 @@ let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻
 │➯ *🧿Experiencia:* ${exp}
 │➯ *⚓Rango:* ${role}
 │➯ *💎Diamantes:* ${limit}
-│➯ *👾Hades-Coins:* ${money}
-│➯ *🪙Tokens:* ${joincount}
+│➯ *🔱Hades-Coins:* ${money}
+│➯ *💵dolares:* ${joincount}
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭─「➻❥ *gana y compara* ➻❥」
@@ -55,6 +55,7 @@ let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻
 │➯ *.buryall te cobra Tokens*
 │➯ *.buy <cantidad>*
 │➯ *.buyall te cobra experiencia*
+│➯ *.dolares te cobra diamantes*
 │➯ *puedes dar diamantes o experiencia a otra persona con los comandos* 
 │➯ *.transfer limit mas <cantidad>*
 │➯ *.transfer exp mas <cantidad>*

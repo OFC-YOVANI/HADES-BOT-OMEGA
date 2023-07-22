@@ -1,0 +1,301 @@
+let handler = async (m, { conn, text, usedPrefix, command, args }) => {
+const fkontak = {
+	"key": {
+    "participants":"0@s.whatsapp.net",
+		"remoteJid": "status@broadcast",
+		"fromMe": false,
+		"id": "Halo"
+	},
+	"message": {
+		"contactMessage": {
+			"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+		}
+	},
+	"participant": "0@s.whatsapp.net"
+}
+let toUser = `${m.sender.split("@")[0]}`
+let aa = toUser + '@s.whatsapp.net'	
+let template = (args[0] || '').toLowerCase() 
+if (/comprar|prem1/i.test(command)) {
+var tiempoPremium = 5 * text 
+var tiempoDecretado = 5 * 1 
+const hades = 15
+let user = global.db.data.users[m.sender]
+    
+if (!text) return conn.reply(m.chat, `${mg}ɪɴɢʀᴇsᴇ ʟᴀ ᴄᴀɴᴛɪᴅᴀᴅ ǫᴜᴇ ǫᴜɪᴇʀᴇs ᴄᴏᴍᴘʀᴀʀ🌀️ 1 = ${tiempoDecretado} HORA(S)*\n*✤ ${hades} ${rpgshop.emoticon('joincount')}*\n\n*EJEMPLO: ${usedPrefix + command} 1*`, fkontak, m)
+if (isNaN(text)) return conn.reply(m.chat, `${mg}sᴏʟᴏ sᴇ ᴀᴄᴇᴘᴛᴀɴ ɴúᴍᴇʀᴏs🍁\n*EJEMPLO: ${usedPrefix + command} 1*`, fkontak, m)
+if (user.joincount < hades) return conn.reply(m.chat, `${ag}ɴᴏ ᴛɪᴇɴᴇ ✴️sᴜғɪᴄɪᴇɴᴛᴇ${rpgshop.emoticon('joincount')}🌀ᴀʟǫᴜɪʟᴀʀ ᴘʀᴇᴍɪᴜᴍ ᴄᴏᴍᴘʀé${rpgshopp.emoticon('joincount')}🍁ᴇɴ ʟᴀ ᴛɪᴇɴᴅᴀ ᴜsᴀ ᴘᴀʀᴀ${usedPrefix}ʙᴜʏ ᴏ ᴘᴜᴇᴅᴇs ᴠᴇɴᴅᴇʀ ᴘᴀʀᴀ ᴛᴇɴᴇʀ ʀᴇᴄᴜʀsᴏs ᴇɴ ᴇʟ ᴄᴏᴍᴀɴᴅᴏ${usedPrefix}sᴇʟʟ`, fkontak, m)
+user.joincount -= hades * text
+    
+var tiempo = 1800000 * text 
+var now = new Date() * 1
+if (now < user.premiumTime) user.premiumTime += tiempo
+else user.premiumTime = now + tiempo
+user.premium = true
+const imgpre = [ 
+'https://i.imgur.com/aOU8mzP.jpg', 
+'https://i.imgur.com/HE1dWt6.png',
+'https://i.imgur.com/jRA9pwD.jpeg'];
+
+
+await conn.reply(m.chat, `╭─────°.♡.°‧─────
+│⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍  
+│📑ɴᴏᴍʙʀᴇ»${user.name}*
+│💰ᴘᴀɢᴏ»${hades * text} ${rpgshopp.emoticon('joincount')}*
+│📜ᴛɪᴇɴᴅᴀ»${user.joincount} ${rpgshopp.emoticon('joincount')}*
+│⏳ʟᴇ ǫᴜᴇᴅᴀ ᴛɪᴇᴍᴘᴏ»${tiempoPremium} min
+│⌚ᴛɪᴍᴇʀ»${user.premiumTime - now} seg
+╰─────°.♡.°‧─────\n\n🌀ᴀʜᴏʀᴀ ᴛɪᴇɴᴇ ᴘʀᴇᴍɪᴜᴍ ᴘᴏʀ ʟᴏ ᴛᴀɴᴛᴏ ɴᴏ ᴠᴀ ᴛᴇɴᴇʀ ʟíᴍɪᴛᴇs\n${wm}`, fkontak, { mentions: [aa,] })}
+
+if (/prem2/i.test(command)) {
+var tiempoPremium = 15 * text 
+var tiempoDecretado = 15 * 1 
+const hades = 25
+let user = global.db.data.users[m.sender]
+    
+if (!text) return conn.reply(m.chat, `${mg}ɪɴɢʀᴇsᴇ ʟᴀ ᴄᴀɴᴛɪᴅᴀᴅ ǫᴜᴇ ǫᴜɪᴇʀᴇs ᴄᴏᴍᴘʀᴀʀ🌀️ 1 = ${tiempoDecretado} HORA(S)*\n*✤ ${hades} ${rpgshop.emoticon('joincount')}*\n\n*EJEMPLO: ${usedPrefix + command} 1*`, fkontak, m)
+if (isNaN(text)) return conn.reply(m.chat, `${mg}sᴏʟᴏ sᴇ ᴀᴄᴇᴘᴛᴀɴ ɴúᴍᴇʀᴏs🍁\n*EJEMPLO: ${usedPrefix + command} 1*`, fkontak, m)
+if (user.joincount < hades) return conn.reply(m.chat, `${ag}ɴᴏ ᴛɪᴇɴᴇ ✴️sᴜғɪᴄɪᴇɴᴛᴇ${rpgshop.emoticon('joincount')}🌀ᴀʟǫᴜɪʟᴀʀ ᴘʀᴇᴍɪᴜᴍ ᴄᴏᴍᴘʀé${rpgshopp.emoticon('joincount')}🍁ᴇɴ ʟᴀ ᴛɪᴇɴᴅᴀ ᴜsᴀ ᴘᴀʀᴀ${usedPrefix}ʙᴜʏ ᴏ ᴘᴜᴇᴅᴇs ᴠᴇɴᴅᴇʀ ᴘᴀʀᴀ ᴛᴇɴᴇʀ ʀᴇᴄᴜʀsᴏs ᴇɴ ᴇʟ ᴄᴏᴍᴀɴᴅᴏ${usedPrefix}sᴇʟʟ`, fkontak, m)
+user.joincount -= hades * text
+    
+var tiempo = 900000 * text 
+var now = new Date() * 1
+if (now < user.premiumTime) user.premiumTime += tiempo
+else user.premiumTime = now + tiempo
+user.premium = true
+const imgpre = [ 
+'https://i.imgur.com/aOU8mzP.jpg', 
+'https://i.imgur.com/HE1dWt6.png',
+'https://i.imgur.com/jRA9pwD.jpeg'];
+
+await conn.reply(m.chat, `╭─────°.♡.°‧─────
+│⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍   
+│📑ɴᴏᴍʙʀᴇ»${user.name}*
+│💰ᴘᴀɢᴏ»${hades * text} ${rpgshopp.emoticon('joincount')}*
+│📜ᴛɪᴇɴᴅᴀ»${user.joincount} ${rpgshopp.emoticon('joincount')}*
+│⏳ʟᴇ ǫᴜᴇᴅᴀ ᴛɪᴇᴍᴘᴏ»${tiempoPremium} min
+│⌚ᴛɪᴍᴇʀ»${user.premiumTime - now} seg
+╰─────°.♡.°‧─────\n\n🌀ᴀʜᴏʀᴀ ᴛɪᴇɴᴇ ᴘʀᴇᴍɪᴜᴍ ᴘᴏʀ ʟᴏ ᴛᴀɴᴛᴏ ɴᴏ ᴠᴀ ᴛᴇɴᴇʀ ʟíᴍɪᴛᴇs\n${wm}`, fkontak, { mentions: [aa,] })}
+if (/prem3/i.test(command)) {
+var tiempoPremium = 30 * text 
+var tiempoDecretado = 30 * 1 
+const hades = 35
+let user = global.db.data.users[m.sender]
+    
+if (!text) return conn.reply(m.chat, `${mg}ɪɴɢʀᴇsᴇ ʟᴀ ᴄᴀɴᴛɪᴅᴀᴅ ǫᴜᴇ ǫᴜɪᴇʀᴇs ᴄᴏᴍᴘʀᴀʀ🌀️ 1 = ${tiempoDecretado} HORA(S)*\n*✤ ${hades} ${rpgshop.emoticon('joincount')}*\n\n*EJEMPLO: ${usedPrefix + command} 1*`, fkontak, m)
+if (isNaN(text)) return conn.reply(m.chat, `${mg}sᴏʟᴏ sᴇ ᴀᴄᴇᴘᴛᴀɴ ɴúᴍᴇʀᴏs🍁\n*EJEMPLO: ${usedPrefix + command} 1*`, fkontak, m)
+if (user.joincount < hades) return conn.reply(m.chat, `${ag}ɴᴏ ᴛɪᴇɴᴇ ✴️sᴜғɪᴄɪᴇɴᴛᴇ${rpgshop.emoticon('joincount')}🌀ᴀʟǫᴜɪʟᴀʀ ᴘʀᴇᴍɪᴜᴍ ᴄᴏᴍᴘʀé${rpgshopp.emoticon('joincount')}🍁ᴇɴ ʟᴀ ᴛɪᴇɴᴅᴀ ᴜsᴀ ᴘᴀʀᴀ${usedPrefix}ʙᴜʏ ᴏ ᴘᴜᴇᴅᴇs ᴠᴇɴᴅᴇʀ ᴘᴀʀᴀ ᴛᴇɴᴇʀ ʀᴇᴄᴜʀsᴏs ᴇɴ ᴇʟ ᴄᴏᴍᴀɴᴅᴏ${usedPrefix}sᴇʟʟ`, fkontak, m)
+user.joincount -= hades * text
+    
+var tiempo = 1800000 * text 
+var now = new Date() * 1
+if (now < user.premiumTime) user.premiumTime += tiempo
+else user.premiumTime = now + tiempo
+user.premium = true
+const imgpre = [ 
+'https://i.imgur.com/aOU8mzP.jpg', 
+'https://i.imgur.com/HE1dWt6.png',
+'https://i.imgur.com/jRA9pwD.jpeg'];
+
+await conn.reply(m.chat, `╭─────°.♡.°‧─────
+│⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍  
+│📑ɴᴏᴍʙʀᴇ»${user.name}*
+│💰ᴘᴀɢᴏ»${hades * text} ${rpgshopp.emoticon('joincount')}*
+│📜ᴛɪᴇɴᴅᴀ»${user.joincount} ${rpgshopp.emoticon('joincount')}*
+│⏳ʟᴇ ǫᴜᴇᴅᴀ ᴛɪᴇᴍᴘᴏ»${tiempoPremium} min
+│⌚ᴛɪᴍᴇʀ»${user.premiumTime - now} seg
+╰─────°.♡.°‧─────\n\n🌀ᴀʜᴏʀᴀ ᴛɪᴇɴᴇ ᴘʀᴇᴍɪᴜᴍ ᴘᴏʀ ʟᴏ ᴛᴀɴᴛᴏ ɴᴏ ᴠᴀ ᴛᴇɴᴇʀ ʟíᴍɪᴛᴇs\n${wm}`, fkontak, { mentions: [aa,] })}
+if (/prem4/i.test(command)) {
+var tiempoPremium = 50 * text 
+var tiempoDecretado = 50 * 1 
+const hades = 50
+let user = global.db.data.users[m.sender]
+    
+if (!text) return conn.reply(m.chat, `${mg}ɪɴɢʀᴇsᴇ ʟᴀ ᴄᴀɴᴛɪᴅᴀᴅ ǫᴜᴇ ǫᴜɪᴇʀᴇs ᴄᴏᴍᴘʀᴀʀ🌀️ 1 = ${tiempoDecretado} HORA(S)*\n*✤ ${hades} ${rpgshop.emoticon('joincount')}*\n\n*EJEMPLO: ${usedPrefix + command} 1*`, fkontak, m)
+if (isNaN(text)) return conn.reply(m.chat, `${mg}sᴏʟᴏ sᴇ ᴀᴄᴇᴘᴛᴀɴ ɴúᴍᴇʀᴏs🍁\n*EJEMPLO: ${usedPrefix + command} 1*`, fkontak, m)
+if (user.joincount < hades) return conn.reply(m.chat, `${ag}ɴᴏ ᴛɪᴇɴᴇ ✴️sᴜғɪᴄɪᴇɴᴛᴇ${rpgshop.emoticon('joincount')}🌀ᴀʟǫᴜɪʟᴀʀ ᴘʀᴇᴍɪᴜᴍ ᴄᴏᴍᴘʀé${rpgshopp.emoticon('joincount')}🍁ᴇɴ ʟᴀ ᴛɪᴇɴᴅᴀ ᴜsᴀ ᴘᴀʀᴀ${usedPrefix}ʙᴜʏ ᴏ ᴘᴜᴇᴅᴇs ᴠᴇɴᴅᴇʀ ᴘᴀʀᴀ ᴛᴇɴᴇʀ ʀᴇᴄᴜʀsᴏs ᴇɴ ᴇʟ ᴄᴏᴍᴀɴᴅᴏ${usedPrefix}sᴇʟʟ`, fkontak, m)
+user.joincount -= hades * text
+    
+var tiempo = 3600000 * text 
+var now = new Date() * 1
+if (now < user.premiumTime) user.premiumTime += tiempo
+else user.premiumTime = now + tiempo
+user.premium = true
+const imgpre = [ 
+'https://i.imgur.com/aOU8mzP.jpg', 
+'https://i.imgur.com/HE1dWt6.png',
+'https://i.imgur.com/jRA9pwD.jpeg'];
+
+await conn.reply(m.chat, `╭─────°.♡.°‧─────
+│⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍     
+│📑ɴᴏᴍʙʀᴇ»${user.name}*
+│💰ᴘᴀɢᴏ»${hades * text} ${rpgshopp.emoticon('joincount')}*
+│📜ᴛɪᴇɴᴅᴀ»${user.joincount} ${rpgshopp.emoticon('joincount')}*
+│⏳ʟᴇ ǫᴜᴇᴅᴀ ᴛɪᴇᴍᴘᴏ»${tiempoPremium} min
+│⌚ᴛɪᴍᴇʀ»${user.premiumTime - now} seg
+╰─────°.♡.°‧─────\n\n🌀ᴀʜᴏʀᴀ ᴛɪᴇɴᴇ ᴘʀᴇᴍɪᴜᴍ ᴘᴏʀ ʟᴏ ᴛᴀɴᴛᴏ ɴᴏ ᴠᴀ ᴛᴇɴᴇʀ ʟíᴍɪᴛᴇs\n${wm}`, fkontak, { mentions: [aa,] })}
+if (/prem5/i.test(command)) {
+var tiempoPremium = 90 * text 
+var tiempoDecretado = 90 * 1 
+const hades = 60
+let user = global.db.data.users[m.sender]
+    
+if (!text) return conn.reply(m.chat, `${mg}ɪɴɢʀᴇsᴇ ʟᴀ ᴄᴀɴᴛɪᴅᴀᴅ ǫᴜᴇ ǫᴜɪᴇʀᴇs ᴄᴏᴍᴘʀᴀʀ🌀️ 1 = ${tiempoDecretado} HORA(S)*\n*✤ ${hades} ${rpgshop.emoticon('joincount')}*\n\n*EJEMPLO: ${usedPrefix + command} 1*`, fkontak, m)
+if (isNaN(text)) return conn.reply(m.chat, `${mg}sᴏʟᴏ sᴇ ᴀᴄᴇᴘᴛᴀɴ ɴúᴍᴇʀᴏs🍁\n*EJEMPLO: ${usedPrefix + command} 1*`, fkontak, m)
+if (user.joincount < hades) return conn.reply(m.chat, `${ag}ɴᴏ ᴛɪᴇɴᴇ ✴️sᴜғɪᴄɪᴇɴᴛᴇ${rpgshop.emoticon('joincount')}🌀ᴀʟǫᴜɪʟᴀʀ ᴘʀᴇᴍɪᴜᴍ ᴄᴏᴍᴘʀé${rpgshopp.emoticon('joincount')}🍁ᴇɴ ʟᴀ ᴛɪᴇɴᴅᴀ ᴜsᴀ ᴘᴀʀᴀ${usedPrefix}ʙᴜʏ ᴏ ᴘᴜᴇᴅᴇs ᴠᴇɴᴅᴇʀ ᴘᴀʀᴀ ᴛᴇɴᴇʀ ʀᴇᴄᴜʀsᴏs ᴇɴ ᴇʟ ᴄᴏᴍᴀɴᴅᴏ${usedPrefix}sᴇʟʟ`, fkontak, m)
+user.joincount -= hades * text
+    
+var tiempo = 10800000 * text 
+var now = new Date() * 1
+if (now < user.premiumTime) user.premiumTime += tiempo
+else user.premiumTime = now + tiempo
+user.premium = true
+const imgpre = [ 
+'https://i.imgur.com/aOU8mzP.jpg', 
+'https://i.imgur.com/HE1dWt6.png',
+'https://i.imgur.com/jRA9pwD.jpeg'];
+
+await conn.reply(m.chat, `╭─────°.♡.°‧─────
+│⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍   
+│📑ɴᴏᴍʙʀᴇ»${user.name}*
+│💰ᴘᴀɢᴏ»${hades * text} ${rpgshopp.emoticon('joincount')}*
+│📜ᴛɪᴇɴᴅᴀ»${user.joincount} ${rpgshopp.emoticon('joincount')}*
+│⏳ʟᴇ ǫᴜᴇᴅᴀ ᴛɪᴇᴍᴘᴏ»${tiempoPremium} min
+│⌚ᴛɪᴍᴇʀ»${user.premiumTime - now} seg
+╰─────°.♡.°‧─────\n\n🌀ᴀʜᴏʀᴀ ᴛɪᴇɴᴇ ᴘʀᴇᴍɪᴜᴍ ᴘᴏʀ ʟᴏ ᴛᴀɴᴛᴏ ɴᴏ ᴠᴀ ᴛᴇɴᴇʀ ʟíᴍɪᴛᴇs\n${wm}`, fkontak, { mentions: [aa,] })}
+if (/prem6/i.test(command)) {
+var tiempoPremium = 130 * text  
+var tiempoDecretado = 130 * 1 
+const hades = 70
+let user = global.db.data.users[m.sender]
+    
+if (!text) return conn.reply(m.chat, `${mg}ɪɴɢʀᴇsᴇ ʟᴀ ᴄᴀɴᴛɪᴅᴀᴅ ǫᴜᴇ ǫᴜɪᴇʀᴇs ᴄᴏᴍᴘʀᴀʀ🌀️ 1 = ${tiempoDecretado} HORA(S)*\n*✤ ${hades} ${rpgshop.emoticon('joincount')}*\n\n*EJEMPLO: ${usedPrefix + command} 1*`, fkontak, m)
+if (isNaN(text)) return conn.reply(m.chat, `${mg}sᴏʟᴏ sᴇ ᴀᴄᴇᴘᴛᴀɴ ɴúᴍᴇʀᴏs🍁\n*EJEMPLO: ${usedPrefix + command} 1*`, fkontak, m)
+if (user.joincount < hades) return conn.reply(m.chat, `${ag}ɴᴏ ᴛɪᴇɴᴇ ✴️sᴜғɪᴄɪᴇɴᴛᴇ${rpgshop.emoticon('joincount')}🌀ᴀʟǫᴜɪʟᴀʀ ᴘʀᴇᴍɪᴜᴍ ᴄᴏᴍᴘʀé${rpgshopp.emoticon('joincount')}🍁ᴇɴ ʟᴀ ᴛɪᴇɴᴅᴀ ᴜsᴀ ᴘᴀʀᴀ${usedPrefix}ʙᴜʏ ᴏ ᴘᴜᴇᴅᴇs ᴠᴇɴᴅᴇʀ ᴘᴀʀᴀ ᴛᴇɴᴇʀ ʀᴇᴄᴜʀsᴏs ᴇɴ ᴇʟ ᴄᴏᴍᴀɴᴅᴏ${usedPrefix}sᴇʟʟ`, fkontak, m)
+user.joincount -= hades * text
+    
+var tiempo = 25200000 * text 
+var now = new Date() * 1
+if (now < user.premiumTime) user.premiumTime += tiempo
+else user.premiumTime = now + tiempo
+user.premium = true
+const imgpre = [ 
+'https://i.imgur.com/aOU8mzP.jpg', 
+'https://i.imgur.com/HE1dWt6.png',
+'https://i.imgur.com/jRA9pwD.jpeg'];
+
+
+await conn.reply(m.chat, `╭─────°.♡.°‧─────
+│⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍   
+│📑ɴᴏᴍʙʀᴇ»${user.name}*
+│💰ᴘᴀɢᴏ»${hades * text} ${rpgshopp.emoticon('joincount')}*
+│📜ᴛɪᴇɴᴅᴀ»${user.joincount} ${rpgshopp.emoticon('joincount')}*
+│⏳ʟᴇ ǫᴜᴇᴅᴀ ᴛɪᴇᴍᴘᴏ»${tiempoPremium} min
+│⌚ᴛɪᴍᴇʀ»${user.premiumTime - now} seg
+╰─────°.♡.°‧─────\n\n🌀ᴀʜᴏʀᴀ ᴛɪᴇɴᴇ ᴘʀᴇᴍɪᴜᴍ ᴘᴏʀ ʟᴏ ᴛᴀɴᴛᴏ ɴᴏ ᴠᴀ ᴛᴇɴᴇʀ ʟíᴍɪᴛᴇs\n${wm}`, fkontak, { mentions: [aa,] })}
+if (/prem7/i.test(command)) {
+var tiempoPremium = 180 * text 
+var tiempoDecretado = 180 * 1  
+const hades = 80
+let user = global.db.data.users[m.sender]
+    
+if (!text) return conn.reply(m.chat, `${mg}ɪɴɢʀᴇsᴇ ʟᴀ ᴄᴀɴᴛɪᴅᴀᴅ ǫᴜᴇ ǫᴜɪᴇʀᴇs ᴄᴏᴍᴘʀᴀʀ🌀️ 1 = ${tiempoDecretado} HORA(S)*\n*✤ ${hades} ${rpgshop.emoticon('joincount')}*\n\n*EJEMPLO: ${usedPrefix + command} 1*`, fkontak, m)
+if (isNaN(text)) return conn.reply(m.chat, `${mg}sᴏʟᴏ sᴇ ᴀᴄᴇᴘᴛᴀɴ ɴúᴍᴇʀᴏs🍁\n*EJEMPLO: ${usedPrefix + command} 1*`, fkontak, m)
+if (user.joincount < hades) return conn.reply(m.chat, `${ag}ɴᴏ ᴛɪᴇɴᴇ ✴️sᴜғɪᴄɪᴇɴᴛᴇ${rpgshop.emoticon('joincount')}🌀ᴀʟǫᴜɪʟᴀʀ ᴘʀᴇᴍɪᴜᴍ ᴄᴏᴍᴘʀé${rpgshopp.emoticon('joincount')}🍁ᴇɴ ʟᴀ ᴛɪᴇɴᴅᴀ ᴜsᴀ ᴘᴀʀᴀ${usedPrefix}ʙᴜʏ ᴏ ᴘᴜᴇᴅᴇs ᴠᴇɴᴅᴇʀ ᴘᴀʀᴀ ᴛᴇɴᴇʀ ʀᴇᴄᴜʀsᴏs ᴇɴ ᴇʟ ᴄᴏᴍᴀɴᴅᴏ${usedPrefix}sᴇʟʟ`, fkontak, m)
+user.joincount -= hades * text
+    
+var tiempo = 86400000 * text 
+var now = new Date() * 1
+if (now < user.premiumTime) user.premiumTime += tiempo
+else user.premiumTime = now + tiempo
+user.premium = true
+const imgpre = [ 
+'https://i.imgur.com/aOU8mzP.jpg', 
+'https://i.imgur.com/HE1dWt6.png',
+'https://i.imgur.com/jRA9pwD.jpeg'];
+
+await conn.reply(m.chat, `╭─────°.♡.°‧─────
+│⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍    
+│📑ɴᴏᴍʙʀᴇ»${user.name}*
+│💰ᴘᴀɢᴏ»${hades * text} ${rpgshopp.emoticon('joincount')}*
+│📜ᴛɪᴇɴᴅᴀ»${user.joincount} ${rpgshopp.emoticon('joincount')}*
+│⏳ʟᴇ ǫᴜᴇᴅᴀ ᴛɪᴇᴍᴘᴏ»${tiempoPremium} min
+│⌚ᴛɪᴍᴇʀ»${user.premiumTime - now} seg
+╰─────°.♡.°‧─────\n\n🌀ᴀʜᴏʀᴀ ᴛɪᴇɴᴇ ᴘʀᴇᴍɪᴜᴍ ᴘᴏʀ ʟᴏ ᴛᴀɴᴛᴏ ɴᴏ ᴠᴀ ᴛᴇɴᴇʀ ʟíᴍɪᴛᴇs\n${wm}`, fkontak, { mentions: [aa,] })}
+
+if (/prem8/i.test(command)) {
+var tiempoPremium = 250 * text 
+var tiempoDecretado = 250 * 1 
+const hades = 100
+let user = global.db.data.users[m.sender]
+    
+if (!text) return conn.reply(m.chat, `${mg}ɪɴɢʀᴇsᴇ ʟᴀ ᴄᴀɴᴛɪᴅᴀᴅ ǫᴜᴇ ǫᴜɪᴇʀᴇs ᴄᴏᴍᴘʀᴀʀ🌀️ 1 = ${tiempoDecretado} HORA(S)*\n*✤ ${hades} ${rpgshop.emoticon('joincount')}*\n\n*EJEMPLO: ${usedPrefix + command} 1*`, fkontak, m)
+if (isNaN(text)) return conn.reply(m.chat, `${mg}sᴏʟᴏ sᴇ ᴀᴄᴇᴘᴛᴀɴ ɴúᴍᴇʀᴏs🍁\n*EJEMPLO: ${usedPrefix + command} 1*`, fkontak, m)
+if (user.joincount < hades) return conn.reply(m.chat, `${ag}ɴᴏ ᴛɪᴇɴᴇ ✴️sᴜғɪᴄɪᴇɴᴛᴇ${rpgshop.emoticon('joincount')}🌀ᴀʟǫᴜɪʟᴀʀ ᴘʀᴇᴍɪᴜᴍ ᴄᴏᴍᴘʀé${rpgshopp.emoticon('joincount')}🍁ᴇɴ ʟᴀ ᴛɪᴇɴᴅᴀ ᴜsᴀ ᴘᴀʀᴀ${usedPrefix}ʙᴜʏ ᴏ ᴘᴜᴇᴅᴇs ᴠᴇɴᴅᴇʀ ᴘᴀʀᴀ ᴛᴇɴᴇʀ ʀᴇᴄᴜʀsᴏs ᴇɴ ᴇʟ ᴄᴏᴍᴀɴᴅᴏ${usedPrefix}sᴇʟʟ`, fkontak, m)
+user.joincount -= hades * text
+    
+var tiempo = 259200000 * text 
+var now = new Date() * 1
+if (now < user.premiumTime) user.premiumTime += tiempo
+else user.premiumTime = now + tiempo
+user.premium = true
+const imgpre = [ 
+'https://i.imgur.com/aOU8mzP.jpg', 
+'https://i.imgur.com/HE1dWt6.png',
+'https://i.imgur.com/jRA9pwD.jpeg'];
+
+await conn.reply(m.chat, `╭─────°.♡.°‧─────
+│⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍  
+│📑ɴᴏᴍʙʀᴇ»${user.name}*
+│💰ᴘᴀɢᴏ»${hades * text} ${rpgshopp.emoticon('joincount')}*
+│📜ᴛɪᴇɴᴅᴀ»${user.joincount} ${rpgshopp.emoticon('joincount')}*
+│⏳ʟᴇ ǫᴜᴇᴅᴀ ᴛɪᴇᴍᴘᴏ»${tiempoPremium} min
+│⌚ᴛɪᴍᴇʀ»${user.premiumTime - now} seg
+╰─────°.♡.°‧─────\n\n🌀ᴀʜᴏʀᴀ ᴛɪᴇɴᴇ ᴘʀᴇᴍɪᴜᴍ ᴘᴏʀ ʟᴏ ᴛᴀɴᴛᴏ ɴᴏ ᴠᴀ ᴛᴇɴᴇʀ ʟíᴍɪᴛᴇs\n${wm}`, fkontak, { mentions: [aa,] })}
+	
+if (command) {
+switch (template) {		
+case 'premium':
+case 'vip':
+case 'prem':
+case 'pass':
+case 'pase':
+await conn.reply(m.chat, `ᴘʀᴇᴍɪᴜᴍ»ᴄʟᴀsᴇ»⓵ᴘᴀss»⓵» /prem1 1✪»ᴘᴀsᴇ»ʙásɪᴄᴏ»ᴘᴀss»✪
+15  *dolares💵* ➟*5>Horas* ᴘʀᴇᴍɪᴜᴍ\n
+\n\n┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅\n\n
+🌀ᴘʀᴇᴍɪᴜᴍ»ᴄʟᴀsᴇ»⓶ᴘᴀss»⓶» /prem2 
+  1✪»ᴘᴀsᴇ»ᴛᴏʀʀᴇ ᴅᴇ ᴇɴᴄᴜᴇɴᴛʀᴏ»ᴘᴀss»✪
+25 *dolares💵* ➟*15Horas* ᴘʀᴇᴍɪᴜᴍ
+\n\n┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅\n\n
+💚ᴘʀᴇᴍɪᴜᴍ»ᴄʟᴀsᴇ»⓷ᴘᴀss»⓷» /prem3 
+  1 ✪»ᴘᴀsᴇ»ᴠᴇʀᴅᴜᴢᴄᴏ»ᴘᴀss»✪
+35 *dolares💵* *➟Días1➟6Horas* ᴘʀᴇᴍɪᴜᴍ
+\n\n┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅\n\n
+🗑ᴘʀᴇᴍɪᴜᴍ»ᴄʟᴀsᴇ»⓸ᴘᴀss»⓸» /prem4 
+  1✪»ᴘᴀsᴇ»ʀᴇsɪᴅᴜᴏs ᴄᴀᴢᴀ»ᴘᴀss»✪
+50 *dolares💵* *➟Días2➟1Horas* ᴘʀᴇᴍɪᴜᴍ
+\n\n┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅\n\n
+♦ᴘʀᴇᴍɪᴜᴍ️»ᴄʟᴀsᴇ»⓹ᴘᴀss»⓹» /prem5 
+  1✪»ᴘᴀsᴇ»ʙʀɪʟʟᴀɴᴛᴇ»ᴘᴀss»✪
+60 *dolares💵* *➟Días3➟18Horas* ᴘʀᴇᴍɪᴜᴍ\n
+\n\n┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅\n\n
+🪙ᴘʀᴇᴍɪᴜᴍ»ᴄʟᴀsᴇ»⓺ᴘᴀss»⓺» /prem6 
+  1✪»ᴘᴀsᴇ»ᴀᴍᴏ ᴅᴇʟ ᴄʀɪᴘᴛᴏ»ᴘᴀss»✪
+70 *dolares💵* *➟Días5➟10Horas* ᴘʀᴇᴍɪᴜᴍ\n
+\n\n┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅\n\n
+💎+ᴘʀᴇᴍɪᴜᴍ»ᴄʟᴀsᴇ»⓻ᴘᴀss»⓻» /prem7 
+  1✪»ᴘᴀsᴇ»ɢᴀᴍᴀ ᴘʟᴜs»ᴘᴀss»✪
+80 *dolares💵* *➟Díasd7➟12Horas* ᴘʀᴇᴍɪᴜᴍ
+\n\n┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅\n\n
+👑ᴘʀᴇᴍɪᴜᴍ»ᴄʟᴀsᴇ»⓼ᴘᴀss»⓼» /prem8 
+ 1✪»ᴘᴀsᴇ»ᴛɪᴇᴍᴘᴏ ᴅᴇ ᴏʀᴏ»ᴘᴀss»✪
+100 *dolares💵* *➟Días10➟10Horas* ᴘʀᴇᴍɪᴜᴍ\n`, fkontak, { mentions: [aa,] })
+
+break	
+		
+}}}
+handler.help = ['addprem [@user] <days>']
+handler.tags = ['owner']
+handler.command = /^(comprar|prem1|prem2|prem3|prem4|prem5|prem6|prem7|prem8|premium|vip|prem|pass|pase)$/i
+
+export default handler

@@ -21,7 +21,7 @@ let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻
 │➯ *🧿Experiencia:* ${exp}
 │➯ *💎Diamantes:* ${limit} 𝚄𝚂𝙾𝚂
 │➯ *👾Hades-Coins:* ${money}
-│➯ *🪙Tokens:* ${joincount}
+│➯ *💵dolares:* ${joincount}
 │➯ *💥𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙰𝙳𝙾:* ${registered ? 'Si': 'No'}
 │➯ *✔️𝙿𝚁𝙴𝙼𝙸𝚄𝙼:* ${premiumTime > 0 ? 'Si' : (isPrems ? 'Si' : 'No') || ''}
 │➯ *📝𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝚂𝙴𝚁𝙸𝙴:* 
