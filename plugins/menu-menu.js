@@ -52,7 +52,6 @@ let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻
 │➯ *.bus <cantidad>* 
 │➯ *.busyall te cobra Hades-Coins*
 │➯ *.bur <cantidad>*
-│➯ *.buryall te cobra Tokens*
 │➯ *.buy <cantidad>*
 │➯ *.buyall te cobra experiencia*
 │➯ *.dolares te cobra diamantes*
