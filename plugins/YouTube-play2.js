@@ -7,7 +7,7 @@ let handler = async (m, { conn, command, args, text, usedPrefix }) => {
 if (!text) throw ` *[❗𝐈𝐍𝐅𝐎❗] 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝙻𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽 𝙵𝙰𝙻𝚃𝙰𝙽𝚃𝙴, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙼𝙰𝚂 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴/𝚃𝙸𝚃𝚄𝙻𝙾 𝙳𝙴 𝚄𝙽𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽* \n\n *—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:* \n *${usedPrefix + command} Farruko beba* \n\n\n*[❗𝐈𝐍𝐅𝐎❗]MISSING SONG NAME PLEASE ENTER COMMAND PLUS SONG NAME* \n\n *—◉ AN EXAMPLE* \n *${usedPrefix + command} Farruko beba* `
 try {
 await m.reply(` *_⏳ESPERA MIENTRAS LE MANDAMOS SU PEDIDO⏳* \n\n *_⏳WAIT WHILE WE SEND YOUR ORDER_⏳* `)
-await m.reply(`*Si no se envia tu pedido puedes usar los comandos* \n*/audio Farruko beba*\n*/video Farruko beba*\n*/audiodocu Farruko beba*\n*/videodocu Farruko beba*`)
+await m.reply(`*Si no se envia tu pedido puedes usar los comandos* \n*/audiodocu Farruko beba*\n*/videodocu Farruko beba*`)
 await m.reply(`⌛ _Cargando..._\n▰▰▰▱▱▱▱▱▱`)
 const yt_play = await search(args.join(" "))
 let additionalText = ''
@@ -15,17 +15,26 @@ if (command === 'play3') {
 additionalText = 'audio 🔊'
 } else if (command === 'play4') {
 additionalText = 'video 🎥'}
-let texto1 = `༴⃟🌹๋ོ࣭ꦿ⁩PLAY-DOCYouTube--⦿
+let texto1 = `༴⃟🌹๋ོ࣭ꦿ⁩PLAY-YouTube--⦿
 ----------------------------------------------------------------------------------------------------------
 ⇄    ◁   ㅤ  ❚❚ㅤ   ▷ㅤ    ↻
 ➯➤͜͡🎶📌 *name:* ${yt_play[0].title}
 ➯➤📆 *Published:* ${yt_play[0].ago}
 ➯➤⌚ *Duration:* ${secondString(yt_play[0].duration.seconds)}
 ➯➤👀 *Views:* ${`${MilesNumber(yt_play[0].views)}`}
-▢⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍
-----------------------------------------------------------------------------------------------------------`.trim()
+➯➤🔗 *Link:* ${yt_play[0].url}
+▢⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍`.trim()
 conn.sendMessage(m.chat, { image: { url: yt_play[0].thumbnail }, caption: texto1 }, { quoted: m })
 if (command == 'play3') {
+try {
+let q = '128kbps'
+let v = yt_play[0].url
+const yt = await youtubedl(v).catch(async _ => await youtubedlv2(v))
+const dl_url = await yt.audio[q].download()
+const ttl = await yt.title
+const size = await yt.audio[q].fileSizeH
+await conn.sendFile(m.chat, dl_url, ttl + '.mp3', null, m, false, { mimetype: 'audio/mp4' })
+} catch {
 try {
 const dataRE = await fetch(`https://api.akuari.my.id/downloader/youtube?link=${yt_play[0].url}`)
 const dataRET = await dataRE.json()
@@ -35,16 +44,7 @@ try {
 let humanLol = await fetch(`https://api.lolhuman.xyz/api/ytplay?apikey=${lolkeysapi}&query=${yt_play[0].title}`)
 let humanRET = await humanLol.json()
 conn.sendMessage(m.chat, { document: { url: humanRET.result.audio.link }, fileName: yt_play[0].title + '.mp3', mimetype: 'audio/mp4' }, { quoted: m })         
-} catch {   
-try {
-let q = '128kbps'
-let v = yt_play[0].url
-const yt = await youtubedl(v).catch(async _ => await youtubedlv2(v)).catch(async _ => await youtubedlv3(v))
-const dl_url = await yt.audio[q].download()
-const ttl = await yt.title
-const size = await yt.audio[q].fileSizeH
-await conn.sendFile(m.chat, dl_url, ttl + '.mp3', null, m, false, { mimetype: 'audio/mp4' })
-} catch {
+} catch {     
 try {
 let lolhuman = await fetch(`https://api.lolhuman.xyz/api/ytaudio2?apikey=${lolkeysapi}&url=${yt_play[0].url}`)    
 let lolh = await lolhuman.json()
@@ -65,7 +65,7 @@ try {
 let qu = '360'
 let q = qu + 'p'
 let v = yt_play[0].url
-const yt = await youtubedl(v).catch(async _ => await youtubedlv2(v)).catch(async _ => await youtubedlv3(v))
+const yt = await youtubedl(v).catch(async _ => await youtubedlv2(v))
 const dl_url = await yt.video[q].download()
 const ttl = await yt.title
 const size = await yt.video[q].fileSizeH
@@ -86,7 +86,7 @@ await conn.sendMessage(m.chat, { document: { url: n2 }, fileName: `${n}.mp4`, mi
 } catch {
 await conn.reply(m.chat, '*[❗] 𝙴𝚁𝚁𝙾𝚁 𝙽𝙾 𝙵𝚄𝙴 𝙿𝙾𝚂𝙸𝙱𝙻𝙴 𝙳𝙴𝚂𝙲𝙰𝚁𝙶𝙰𝚁 𝙴𝙻 𝚅𝙸𝙳𝙴𝙾*', m)}}}    
 }} catch {
-throw "*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾* \n\n\n *[❗]ERROR PLEASE TRY AGAIN*"}
+throw "*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*"}
 }
 handler.help = ["play3", "play4"].map((v) => v + " < busqueda >")
 handler.tags = ["downloader"]
