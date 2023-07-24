@@ -12,5 +12,4 @@ handler.help = ['bcgc2']
 handler.tags = ['owner']
 handler.command = /^(bcgc2)$/i
 handler.owner = true
-handler.register = true
 export default handler
