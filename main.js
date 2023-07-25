@@ -112,7 +112,8 @@ msgRetryCounterMap,
 logger: pino({ level: 'silent' }),
 auth: state,
 browser: ['HADES-BOT-OMEGA','Safari','9.7.0'],
-version   
+version,
+defaultQueryTimeoutMs: undefined    
 }
 
 global.conn = makeWASocket(connectionOptions)
