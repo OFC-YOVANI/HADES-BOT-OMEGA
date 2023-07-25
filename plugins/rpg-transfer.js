@@ -1,5 +1,5 @@
 const items = [
-    'limit', 'exp',
+    'limit', 'exp', 'joincount',
 ]
 let confirmation = {}
 async function handler(m, { conn, args, usedPrefix, command }) {
@@ -14,6 +14,7 @@ async function handler(m, { conn, args, usedPrefix, command }) {
 ┌──────────────
 ▢ *limit* = diamante
 ▢ *exp* = experiencia
+▢ *joincount* = dolares
 └──────────────
 `.trim()
     const type = (args[0] || '').toLowerCase()
