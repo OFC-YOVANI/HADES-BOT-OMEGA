@@ -102,8 +102,9 @@ let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭─「❥💎 *comandos-owner-add* 🧿❥」
 │➯🧿 *.añadirxp <cantidad> @tag*
-│➯💎 *.añadirdiamantes <cantidad> @tag*
-│➯🔱 *.
+│➯💎 *.añadirdiamantes @tag <cantidad>*
+│➯🔱 *.añadirdolares  @tag <cantidad>*
+│➯💵 *.añadirdolares @tag <cantidad>*
 │➯✅ *.addprem @tag days*
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
