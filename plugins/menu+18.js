@@ -1,7 +1,6 @@
 import fetch from 'node-fetch'
 let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems }) => {
 try {
-await m.reply(`╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」\n│➯(♦️)*Hola estás en el menú+18 elige una opción y pide una imagen*\n╰───────────────╯\n\n\n╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」\n│➯(♦️)*Hello you are in the menu+18 choose an option and ask for an image*\n╰───────────────╯`)
 let pp = imagen4
 let img = await(await fetch('https://i.imgur.com/JP52fdP.jpg')).buffer()
 let d = new Date(new Date + 3600000)
@@ -18,49 +17,39 @@ let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」
-│➯𝗛ᴏʟᴀ,➟${taguser}
-│➯ᴏᴡɴᴇʀ:ᴏғᴄ➟ʏᴏᴠᴀɴɪ
-│➯*Número*➟5212412377467
-│➯*canal-YouTube*
-│➯https://youtube.com/@hades_bot2391
-│➯ғᴇᴄʜᴀ:➟${date}
-│➯ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ:➟${uptime}
-│➯ᴜsᴜᴀʀɪᴏs:➟${rtotalreg}
+│➯✨ *𝗛ᴏʟᴀ,➟${taguser}*
+│➯🔞 *Menu+18*
 ︎╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
-╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」
-│➯*Menu*+18*
-︎╰───────────────╯
-🍁᭢━━━━━━━━━᭥🍁᭢
-╭─「➻❥ *Hentai+* 18➻❥」
-│➯ *.nsfwloli*
-│➯ *.nsfwfoot*
-│➯ *.nsfwassnsfwbdsm*
-│➯ *.nsfwcum*
-│➯ *.nsfwero*
-│➯ *.nsfwfemdom*
-│➯ *.nsfwfoot*
-│➯ *.nsfwglss*
-│➯ *.nsfworgy*
-│➯ *.yuri*
-│➯ *.yuri2*
-│➯ *.yaoi*
-│➯ *.yaoi2*
-│➯ *.panties*
-│➯ *.tits*
-│➯ *.booty*
-│➯ *.pechos*
-│➯ *.tetas*
-│➯ *.booty*
-│➯ *.ecchi*
-│➯ *.furro*
-│➯ *.hentai*
-│➯ *.trapito*
-│➯ *.imagenlesbians*
-│➯ *.pene*
-│➯ *.porno*
-│➯ *.randomxxx*
-│➯⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰✍
+╭─「❥🔥 *Hentai+18* 💥❥」
+│➯🔞 *.nsfwloli*
+│➯🔞 *.nsfwfoot*
+│➯🔞 *.nsfwassnsfwbdsm*
+│➯🔞 *.nsfwcum*
+│➯🔞 *.nsfwero*
+│➯🔞 *.nsfwfemdom*
+│➯🔞 *.nsfwfoot*
+│➯🔞 *.nsfwglss*
+│➯🔞 *.nsfworgy*
+│➯🔞 *.yuri*
+│➯🔞 *.yuri2*
+│➯🔞 *.yaoi*
+│➯🔞 *.yaoi2*
+│➯🔞 *.panties*
+│➯🔞 *.tits*
+│➯🔞 *.booty*
+│➯🔞 *.pechos*
+│➯🔞 *.tetas*
+│➯🔞 *.booty*
+│➯🔞 *.ecchi*
+│➯🔞 *.furro*
+│➯🔞 *.hentai*
+│➯🔞 *.trapito*
+│➯🔞 *.imagenlesbians*
+│➯🔞 *.pene*
+│➯🔞 *.porno*
+│➯🔞 *.randomxxx*
+│➯🔞⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰✍
 ︎╰───────────────╯`.trim()
 if (m.isGroup) {
 //await conn.sendFile(m.chat, vn, 'Darling.mp3', null, m, true, { type: 'audioMessage', ptt: true})

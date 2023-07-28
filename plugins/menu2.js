@@ -1,7 +1,6 @@
 import fetch from 'node-fetch'
 let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems }) => {
 try {
-await m.reply(`╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」\n│➯ *(♦️)*PON EL TEXTO DEL AUDIO QUE QUIERES REPRODUCIR*\n︎╰───────────────╯\n\n\n╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」\n│➯ *(♦️)*PUT THE TEXT OF THE AUDIO YOU WANT TO PLAY*\n︎╰───────────────╯`)
 let pp = imagen3
 let vn = './Audios/menu.mp3'
 let img = await(await fetch('https://i.imgur.com/JP52fdP.jpg')).buffer()
@@ -19,233 +18,227 @@ let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」
-│➯ *𝗛ᴏʟᴀ,➟${taguser}
-│➯ *ᴏᴡɴᴇʀ:ᴏғᴄ➟ʏᴏᴠᴀɴɪ
-│➯ **Número*➟5212412377467
-│➯ **canal-YouTube*
-│➯ *https://youtube.com/@hades_bot2391
-│➯ *ғᴇᴄʜᴀ:➟${date}
-│➯ *ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ:➟${uptime}
-│➯ *ᴜsᴜᴀʀɪᴏs:➟${rtotalreg}
+│➯✨ *𝗛ᴏʟᴀ,➟${taguser}*
+│➯🎙️*menu2*
 ︎╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
-╭「➻❥ *notas de voz* ➻❥」
-│➯ *Noche de paz*
-│➯ *Miau*
-│➯ *Buenos dias*
-│➯ *La cumbia del tilín*
-│➯ *buenas noches*
-│➯ *No pedí tu opinión*
-│➯ *Senpai*
-│➯ *esto va a ser épico*
-│➯ *insulta*
-│➯ *Audio hentai*
-│➯ *Tiene la cara*
-│➯ *Fiesta del admin*
-│➯ *tengo*
-│➯ *tranquilo*
-│➯ *Viernes*
-│➯ *Chica lgante*
-│➯ *No soy pati*
-│➯ *Baneado*
-│➯ *Bien pensado woody*
-│➯ *Homero chino*
-│➯ *El pepe*
-│➯ *A nadie le importa*
-│➯ *Sexo*
-│➯ *nadie te pregunto*
-│➯ *Vete a la vrg*
-│➯ *Hola*
-│➯ *Oye Bot te amo*
-│➯ *Te amo*
-│➯ *Yamete*
-│➯ *y que agarra y qué me dice*
-│➯ *Te diagnostico con gay*
-│➯ *Eres fuerteSu nivel de pendejo*
-│➯ *Que pasa*
-│➯ *cállese señora*
-│➯ *Quien es tu sempai botsito 7w7*
-│➯ *BiTCH*
-│➯ *Bañate*
-│➯ *cuándo se muera*
-│➯ *Que rico*
-│➯ *Feliz jueves*
-│➯ *Lo puede todo*
-│➯ *Gemime*
-│➯ *Vivan los novios*
-│➯ *sigues con vida*
-│➯ *Marica quien*
-│➯ *Es puto*
-│➯ *Onichan*
-│➯ *Feliz cumpleaños*
-│➯ *O omosa*
-│➯ *Atencion grupo*
-│➯ *Oh me vengo*
-│➯ *Que linda noche*
-│➯ *Te siento mía*
-│➯ *hentai2*
-│➯ *detengase admin*
-│➯ *Canta2*
-│➯ *Murio el grupo*
-│➯ *Siuuu*
-│➯ *Se enojan*
-│➯ *Al unico*
-│➯ *Se van a dormir*
-│➯ *Hare mi rutina*
-│➯ *Te sabes*
-│➯ *:c*
-│➯ *Hay el amor*
-│➯ *Orale*
-│➯ *Se ríe*
-│➯ *Que es eso*
-│➯ *anana*
-│➯ *No trabajo*
-│➯ *asen*
-│➯ *confeti*
-│➯ *flash*
-│➯ *Una pregunta*
-│➯ *pinches bot*
-│➯ *mmm*
-│➯ *Oxxo*
-│➯ *Soy nuevo*
-│➯ *La voz de hombre*
-│➯ *Picachu*
-│➯ *Pokemon*
-│➯ *ñaña*
-│➯ *yutki*
-│➯ *Ya basta jovenes*
-│➯ *Verdad que te engañe*
-│➯ *Calla maldita puta*
-│➯ *YoShi*
-│➯ *Me los voy a coger*
-│➯ *manco*
-│➯ *Me voy*
-│➯ *Música desamor*
-│➯ *mitamita*
-│➯ *tuturu*
-│➯ *woau*
-│➯ *unga*
-│➯ *umai*
-│➯ *tututu*
-│➯ *uma*
-│➯ *uff*
-│➯ *Tara*
-│➯ *uchinchi*
-│➯ *talcho*
-│➯ *sss*
-│➯ *a*
-│➯ *Triste enojada toy*
-│➯ *Bot maricon*
-│➯ *Bot puto*
-│➯ *estúpido*
-│➯ *Un pato*
-│➯ *Nyanpasu*
-│➯ *El amor no existe*
-│➯ *Es todo lo que tiene que decir*
-│➯ *Muere por los humanos*
-│➯ *La biblia*
-│➯ *Otaku*
-│➯ *Hace frío*
-│➯ *Pikachu*
-│➯ *Niconi*
-│➯ *Mimir*
-│➯ *Beastars*
-│➯ *Manos*
-│➯ *Facha*
-│➯ *Sexual*
-│➯ *Mujer*
-│➯ *Cringe*
-│➯ *Konede*
-│➯ *Gambare*
-│➯ *Pack*
-│➯ *Temon*
-│➯ *Primo*
-│➯ *jaja quiero*
-│➯ *Kya*
-│➯ *rawr*
-│➯ *El mundo*
-│➯ *Nos vale*
-│➯ *Bot gemine*
-│➯ *Pespes*
-│➯ *Ora*
-│➯ *Hades bot*
-│➯ *Tori*
-│➯ *Oxxo*
-│➯ *Mi bot es le mejor*
-│➯ *Bunny*
-│➯ *cancion hades2*
-│➯ *cancion de hades*
-│➯ *Hades es un Dios*
-│➯ *llamando a seguridad*
-│➯ *Atena*
-│➯ *Que tonta eres*
-│➯ *Bts$
-│➯ *ara ara*
-│➯ *La bebecita*
-│➯ *Lol*
-│➯ *Feliz navidad*
-│➯ *Risa diabolica*
-│➯ *Te pasas*
-│➯ *Darling*
-│➯ *Elmo*
-│➯ *La lechuza*
-│➯ *ñi*
-│➯ *Éxtasis*
-│➯ *no te acerques*
-│➯ *Por que*
-│➯ *La mamare*
-│➯ *Lala*
-│➯ *Ya paso*
-│➯ *UwU*
-│➯ *bebito fiu fiu*
-│➯ *Gracias bot*
-│➯ *A bueno adios master*
-│➯ *Abduzcan*
-│➯ *Arigato*
-│➯ *Blackpink* 
-│➯ *Bueno si*
-│➯ *Chau chicos
-│➯ *Chuchupamela*
-│➯ *Como le digo que*
-│➯ *Cómo te amo*
-│➯ *Contexto*
-│➯ *Desde morro*
-│➯ *El rap de fernan* 
-│➯ *Elmo sabe dónde vive*
-│➯ *En caso de una investigación*
-│➯ *Goku*
-│➯ *Joder*
-│➯ *Jueputa*
-│➯ *Linda*
-│➯ *Masivo*
-│➯ *Me anda buscando Anonymous*
-│➯ *Me vale vrg paisa*
-│➯ *Me vuelves loca*
-│➯ *Nadie toca a mis chicos*
-│➯ *No digas eso papu*
-│➯ *No me hables*
-│➯ *No hables de porno*
-│➯ *Okey*
-│➯ *Otaku2*
-│➯ *Pero esto ya es otro nivel*
-│➯ *Quien poronga*
-│➯ *Se están riendo de mí*
-│➯ *Sexo2*
-│➯ *Si no le gusta*
-│➯ *Traigan una falda*
-│➯ *Tunometecabra*
-│➯ *Una monedita*
-│➯ *Usted está detenido* 
-│➯ *Verdad que te engañe* 
-│➯ *Vamos a dormir*
-│➯ *viernecito*
-│➯ *Wenas*
-│➯ *Wtf*
-│➯ *Wtf y este*
-│➯ *Y este quien es*
-│➯ *Y este quien*
-│➯ *Yamete-kudasai2*
-│➯⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰✍
+╭「❥🎤 *notas de voz* 🎙️❥」
+│➯🎙️ *Noche de paz*
+│➯🎙️ *Miau*
+│➯🎙️ *Buenos dias*
+│➯🎙️ *La cumbia del tilín*
+│➯🎙️ *buenas noches*
+│➯🎙️ *No pedí tu opinión*
+│➯🎙️ *Senpai*
+│➯🎙️ *esto va a ser épico*
+│➯🎙️ *insulta*
+│➯🎙️ *Audio hentai*
+│➯🎙️ *Tiene la cara*
+│➯🎙️ *Fiesta del admin*
+│➯🎙️ *tengo*
+│➯🎙️ *tranquilo*
+│➯🎙️ *Viernes*
+│➯🎙️ *Chica lgante*
+│➯🎙️ *No soy pati*
+│➯🎙️ *Baneado*
+│➯🎙️ *Bien pensado woody*
+│➯🎙️ *Homero chino*
+│➯🎙️ *El pepe*
+│➯🎙️ *A nadie le importa*
+│➯🎙️ *Sexo*
+│➯🎙️ *nadie te pregunto*
+│➯🎙️ *Vete a la vrg*
+│➯🎙️ *Hola*
+│➯🎙️ *Oye Bot te amo*
+│➯🎙️ *Te amo*
+│➯🎙️ *Yamete*
+│➯🎙️ *y que agarra y qué me dice*
+│➯🎙️ *Te diagnostico con gay*
+│➯🎙️ *Eres fuerteSu nivel de pendejo*
+│➯🎙️ *Que pasa*
+│➯🎙️ *cállese señora*
+│➯🎙️ *Quien es tu sempai botsito 7w7*
+│➯🎙️ *BiTCH*
+│➯🎙️ *Bañate*
+│➯🎙️ *cuándo se muera*
+│➯🎙️ *Que rico*
+│➯🎙️ *Feliz jueves*
+│➯🎙️ *Lo puede todo*
+│➯🎙️ *Gemime*
+│➯🎙️ *Vivan los novios*
+│➯🎙️ *sigues con vida*
+│➯🎙️ *Marica quien*
+│➯🎙️ *Es puto*
+│➯🎙️ *Onichan*
+│➯🎙️ *Feliz cumpleaños*
+│➯🎙️ *O omosa*
+│➯🎙️ *Atencion grupo*
+│➯🎙️ *Oh me vengo*
+│➯🎙️ *Que linda noche*
+│➯🎙️ *Te siento mía*
+│➯🎙️ *hentai2*
+│➯🎙️ *detengase admin*
+│➯🎙️ *Canta2*
+│➯🎙️ *Murio el grupo*
+│➯🎙️ *Siuuu*
+│➯🎙️ *Se enojan*
+│➯🎙️ *Al unico*
+│➯🎙️ *Se van a dormir*
+│➯🎙️ *Hare mi rutina*
+│➯🎙️ *Te sabes*
+│➯🎙️ *:c*
+│➯🎙️ *Hay el amor*
+│➯🎙️ *Orale*
+│➯🎙️ *Se ríe*
+│➯🎙️ *Que es eso*
+│➯🎙️ *anana*
+│➯🎙️ *No trabajo*
+│➯🎙️ *asen*
+│➯🎙️ *confeti*
+│➯🎙️ *flash*
+│➯🎙️ *Una pregunta*
+│➯🎙️ *pinches bot*
+│➯🎙️ *mmm*
+│➯🎙️ *Oxxo*
+│➯🎙️ *Soy nuevo*
+│➯🎙️ *La voz de hombre*
+│➯🎙️ *Picachu*
+│➯🎙️ *Pokemon*
+│➯🎙️ *ñaña*
+│➯🎙️ *yutki*
+│➯🎙️ *Ya basta jovenes*
+│➯🎙️ *Verdad que te engañe*
+│➯🎙️ *Calla maldita puta*
+│➯🎙️ *YoShi*
+│➯🎙️ *Me los voy a coger*
+│➯🎙️ *manco*
+│➯🎙️ *Me voy*
+│➯🎙️ *Música desamor*
+│➯🎙️ *mitamita*
+│➯🎙️ *tuturu*
+│➯🎙️ *woau*
+│➯🎙️ *unga*
+│➯🎙️ *umai*
+│➯🎙️ *tututu*
+│➯🎙️ *uma*
+│➯🎙️ *uff*
+│➯🎙️ *Tara*
+│➯🎙️ *uchinchi*
+│➯🎙️ *talcho*
+│➯🎙️ *sss*
+│➯🎙️ *a*
+│➯🎙️ *Triste enojada toy*
+│➯🎙️ *Bot maricon*
+│➯🎙️ *Bot puto*
+│➯🎙️ *estúpido*
+│➯🎙️ *Un pato*
+│➯🎙️ *Nyanpasu*
+│➯🎙️ *El amor no existe*
+│➯🎙️ *Es todo lo que tiene que decir*
+│➯🎙️ *Muere por los humanos*
+│➯🎙️ *La biblia*
+│➯🎙️ *Otaku*
+│➯🎙️ *Hace frío*
+│➯🎙️ *Pikachu*
+│➯🎙️ *Niconi*
+│➯🎙️ *Mimir*
+│➯🎙️ *Beastars*
+│➯🎙️ *Manos*
+│➯🎙️ *Facha*
+│➯🎙️ *Sexual*
+│➯🎙️ *Mujer*
+│➯🎙️ *Cringe*
+│➯🎙️ *Konede*
+│➯🎙️ *Gambare*
+│➯🎙️ *Pack*
+│➯🎙️ *Temon*
+│➯🎙️ *Primo*
+│➯🎙️ *jaja quiero*
+│➯🎙️ *Kya*
+│➯🎙️ *rawr*
+│➯🎙️ *El mundo*
+│➯🎙️ *Nos vale*
+│➯🎙️ *Bot gemine*
+│➯🎙️ *Pespes*
+│➯🎙️ *Ora*
+│➯🎙️ *Hades bot*
+│➯🎙️ *Tori*
+│➯🎙️ *Oxxo*
+│➯🎙️ *Mi bot es le mejor*
+│➯🎙️ *Bunny*
+│➯🎙️ *cancion hades2*
+│➯🎙️ *cancion de hades*
+│➯🎙️ *Hades es un Dios*
+│➯🎙️ *llamando a seguridad*
+│➯🎙️ *Atena*
+│➯🎙️ *Que tonta eres*
+│➯🎙️ *Bts$
+│➯🎙️ *ara ara*
+│➯🎙️ *La bebecita*
+│➯🎙️ *Lol*
+│➯🎙️ *Feliz navidad*
+│➯🎙️ *Risa diabolica*
+│➯🎙️ *Te pasas*
+│➯🎙️ *Darling*
+│➯🎙️ *Elmo*
+│➯🎙️ *La lechuza*
+│➯🎙️ *ñi*
+│➯🎙️ *Éxtasis*
+│➯🎙️ *no te acerques*
+│➯🎙️ *Por que*
+│➯🎙️ *La mamare*
+│➯🎙️ *Lala*
+│➯🎙️ *Ya paso*
+│➯🎙️ *UwU*
+│➯🎙️ *bebito fiu fiu*
+│➯🎙️ *Gracias bot*
+│➯🎙️ *A bueno adios master*
+│➯🎙️ *Abduzcan*
+│➯🎙️ *Arigato*
+│➯🎙️ *Blackpink* 
+│➯🎙️ *Bueno si*
+│➯🎙️ *Chau chicos
+│➯🎙️ *Chuchupamela*
+│➯🎙️ *Como le digo que*
+│➯🎙️ *Cómo te amo*
+│➯🎙️ *Contexto*
+│➯🎙️ *Desde morro*
+│➯🎙️ *El rap de fernan* 
+│➯🎙️ *Elmo sabe dónde vive*
+│➯🎙️ *En caso de una investigación*
+│➯🎙️ *Goku*
+│➯🎙️ *Joder*
+│➯🎙️ *Jueputa*
+│➯🎙️ *Linda*
+│➯🎙️ *Masivo*
+│➯🎙️ *Me anda buscando Anonymous*
+│➯🎙️ *Me vale vrg paisa*
+│➯🎙️ *Me vuelves loca*
+│➯🎙️ *Nadie toca a mis chicos*
+│➯🎙️ *No digas eso papu*
+│➯🎙️ *No me hables*
+│➯🎙️ *No hables de porno*
+│➯🎙️ *Okey*
+│➯🎙️ *Otaku2*
+│➯🎙️ *Pero esto ya es otro nivel*
+│➯🎙️ *Quien poronga*
+│➯🎙️ *Se están riendo de mí*
+│➯🎙️ *Sexo2*
+│➯🎙️ *Si no le gusta*
+│➯🎙️ *Traigan una falda*
+│➯🎙️ *Tunometecabra*
+│➯🎙️ *Una monedita*
+│➯🎙️ *Usted está detenido* 
+│➯🎙️ *Verdad que te engañe* 
+│➯🎙️ *Vamos a dormir*
+│➯🎙️ *viernecito*
+│➯🎙️ *Wenas*
+│➯🎙️ *Wtf*
+│➯🎙️ *Wtf y este*
+│➯🎙️ *Y este quien es*
+│➯🎙️ *Y este quien*
+│➯🎙️ *Yamete-kudasai2*
+│➯🎙️⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰✍
 ︎╰───────────────╯`.trim()
 if (m.isGroup) {
 await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})

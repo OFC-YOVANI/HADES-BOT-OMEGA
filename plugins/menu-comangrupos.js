@@ -20,51 +20,51 @@ let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]    
 let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」
-│➯ *𝗛ᴏʟᴀ,➟${taguser}
-│➯ *ᴏᴡɴᴇʀ:ᴏғᴄ➟ʏᴏᴠᴀɴɪ
-│➯ *Número*➟5212412377467
-│➯ *canal-YouTube*
-│➯ *https://youtube.com/@hades_bot2391
-│➯ *ғᴇᴄʜᴀ:➟${date}
-│➯ *ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ:➟${uptime}
-│➯ *ᴜsᴜᴀʀɪᴏs:➟${rtotalreg}
+│➯✨ *𝗛ᴏʟᴀ,➟${taguser}*
+│➯🌴 *ᴏᴡɴᴇʀ:ᴏғᴄ➟ʏᴏᴠᴀɴɪ*
+│➯🧿 *Número*➟5212412377467*
+│➯📽️ *canal-YouTube*
+│➯🖇️ *https://youtube.com/@hades_bot2391*
+│➯📅 *ғᴇᴄʜᴀ:➟${date}*
+│➯⏰ *ᴛɪᴇᴍᴘᴏ:➟${uptime}*
+│➯👥 *ᴜsᴜᴀʀɪᴏs:➟${rtotalreg}*
 ︎╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭「➻❥ *Activar&apagar* ➻❥」
-│➯ */enable welcome*
-│➯ */disable welcome*
-│➯ */enable public*
-│➯ */disable public*
-│➯ */enable restrict*
-│➯ */disable restrict*
-│➯ */enable pconly*
-│➯ */disable pconly*
-│➯ */enable anticall*
-│➯ */disable anticall*
-│➯ */enable simsimi*
-│➯ */disable simsimi*
-│➯ */enable modohorny*
-│➯ */disable modohorny*
-│➯ */enable antilink*
-│➯ */disable antilink*
-│➯ */enable antilink2*
-│➯ */disable antilink2*
-│➯ */enable detect*
-│➯ */disable detect*
-│➯ */enable detect2*
-│➯ */disable detect2*
-│➯ */enable autosticker*
-│➯ */disable autosticker*
-│➯ */enable antiviewonce*
-│➯ */disable antiviewonce*
-│➯ */enable antitoxic*
-│➯ */disable antitoxic*
-│➯ */enable antitraba*
-│➯ */disable antitraba*
-│➯ */enable antiarabes*
-│➯ */disable antiarabes*
-│➯ */enable modoadmin*
-│➯ */disable modoadmin*
+│➯🔩 */enable welcome*
+│➯🔩 */disable welcome*
+│➯🔩 */enable public*
+│➯🔩 */disable public*
+│➯🔩 */enable restrict*
+│➯🔩 */disable restrict*
+│➯🔩 */enable pconly*
+│➯🔩 */disable pconly*
+│➯🔩 */enable anticall*
+│➯🔩 */disable anticall*
+│➯🔩 */enable simsimi*
+│➯🔩 */disable simsimi*
+│➯🔩 */enable modohorny*
+│➯🔩 */disable modohorny*
+│➯🔩 */enable antilink*
+│➯🔩 */disable antilink*
+│➯🔩 */enable antilink2*
+│➯🔩 */disable antilink2*
+│➯🔩 */enable detect*
+│➯🔩 */disable detect*
+│➯🔩 */enable detect2*
+│➯🔩 */disable detect2*
+│➯🔩 */enable autosticker*
+│➯🔩 */disable autosticker*
+│➯🔩 */enable antiviewonce*
+│➯🔩 */disable antiviewonce*
+│➯🔩 */enable antitoxic*
+│➯🔩 */disable antitoxic*
+│➯🔩 */enable antitraba*
+│➯🔩 */disable antitraba*
+│➯🔩 */enable antiarabes*
+│➯🔩 */disable antiarabes*
+│➯🔩 */enable modoadmin*
+│➯🔩 */disable modoadmin*
 ︎╰───────────────╯`.trim()
 if (m.isGroup) {
 //await conn.sendFile(m.chat, vn, 'Darling.mp3', null, m, true, { type: 'audioMessage', ptt: true})

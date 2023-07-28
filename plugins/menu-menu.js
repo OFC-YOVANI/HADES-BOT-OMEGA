@@ -50,6 +50,7 @@ let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻
 │➯🆙 *.enable comandos para el owner*
 │➯💥 *.instalarbot Hades*
 │➯🏓 *.logos*
+│➯♻️ *.tagall.
 │➯✨ *.sc git hades*
 │➯♻️ *.comangrupos*
 │➯💠 *.infogrupo*
@@ -71,6 +72,8 @@ let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻
 │➯📌 *.del*
 │➯📌 *.join*
 │➯📌 *.link link de tu grupo*
+│➯📌 *.advertir*
+│➯📌 *.unwarn*
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭─「❥💎 *transfer* 💎❥」
@@ -92,7 +95,16 @@ let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻
 │➯🧿 *.buyall te cobra experiencia*
 │➯🧿 *.buy <cantidad>*
 │➯💵 *.dolares te cobra diamantes*
-│➯💰 *puedes dar diamantes o experiencia a otra persona con los comandos*
+│➯💰 *los comandos siguientes son para robar experiencia y diamantes, nota para el bot oficial no estan disponibles*
+│➯👻 *.rob experiencia*
+│➯👻 *.rob2 diamantes*
+╰───────────────╯
+🍁᭢━━━━━━━━━᭥🍁᭢
+╭─「❥💎 *comandos-owner-add* 🧿❥」
+│➯🧿 *.añadirxp <cantidad> @tag*
+│➯💎 *.añadirdiamantes <cantidad> @tag*
+│➯🔱 *.
+│➯✅ *.addprem @tag days*
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭─「❥👾 *Stickers* 🌴❥」
@@ -161,6 +173,8 @@ let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻
 │➯🎮 *.pajero porcentaje*
 │➯🎮 *.pajera porcentaje*
 │➯🎮 *.lesbiana porcentaje*
+│➯🎮 *.pvp*
+│➯🎮 *.sopa*
 │➯🎮 *.juego piedra/papel/tijera*
 │➯🎮 *.reto reto del bot*
 │➯🎮 *.acertijo*
@@ -192,9 +206,16 @@ let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻
 │➯👁️‍🗨️ *.resetprefix*
 │➯👁️‍🗨️ *.unbanuser*
 │➯👁️‍🗨️ *.kick*
+│➯👁️‍🗨️ *.fantasmas*
+│➯👁️‍🗨️ *.agregar*
+│➯👁️‍🗨️ *.resetlink*
 │➯👁️‍🗨️ *.banchat banea el chat*
 │➯👁️‍🗨️ *.unbanchat desbanea el chat*
 │➯👁️‍🗨️ *.grupo abrir/cerrar*
+│➯👁️‍🗨️ *.addcmd*
+│➯👁️‍🗨️ *.delcmd*
+│➯👁️‍🗨️ *.listcmd*
+│➯👁️‍🗨️ *.actualizar*
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭─「❥🎙️ *convertidor&mp3* 📽️❥」
@@ -228,6 +249,11 @@ let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻
 │➯📊 *.wprandom*
 │➯📊 *.styletext
 │➯📊 *.afk*
+│➯📊 *.lb*
+│➯📊 *.perfil*
+│➯📊 *.clima*
+│➯📊 *.covid*
+│➯📊 *.horario*
 ︎╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭─「❥🧨 *Logos* 🧧❥」
