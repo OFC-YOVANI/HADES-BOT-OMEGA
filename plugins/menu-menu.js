@@ -95,9 +95,6 @@ let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻
 │➯🧿 *.buyall te cobra experiencia*
 │➯🧿 *.buy <cantidad>*
 │➯💵 *.dolares te cobra diamantes*
-│➯💰 *los comandos siguientes son para robar experiencia y diamantes, nota para el bot oficial no estan disponibles*
-│➯👻 *.rob experiencia*
-│➯👻 *.rob2 diamantes*
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭─「❥💎 *comandos-owner-add* 🧿❥」

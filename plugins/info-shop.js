@@ -3,12 +3,10 @@ var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.present
 var document = doc[Math.floor(Math.random() * doc.length)]    
 let text = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」
 │➯➻❥ *✳️TIENDA-SHOP✨* ➻❥
-│➯ *.bus <cantidad>* 💎
 │➯ *.busyall te cobra Hades-Coins* 💰
-│➯ *.bur <cantidad>* 🪙
-│➯ *.buryall te cobra Tokens* 🪙
-│➯ *.buy <cantidad>* 🧿
+│➯ *.bus <cantidad>* 💎
 │➯ *.buyall te cobra experiencia* 🧿
+│➯ *.buy <cantidad>* 🧿
 │➯ *.dolares te cobra diamantes*
 ︎╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
