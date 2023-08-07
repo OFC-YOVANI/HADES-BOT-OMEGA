@@ -137,6 +137,8 @@ let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻
 │➯📇 *.video nombre de tu video*
 │➯📇 *.audiodocu nombre de tu canción,doc*
 │➯📇 *.videodocu nombre de tu video,doc*
+│➯📇 *.Spotify nombre de tu canción*
+│➯📇 *.Spotify2 nombre de tu canción,doc*
 │➯📇 *.ytmp3 tu link  Audio*
 │➯📇 *.ytmp4 tu link  video*
 │➯📇 *.ytmp3doc link canción,doc*
@@ -244,7 +246,7 @@ let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻
 │➯📊 *.caricatura*
 │➯📊 *.pubg*
 │➯📊 *.wprandom*
-│➯📊 *.styletext
+│➯📊 *.styletext*
 │➯📊 *.afk*
 │➯📊 *.lb*
 │➯📊 *.perfil*
