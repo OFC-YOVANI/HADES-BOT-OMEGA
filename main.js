@@ -1,4 +1,3 @@
-//test
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
 import './config.js';
 import './api.js';
@@ -122,7 +121,7 @@ conn.isInit = false
 if (!opts['test']) {
 if (global.db) setInterval(async () => {
 if (global.db.data) await global.db.write()
-if (opts['autocleartmp'] && (global.support || {}).find) (tmp = [os.tmpdir(), 'tmp', "jadibts"], tmp.forEach(filename => cp.spawn('find', [filename, '-amin', '3', '-type', 'f', '-delete'])))
+if (opts['autocleartmp'] && (global.support || {}).find) (tmp = [os.tmpdir(), 'tmp'], tmp.forEach(filename => cp.spawn('find', [filename, '-amin', '3', '-type', 'f', '-delete'])))
 }, 30 * 1000)}
 
 if (opts['server']) (await import('./server.js')).default(global.conn, PORT)
@@ -147,27 +146,10 @@ function purgeSession() {
     unlinkSync(`./Session-activa/${files}`)
 })
 
-}  
-function purgeSessionSB() {
-let listaDirectorios = readdirSync('./jadibts/');
-//console.log(listaDirectorios)
-      let SBprekey = []
-listaDirectorios.forEach(filesInDir => {
-    let directorio = readdirSync(`./jadibts/${filesInDir}`)
-    //console.log(directorio)
-    let DSBPreKeys = directorio.filter(fileInDir => {
-    return fileInDir.startsWith('pre-key-')
-    })
-    SBprekey = [...SBprekey, ...DSBPreKeys]
-    DSBPreKeys.forEach(fileInDir => {
-        unlinkSync(`./jadibts/${filesInDir}/${fileInDir}`) 
-    })
-    })
-    
 }
 
 function purgeOldFiles() {
-const directories = ['./Session-activa/', './jadibts/']
+const directories = ['./Session-activa/']
 const oneHourAgo = Date.now() - (60 * 60 * 1000) 
 directories.forEach(dir => {
     readdirSync(dir, (err, files) => {
@@ -273,36 +255,6 @@ conn.ev.on('creds.update', conn.credsUpdate)
 isInit = false
 return true
 }
-
-/*
-
-const pluginFolder = join(__dirname, './plugins');
-const pluginFilter = filename => /\.js$/.test(filename);
-global.plugins = {};
-
-async function filesInit(folder) {
-  for (let filename of readdirSync(folder).filter(pluginFilter)) {
-    try {
-      let file = join(folder, filename);
-      const module = await import(file);
-      global.plugins[file] = module.default || module;
-    } catch (e) {
-      console.error(e);
-      delete global.plugins[filename];
-    }
-  }
-
-  for (let subfolder of readdirSync(folder)) {
-    const subfolderPath = join(folder, subfolder);
-    if (statSync(subfolderPath).isDirectory()) {
-      await filesInit(subfolderPath);
-    }
-  }
-}
-
-await filesInit(pluginFolder).then(_ => Object.keys(global.plugins)).catch(console.error);
-
-*/
 
 const pluginFolder = global.__dirname(join(__dirname, './plugins/index'))
 const pluginFilter = filename => /\.js$/.test(filename)
