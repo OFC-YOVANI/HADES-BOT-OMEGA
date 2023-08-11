@@ -110,7 +110,7 @@ return { conversation: "hello, i'm OFC-YOVANI" }},
 msgRetryCounterMap,
 logger: pino({ level: 'silent' }),
 auth: state,
-browser: ['HADES-BOT-OMEGA','Safari','1.0.0'],
+browser: ['HADES-BOT-OMEGA','Safari','9.7.0'],
 version,
 defaultQueryTimeoutMs: undefined    
 }
