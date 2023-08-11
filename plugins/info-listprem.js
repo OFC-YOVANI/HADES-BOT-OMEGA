@@ -16,8 +16,7 @@ let handler = async (m, { conn, args }) => {
 
 ╭─────°.♡.°‧─────
 │🌀ᴜsᴜᴀʀɪᴏs ᴘʀᴇᴍɪᴜᴍ
-╰─────°.♡.°‧─────\n${sortedP.slice(0, len).map(({ jid, name, premiumTime, prem, registered }, i) => `${registered ? name : conn.getName(jid)}\n│• wa.me/${jid.split`@`[0]}\n${premiumTime > 0 ? `${clockString (premiumTime - new Date() * 1)}` : '🚫 𝘾𝘼𝘿𝙐𝘾𝘼𝘿𝙊 : 𝙏𝙄𝙈𝙀𝘿 𝙊𝙐𝙏'}`).join`╰─────°.♡.°‧─────`}
-${wm}\n╰─────°.♡.°‧─────`, fkon, { mentions: [aa,] })
+╰─────°.♡.°‧─────\n${sortedP.slice(0, len).map(({ jid, name, premiumTime, prem, registered }, i) => `${registered ? name : conn.getName(jid)}\n│• wa.me/${jid.split`@`[0]}\n${premiumTime > 0 ? `${clockString (premiumTime - new Date() * 1)}` : '🚫 𝘾𝘼𝘿𝙐𝘾𝘼𝘿𝙊 : 𝙏𝙄𝙈𝙀𝘿 𝙊𝙐𝙏'}`).join`\n╰─────°.♡.°‧─────`}\n${wm}\n╰─────°.♡.°‧─────`, fkon, { mentions: [aa,] })
 
 setTimeout(() => {
     if (global.db.data.chats[m.chat].deletemedia) conn.deleteMessage(m.chat, key)
