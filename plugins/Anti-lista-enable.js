@@ -140,16 +140,6 @@ let optionsFull = `--------------------------------
 *Description:* If an Arabic number writes in the group, the Bot automatically deletes it.
 *Note:* You need to have the restrict active.
 --------------------------------
-*Opción:* 🤖 | MODEJADIBOT
-*Comando:* /enable modejadibot
-*Descripción:* Activa o desactiva el uso del comando para sub bots (${usedPrefix}serbot / ${usedPrefix}jadibot). 
-*Nota:* Este comando solo podrá ser usado por owners del Bot.
---------------------------------
-*Option:* 🤖 | MODEJADIBOT
-*Command:* /disable modejadibot
-*Description:* Enables or disables the use of the command for sub bots (${usedPrefix}serbot / ${usedPrefix}jadibot).
-*Note:* This command can only
---------------------------------
 *Opción:* 👑 | MODOADMIN
 *Comando:* /enable modoadmin
 *Descripción:* El Bot solo responderá a los admins del grupo.
