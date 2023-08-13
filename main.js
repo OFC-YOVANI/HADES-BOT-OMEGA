@@ -187,7 +187,6 @@ console.log(chalk.yellow('🚩ㅤEscanea este codigo QR, el codigo QR expira en 
 }
 if (connection == 'open') {
 console.log(chalk.yellow('▣──────────────────────────────···\n│\n│❧ 𝙲𝙾𝙽𝙴𝙲𝚃𝙰𝙳𝙾 𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙰𝙼𝙴𝙽𝚃𝙴 𝙰𝙻 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 ✅\n│\n▣──────────────────────────────···'))}
-await conn.sendMessage(`5212412377467@s.whatsapp.net`, {text: `• *👋 HOLA YOVANI  SE DETECTO QUE  ESTE NÚMERO ES UN NUEVO BOT ACTIVO🤖*\n\n• *🫅🏻AQUÍ UNA PEQUEÑA RECOMENDACIÓN QUE RECOMIENDA EL CREADOR DEL BOT🪀*\n\n• *📌SIGUE EL MISMO PROCEDIMIENTO Y ACTIVA LOS COMANDOS SIGUIENTES PARA EVITAR PROBLEMAS DE SPAM⚠️*\n\n• *📌OPCIÓN 1*\n• */enable antispam*\n• *📌OPCIÓN 2*\n• */enable pconly*\n• *📌OPCIÓN 3*\n• */enable antiprivado*\n *🔖EN CASO DE QUE SIGAS TENIENDO PROBLEMAS PUEDES CONSULTARMELO O DIRECTAMENTE PUEDES ENTRAR AL GRUPO DE SOPORTE📍 PARA RECIBIR AYUDA Y APOYO🤝*\n\n• *🥳Y MUCHAS GRACIAS POR SER UN MIEMBRO🗣️ DE NUESTRA COMUNIDAD GRACIAS POR REFERENCIA🪴 DISFRUTA DE HADES-BOT✨*\n\n• *🌅QUETENGAS UN EXCELENTE DÍA O TARDE O NOCHE🌃*\n\n• *🫅🏻ATENTAMENTE=YOVANI*\n\n• *📌GRUPO DE SOPORTE🤖*\n• https://chat.whatsapp.com/Jhs2WrdiNzY3CML7shPwot`}, {quoted: ''})
 
 if (connection == 'close') {
 console.log(chalk.yellow(`🚩ㅤConexion cerrada, por favor borre la carpeta ${global.authFile} y reescanee el codigo QR`))}
