@@ -150,45 +150,42 @@ function purgeSession() {
 
 }  
 function purgeSessionSB() {
+try {
 let listaDirectorios = readdirSync('./jadibts/');
-//console.log(listaDirectorios)
-      let SBprekey = []
-listaDirectorios.forEach(filesInDir => {
-    let directorio = readdirSync(`./jadibts/${filesInDir}`)
-    //console.log(directorio)
-    let DSBPreKeys = directorio.filter(fileInDir => {
-    return fileInDir.startsWith('pre-key-')
-    })
-    SBprekey = [...SBprekey, ...DSBPreKeys]
-    DSBPreKeys.forEach(fileInDir => {
-        unlinkSync(`./jadibts/${filesInDir}/${fileInDir}`) 
-    })
-    })
-    
+let SBprekey = []
+listaDirectorios.forEach(directorio => {
+if (statSync(`./jadibts/${directorio}`).isDirectory()) {
+let DSBPreKeys = readdirSync(`./jadibts/${directorio}`).filter(fileInDir => {
+return fileInDir.startsWith('pre-key-') /*|| fileInDir.startsWith('app-') || fileInDir.startsWith('session-')*/
+})
+SBprekey = [...SBprekey, ...DSBPreKeys]
+DSBPreKeys.forEach(fileInDir => {
+unlinkSync(`./jadibts/${directorio}/${fileInDir}`)
+})
 }
-
+})
+if (SBprekey.length === 0) return; //console.log(chalk.cyanBright(`=> No hay archivos por eliminar.`))
+} catch (err) {
+console.log(chalk.bold.red(`=> Algo salio mal durante la eliminación, archivos no eliminados`))
+}}
 function purgeOldFiles() {
 const directories = ['./Session-activa/', './jadibts/']
-const oneHourAgo = Date.now() - (60 * 60 * 1000) 
+const oneHourAgo = Date.now() - (60 * 60 * 1000)
 directories.forEach(dir => {
-    readdirSync(dir, (err, files) => {
-        if (err) throw err
-        files.forEach(file => {
-            const filePath = path.join(dir, file)
-            stat(filePath, (err, stats) => {
-                if (err) throw err;
-                if (stats.isFile() && stats.mtimeMs < oneHourAgo && file !== 'creds.json') { 
-                    unlinkSync(filePath, err => {  
-                        if (err) throw err
-                        console.log(`Archivo ${file} borrado con éxito`)
-                    })
-                } else {  
-                    console.log(`Archivo ${file} no borrado`) 
-                } 
-            }) 
-        }) 
-    }) 
+readdirSync(dir, (err, files) => {
+if (err) throw err
+files.forEach(file => {
+const filePath = path.join(dir, file)
+stat(filePath, (err, stats) => {
+if (err) throw err;
+if (stats.isFile() && stats.mtimeMs < oneHourAgo && file !== 'creds.json') { 
+unlinkSync(filePath, err => {  
+if (err) throw err
+console.log(chalk.bold.green(`Archivo ${file} borrado con éxito`))
 })
+} else {  
+console.log(chalk.bold.red(`Archivo ${file} no borrado` + err))
+} }) }) }) })
 }
 
 async function connectionUpdate(update) {
