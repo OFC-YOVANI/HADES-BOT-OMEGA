@@ -13,7 +13,7 @@ let _uptime = process.uptime() * 1000
 let uptime = clockString(_uptime)
 let user = global.db.data.users[m.sender]
 let { money, joincount } = global.db.data.users[m.sender]
-let { exp, limit, level, role } = global.db.data.users[m.sender]
+let { exp, limit, level, role, role2 } = global.db.data.users[m.sender]
 let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length 
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
@@ -35,6 +35,7 @@ let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻
 │➯ *✳️️Nivel:* ${level}
 │➯ *🧿Experiencia:* ${exp}
 │➯ *⚓Rango:* ${role}
+│➯ *📊Poder:* ${role2}
 │➯ *💎Diamantes:* ${limit}
 │➯ *🔱Hades-Coins:* ${money}
 │➯ *💵dolares:* ${joincount}
