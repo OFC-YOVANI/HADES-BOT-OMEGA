@@ -112,11 +112,11 @@ const yt = await youtubedl(v).catch(async _ => await youtubedlv2(v))
 const dl_url = await yt.video[q].download()
 const ttl = await yt.title
 const size = await yt.video[q].fileSizeH
-await await conn.sendMessage(m.chat, { document: { url: dl_url }, fileName: `${ttl}.mp4`, mimetype: 'video/mp4', caption: `${wm}\n${ttl}\n`, thumbnail: await fetch(yt.thumbnail) }, { quoted: m })
+await await conn.sendMessage(m.chat, { document: { url: dl_url }, fileName: `${ttl}.mp4`, mimetype: 'video/mpeg', caption: `${wm}\n${ttl}\n`, thumbnail: await fetch(yt.thumbnail) }, { quoted: m })
 } catch {   
 try {  
 let mediaa = await ytMp4(yt_play[0].url)
-await conn.sendMessage(m.chat, { document: { url: mediaa.result }, fileName: `error.mp4`, caption: `_${wm}_`, thumbnail: mediaa.thumb, mimetype: 'video/mp4' }, { quoted: m })     
+await conn.sendMessage(m.chat, { document: { url: mediaa.result }, fileName: `error.mp4`, caption: `_${wm}_`, thumbnail: mediaa.thumb, mimetype: 'video/mpeg' }, { quoted: m })     
 } catch {  
 try {
 let lolhuman = await fetch(`https://api.lolhuman.xyz/api/ytvideo2?apikey=${lolkeysapi}&url=${yt_play[0].url}`)    
@@ -125,7 +125,7 @@ let n = lolh.result.title || 'error'
 let n2 = lolh.result.link
 let n3 = lolh.result.size
 let n4 = lolh.result.thumbnail
-await conn.sendMessage(m.chat, { document: { url: n2 }, fileName: `${n}.mp4`, mimetype: 'video/mp4', caption: `${wm}\n${n}`, thumbnail: await fetch(n4) }, { quoted: m })
+await conn.sendMessage(m.chat, { document: { url: n2 }, fileName: `${n}.mp4`, mimetype: 'video/mpeg', caption: `${wm}\n${n}`, thumbnail: await fetch(n4) }, { quoted: m })
 } catch {
 }}}    
 }} catch {

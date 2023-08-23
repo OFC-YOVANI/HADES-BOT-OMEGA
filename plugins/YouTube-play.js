@@ -33,30 +33,30 @@ const yt = await youtubedl(v).catch(async _ => await youtubedlv2(v))
 const dl_url = await yt.audio[q].download()
 const ttl = await yt.title
 const size = await yt.audio[q].fileSizeH
-await conn.sendFile(m.chat, dl_url, ttl + '.mp3', null, m, false, { mimetype: 'audio/mp4' })
+await conn.sendFile(m.chat, dl_url, ttl + '.mp3', null, m, false, { mimetype: 'audio/mpeg' })
 } catch {
 try {
 const dataRE = await fetch(`https://api.akuari.my.id/downloader/youtube?link=${yt_play[0].url}`)
 const dataRET = await dataRE.json()
-conn.sendMessage(m.chat, { audio: { url: dataRET.mp3[1].url }, fileName: yt_play[0].title + '.mp3', mimetype: 'audio/mp4' }, { quoted: m })    
+conn.sendMessage(m.chat, { audio: { url: dataRET.mp3[1].url }, fileName: yt_play[0].title + '.mp3', mimetype: 'audio/mpeg' }, { quoted: m })    
 } catch {
 try {
 let humanLol = await fetch(`https://api.lolhuman.xyz/api/ytplay?apikey=${lolkeysapi}&query=${yt_play[0].title}`)
 let humanRET = await humanLol.json()
-conn.sendMessage(m.chat, { audio: { url: humanRET.result.audio.link }, fileName: yt_play[0].title + '.mp3', mimetype: 'audio/mp4' }, { quoted: m })         
+conn.sendMessage(m.chat, { audio: { url: humanRET.result.audio.link }, fileName: yt_play[0].title + '.mp3', mimetype: 'audio/mpeg' }, { quoted: m })         
 } catch {     
 try {
 let lolhuman = await fetch(`https://api.lolhuman.xyz/api/ytaudio2?apikey=${lolkeysapi}&url=${yt_play[0].url}`)    
 let lolh = await lolhuman.json()
 let n = lolh.result.title || 'error'
-await conn.sendMessage(m.chat, { audio: { url: lolh.result.link }, fileName: `${n}.mp3`, mimetype: 'audio/mp4' }, { quoted: m })  
+await conn.sendMessage(m.chat, { audio: { url: lolh.result.link }, fileName: `${n}.mp3`, mimetype: 'audio/mpeg' }, { quoted: m })  
 } catch {   
 try {
 let searchh = await yts(yt_play[0].url)
 let __res = searchh.all.map(v => v).filter(v => v.type == "video")
 let infoo = await ytdl.getInfo('https://youtu.be/' + __res[0].videoId)
 let ress = await ytdl.chooseFormat(infoo.formats, { filter: 'audioonly' })
-conn.sendMessage(m.chat, { audio: { url: ress.url }, fileName: __res[0].title + '.mp3', mimetype: 'audio/mp4' }, { quoted: m })  
+conn.sendMessage(m.chat, { audio: { url: ress.url }, fileName: __res[0].title + '.mp3', mimetype: 'audio/mpeg' }, { quoted: m })  
 } catch {
 await conn.reply(m.chat, '*[❗] 𝙴𝚁𝚁𝙾𝚁 𝙽𝙾 𝙵𝚄𝙴 𝙿𝙾𝚂𝙸𝙱𝙻𝙴 𝙳𝙴𝚂𝙲𝙰𝚁𝙶𝙰𝚁 𝙴𝙻 𝙰𝚄𝙳𝙸𝙾*', m)}}}}}
 }  
