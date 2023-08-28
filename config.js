@@ -4,12 +4,12 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['5212411719888', '𝙾𝙵𝙲 𝚈𝙾𝚅𝙰𝙽𝙸', true],
+  ['522871500712', '𝙾𝙵𝙲 𝚈𝙾𝚅𝙰𝙽𝙸', true],
   ['5212412377467', '𝙾𝙵𝙲 𝚈𝙾𝚅𝙰𝙽𝙸', true],
 ]
 global.suittag =['5212412477467']
 global.mods = []
-global.prems = ['5212412474767'], 
+global.prems = ['522871500712'], 
 global.prems = ['5212412377467'],
 
 global.packname = '⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍'
