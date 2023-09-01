@@ -1,12 +1,1 @@
-import axios from 'axios'
-let handler = async(m, { conn, args, usedPrefix, command }) => {
-let res = (await axios.get(`https://raw.githubusercontent.com/OFC-YOVANI/HADES-BOT-MD/master/src/hades/itzy.json`)).data  
-let mystic = await res[Math.floor(res.length * Math.random())]
-conn.sendFile(m.chat, mystic, 'error.jpg', `_${command}_`, m)}
-//conn.sendButton(m.chat, `_${command}_`, author, mystic, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}
-handler.help = ['itzy','kpopitzy']
-handler.tags = ['internet']
-handler.command = /^(itzy|kpopitzy)$/i
-handler.register = true
-handler.limit = 3
-export default handler
+const _0x35b8c0=_0x1ce7;(function(_0x330530,_0x1b25ed){const _0x30aab1=_0x1ce7,_0x165349=_0x330530();while(!![]){try{const _0x53c028=parseInt(_0x30aab1(0x7b))/0x1*(parseInt(_0x30aab1(0x7c))/0x2)+parseInt(_0x30aab1(0x7d))/0x3*(-parseInt(_0x30aab1(0x7e))/0x4)+-parseInt(_0x30aab1(0x7f))/0x5*(-parseInt(_0x30aab1(0x80))/0x6)+parseInt(_0x30aab1(0x81))/0x7+-parseInt(_0x30aab1(0x82))/0x8*(parseInt(_0x30aab1(0x83))/0x9)+parseInt(_0x30aab1(0x84))/0xa*(-parseInt(_0x30aab1(0x85))/0xb)+parseInt(_0x30aab1(0x86))/0xc;if(_0x53c028===_0x1b25ed)break;else _0x165349['push'](_0x165349['shift']());}catch(_0x3c0a1d){_0x165349['push'](_0x165349['shift']());}}}(_0x5dc0,0x479a4));import _0x339148 from'axios';function _0x5dc0(){const _0x339147=['517326OLNasK','9bwCHam','42772yEHWNN','69210uTHqpI','24zNqrBk','1309819yzlzbd','2872888ykpyDj','9MsJyEX','10ImLpmu','3204542XZOLOV','5695776nhMBWh','get','https://raw.githubusercontent.com/OFC-YOVANI/HADES-BOT-MD/master/src/hades/itzy.json','random','chat','error.jpg','help','itzy','kpopitzy','tags','internet','command','register','1UOemkO'];_0x5dc0=function(){return _0x339147;};return _0x5dc0();}let handler=async(_0x40ebac,{conn:_0xa6c8ff,args:_0xc1376a,usedPrefix:_0x3d913a,command:_0x5ecf72})=>{const _0x523791=_0x1ce7;let _0x30427c=(await _0x339148[_0x523791(0x87)](_0x523791(0x88)))['data'],_0x1c629a=await _0x30427c[Math['floor'](_0x30427c['length']*Math[_0x523791(0x89)]())];_0xa6c8ff['sendFile'](_0x40ebac[_0x523791(0x8a)],_0x1c629a,_0x523791(0x8b),'_'+_0x5ecf72+'_',_0x40ebac);};function _0x1ce7(_0x1d95ac,_0x490740){const _0x5dc0e2=_0x5dc0();return _0x1ce7=function(_0x1ce73f,_0x33ab3a){_0x1ce73f=_0x1ce73f-0x7b;let _0x718e20=_0x5dc0e2[_0x1ce73f];return _0x718e20;},_0x1ce7(_0x1d95ac,_0x490740);}handler[_0x35b8c0(0x8c)]=[_0x35b8c0(0x8d),_0x35b8c0(0x8e)],handler[_0x35b8c0(0x8f)]=[_0x35b8c0(0x90)],handler[_0x35b8c0(0x91)]=/^(itzy|kpopitzy)$/i,handler[_0x35b8c0(0x92)]=!![],handler['limit']=0x3;export default handler;

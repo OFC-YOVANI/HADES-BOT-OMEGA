@@ -1,14 +1,1 @@
-let handler = async (m, { conn, text }) => {
-if (!text) throw 'No Text'
-conn.sendFile(m.chat, global.API('https://some-random-api.ml', '/canvas/youtube-comment', {
-avatar: await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png'),
-comment: text,
-username: conn.getName(m.sender)
-}), 'error.png', '*¡¡𝙶𝚁𝙰𝙲𝙸𝙰𝚂 𝙿𝙾𝚁 𝙲𝙾𝙼𝙴𝙽𝚃𝙰𝚁!!*', m)
-}
-handler.help = ['ytcomment <comment>']
-handler.tags = ['maker'] 
-handler.command = /^(ytcomment)$/i
-handler.register = true
-handler.limit = 1
-export default handler
+const _0x407375=_0x416c;(function(_0x299c4d,_0x314205){const _0x3809ba=_0x416c,_0x179892=_0x299c4d();while(!![]){try{const _0x1600bf=-parseInt(_0x3809ba(0x0))/0x1*(-parseInt(_0x3809ba(0x1))/0x2)+-parseInt(_0x3809ba(0x2))/0x3+-parseInt(_0x3809ba(0x3))/0x4+parseInt(_0x3809ba(0x4))/0x5*(-parseInt(_0x3809ba(0x5))/0x6)+parseInt(_0x3809ba(0x6))/0x7+-parseInt(_0x3809ba(0x7))/0x8*(parseInt(_0x3809ba(0x8))/0x9)+parseInt(_0x3809ba(0x9))/0xa;if(_0x1600bf===_0x314205)break;else _0x179892['push'](_0x179892['shift']());}catch(_0x482a56){_0x179892['push'](_0x179892['shift']());}}}(_0xd281,0xe476f));let handler=async(_0xfd0ffa,{conn:_0x5683e6,text:_0x5dcc71})=>{const _0x5da536=_0x416c;if(!_0x5dcc71)throw _0x5da536(0xa);_0x5683e6[_0x5da536(0xb)](_0xfd0ffa['chat'],global[_0x5da536(0xc)](_0x5da536(0xd),'/canvas/youtube-comment',{'avatar':await _0x5683e6['profilePictureUrl'](_0xfd0ffa[_0x5da536(0xe)],_0x5da536(0xf))[_0x5da536(0x10)](_0x5d4603=>_0x5da536(0x11)),'comment':_0x5dcc71,'username':_0x5683e6[_0x5da536(0x12)](_0xfd0ffa['sender'])}),'error.png','*¡¡𝙶𝚁𝙰𝙲𝙸𝙰𝚂\x20𝙿𝙾𝚁\x20𝙲𝙾𝙼𝙴𝙽𝚃𝙰𝚁!!*',_0xfd0ffa);};function _0x416c(_0x2a16a8,_0xd28187){const _0x416c17=_0xd281();return _0x416c=function(_0x55a5a5,_0x2eb1a6){_0x55a5a5=_0x55a5a5-0x0;let _0x4d2356=_0x416c17[_0x55a5a5];return _0x4d2356;},_0x416c(_0x2a16a8,_0xd28187);}handler['help']=['ytcomment\x20<comment>'],handler[_0x407375(0x13)]=[_0x407375(0x14)],handler['command']=/^(ytcomment)$/i,handler[_0x407375(0x15)]=!![],handler[_0x407375(0x16)]=0x1;export default handler;function _0xd281(){const _0x4ba4a5=['234cGSXmd','12584453BbkbpC','8cJlGoZ','11750175bZCDMD','37757480aVpJTo','No\x20Text','sendFile','API','https://some-random-api.ml','sender','image','catch','https://telegra.ph/file/24fa902ead26340f3df2c.png','getName','tags','maker','register','limit','379wMjxeM','218YLEOoT','4597611HIQIdV','3512256qaMDSt','123445cabRkE'];_0xd281=function(){return _0x4ba4a5;};return _0xd281();}

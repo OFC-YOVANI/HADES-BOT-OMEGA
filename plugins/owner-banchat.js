@@ -1,10 +1,1 @@
-let handler = async (m) => {
-global.db.data.chats[m.chat].isBanned = true
-m.reply('*│‼️│ 🗝️𝚎𝚜𝚝𝚎 𝚌𝚑𝚊𝚝 𝚋𝚊𝚗𝚎𝚊𝚍𝚘 𝚎𝚡𝚒𝚝𝚘𝚜𝚊𝚖𝚎𝚗𝚝𝚎🗝️*\n\n\n*│‼️│THIS CHAT WAS SUCCESSFULLY BANNED🗝*')
-}
-handler.help = ['banchat']
-handler.tags = ['owner']
-handler.command = /^banchat$/i
-handler.register = true
-handler.rowner = true
-export default handler
+const _0x2ec285=_0x3c76;(function(_0x187eed,_0x52c7eb){const _0x1902a1=_0x3c76,_0x40a227=_0x187eed();while(!![]){try{const _0x158803=-parseInt(_0x1902a1(0x0))/0x1+-parseInt(_0x1902a1(0x1))/0x2*(-parseInt(_0x1902a1(0x2))/0x3)+-parseInt(_0x1902a1(0x3))/0x4*(-parseInt(_0x1902a1(0x4))/0x5)+parseInt(_0x1902a1(0x5))/0x6+parseInt(_0x1902a1(0x6))/0x7*(-parseInt(_0x1902a1(0x7))/0x8)+parseInt(_0x1902a1(0x8))/0x9+-parseInt(_0x1902a1(0x9))/0xa*(parseInt(_0x1902a1(0xa))/0xb);if(_0x158803===_0x52c7eb)break;else _0x40a227['push'](_0x40a227['shift']());}catch(_0x4401f4){_0x40a227['push'](_0x40a227['shift']());}}}(_0x47c1,0xdb167));let handler=async _0x3b2034=>{const _0x1a452d=_0x3c76;global['db']['data'][_0x1a452d(0xb)][_0x3b2034['chat']][_0x1a452d(0xc)]=!![],_0x3b2034[_0x1a452d(0xd)]('*│‼️│\x20🗝️𝚎𝚜𝚝𝚎\x20𝚌𝚑𝚊𝚝\x20𝚋𝚊𝚗𝚎𝚊𝚍𝚘\x20𝚎𝚡𝚒𝚝𝚘𝚜𝚊𝚖𝚎𝚗𝚝𝚎🗝️*\x0a\x0a\x0a*│‼️│THIS\x20CHAT\x20WAS\x20SUCCESSFULLY\x20BANNED🗝*');};function _0x47c1(){const _0xcab99f=['11599299PdvyNN','1160610RcxkqF','33QZxjln','chats','isBanned','reply','help','banchat','tags','command','rowner','603015eUUjfg','206218VGAAwt','6SrEtTz','4vPFbFB','574975ZRzaZR','5975394nBsDTF','7GfNySV','6058736eMYlKD'];_0x47c1=function(){return _0xcab99f;};return _0x47c1();}function _0x3c76(_0x1826b0,_0x47c1af){const _0x3c7699=_0x47c1();return _0x3c76=function(_0x42eaba,_0x784ba6){_0x42eaba=_0x42eaba-0x0;let _0xfe6817=_0x3c7699[_0x42eaba];return _0xfe6817;},_0x3c76(_0x1826b0,_0x47c1af);}handler[_0x2ec285(0xe)]=[_0x2ec285(0xf)],handler[_0x2ec285(0x10)]=['owner'],handler[_0x2ec285(0x11)]=/^banchat$/i,handler['register']=!![],handler[_0x2ec285(0x12)]=!![];export default handler;

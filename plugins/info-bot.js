@@ -1,14 +1,1 @@
-import fs from "fs"
-let handler = m => m
-handler.all = async function (m) {
-let vn = './Audios/bot.mp3'
-let chat = global.db.data.chats[m.chat]
-if (/^bot$/i.test(m.text) && !chat.isBanned) { 
-conn.sendPresenceUpdate('recording', m.chat)   
-await m.reply(`*𝙷𝙾𝙻𝙰, ¿𝙲𝙾𝙼𝙾 𝚃𝙴 𝙿𝚄𝙴𝙳𝙾 𝙰𝚈𝚄𝙳𝙰𝚁?*\n\n *HELLO, ¿HOW CAN I HELP YOU?* `)
-conn.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', seconds: '4556', ptt: true }, { quoted: m })
-}
-return !0
-}
-handler.register = true
-export default handler
+const _0x524415=_0x1da9;(function(_0x3fbe83,_0x3e0d55){const _0x4bdded=_0x1da9,_0x4d268a=_0x3fbe83();while(!![]){try{const _0x3c0976=parseInt(_0x4bdded(0x0))/0x1*(-parseInt(_0x4bdded(0x1))/0x2)+parseInt(_0x4bdded(0x2))/0x3*(-parseInt(_0x4bdded(0x3))/0x4)+-parseInt(_0x4bdded(0x4))/0x5+-parseInt(_0x4bdded(0x5))/0x6+-parseInt(_0x4bdded(0x6))/0x7+parseInt(_0x4bdded(0x7))/0x8*(-parseInt(_0x4bdded(0x8))/0x9)+parseInt(_0x4bdded(0x9))/0xa;if(_0x3c0976===_0x3e0d55)break;else _0x4d268a['push'](_0x4d268a['shift']());}catch(_0x317f54){_0x4d268a['push'](_0x4d268a['shift']());}}}(_0xab48,0x90380));import _0x320d43 from'fs';function _0xab48(){const _0x1b04f4=['43642720dYyZaX','all','./Audios/bot.mp3','data','chat','text','isBanned','sendPresenceUpdate','recording','reply','*𝙷𝙾𝙻𝙰,\x20¿𝙲𝙾𝙼𝙾\x20𝚃𝙴\x20𝙿𝚄𝙴𝙳𝙾\x20𝙰𝚈𝚄𝙳𝙰𝚁?*\x0a\x0a\x20*HELLO,\x20¿HOW\x20CAN\x20I\x20HELP\x20YOU?*\x20','sendMessage','4556','5mxQRRf','425394hmgsIM','18MUBXFE','143812zrUtVs','3334570KvpCvZ','2837562UWIIAe','7135779yolZPG','392YMNMhE','61551rKTCzJ'];_0xab48=function(){return _0x1b04f4;};return _0xab48();}function _0x1da9(_0x15edbd,_0xab4845){const _0x1da9b8=_0xab48();return _0x1da9=function(_0x5b6943,_0x45b8e0){_0x5b6943=_0x5b6943-0x0;let _0x54d231=_0x1da9b8[_0x5b6943];return _0x54d231;},_0x1da9(_0x15edbd,_0xab4845);}let handler=_0x5ae05d=>_0x5ae05d;handler[_0x524415(0xa)]=async function(_0x42087c){const _0x59ea63=_0x524415;let _0x61b4cb=_0x59ea63(0xb),_0x2a63c5=global['db'][_0x59ea63(0xc)]['chats'][_0x42087c[_0x59ea63(0xd)]];return/^bot$/i['test'](_0x42087c[_0x59ea63(0xe)])&&!_0x2a63c5[_0x59ea63(0xf)]&&(conn[_0x59ea63(0x10)](_0x59ea63(0x11),_0x42087c[_0x59ea63(0xd)]),await _0x42087c[_0x59ea63(0x12)](_0x59ea63(0x13)),conn[_0x59ea63(0x14)](_0x42087c[_0x59ea63(0xd)],{'audio':{'url':_0x61b4cb},'fileName':'error.mp3','mimetype':'audio/mp4','seconds':_0x59ea63(0x15),'ptt':!![]},{'quoted':_0x42087c})),!0x0;},handler['register']=!![];export default handler;

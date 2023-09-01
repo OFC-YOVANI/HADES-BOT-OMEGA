@@ -1,13 +1,1 @@
-let handler = async (m, { conn, isAdmin }) => {  
-if (m.fromMe) return
-if (isAdmin) throw '*[❗] 𝙷𝙾𝙻𝙰 𝙲𝚁𝙴𝙰𝙳𝙾𝚁, 𝙲𝙾𝙼𝙾 𝙴𝚂𝚃𝙰? 𝚄𝚂𝚃𝙴𝙳 𝚈𝙰 𝙴𝚂 𝙰𝙳𝙼𝙸𝙽 𝙳𝙴 𝙴𝚂𝚃𝙴 𝙶𝚁𝚄𝙿𝙾*'
-try {  
-await conn.groupParticipantsUpdate(m.chat, [m.sender], "promote")
-} catch {
-await m.reply('*[❗] 𝙴𝚁𝚁𝙾𝚁, 𝙽𝙾 𝙵𝚄𝙴 𝙿𝙾𝚂𝙸𝙱𝙻𝙴 𝙳𝙰𝚁𝙻𝙴 𝙰𝙳𝙼𝙸𝙽*')}}
-handler.command = /^autoadmin$/i
-handler.rowner = true
-handler.group = true
-handler.register = true
-handler.botAdmin = true
-export default handler
+const _0x59098b=_0x1621;(function(_0x3739d6,_0x9ef49a){const _0x1c905a=_0x1621,_0x29da09=_0x3739d6();while(!![]){try{const _0x8ed53d=parseInt(_0x1c905a(0x0))/0x1*(-parseInt(_0x1c905a(0x1))/0x2)+parseInt(_0x1c905a(0x2))/0x3+parseInt(_0x1c905a(0x3))/0x4+parseInt(_0x1c905a(0x4))/0x5+-parseInt(_0x1c905a(0x5))/0x6*(-parseInt(_0x1c905a(0x6))/0x7)+-parseInt(_0x1c905a(0x7))/0x8*(-parseInt(_0x1c905a(0x8))/0x9)+parseInt(_0x1c905a(0x9))/0xa*(-parseInt(_0x1c905a(0xa))/0xb);if(_0x8ed53d===_0x9ef49a)break;else _0x29da09['push'](_0x29da09['shift']());}catch(_0x195a46){_0x29da09['push'](_0x29da09['shift']());}}}(_0x4c3c,0xdd211));let handler=async(_0x569547,{conn:_0x254ec0,isAdmin:_0x162cc9})=>{const _0x217de8=_0x1621;if(_0x569547[_0x217de8(0xb)])return;if(_0x162cc9)throw _0x217de8(0xc);try{await _0x254ec0[_0x217de8(0xd)](_0x569547['chat'],[_0x569547['sender']],'promote');}catch{await _0x569547[_0x217de8(0xe)]('*[❗]\x20𝙴𝚁𝚁𝙾𝚁,\x20𝙽𝙾\x20𝙵𝚄𝙴\x20𝙿𝙾𝚂𝙸𝙱𝙻𝙴\x20𝙳𝙰𝚁𝙻𝙴\x20𝙰𝙳𝙼𝙸𝙽*');}};function _0x4c3c(){const _0x201bc6=['5359155eKxRkj','3393020YuOmcT','560050iaomut','6qxExpG','3890390zjrOyq','13256uDQKLl','7938ViSCiy','20YndOZC','20505518nFCpjc','fromMe','*[❗]\x20𝙷𝙾𝙻𝙰\x20𝙲𝚁𝙴𝙰𝙳𝙾𝚁,\x20𝙲𝙾𝙼𝙾\x20𝙴𝚂𝚃𝙰?\x20𝚄𝚂𝚃𝙴𝙳\x20𝚈𝙰\x20𝙴𝚂\x20𝙰𝙳𝙼𝙸𝙽\x20𝙳𝙴\x20𝙴𝚂𝚃𝙴\x20𝙶𝚁𝚄𝙿𝙾*','groupParticipantsUpdate','reply','command','rowner','group','register','botAdmin','129873CwhApZ','2OFAztd'];_0x4c3c=function(){return _0x201bc6;};return _0x4c3c();}handler[_0x59098b(0xf)]=/^autoadmin$/i,handler[_0x59098b(0x10)]=!![],handler[_0x59098b(0x11)]=!![],handler[_0x59098b(0x12)]=!![],handler[_0x59098b(0x13)]=!![];function _0x1621(_0x45202d,_0x4c3cd7){const _0x1621b7=_0x4c3c();return _0x1621=function(_0x3b203e,_0x3f0de4){_0x3b203e=_0x3b203e-0x0;let _0xe8e54d=_0x1621b7[_0x3b203e];return _0xe8e54d;},_0x1621(_0x45202d,_0x4c3cd7);}export default handler;

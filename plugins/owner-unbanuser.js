@@ -1,16 +1,1 @@
-let handler = async (m, { conn, text}) => {
-if (!text) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙰 𝙴𝙻 @𝚝𝚊𝚐 𝙳𝙴 𝙰𝙻𝙶𝚄𝙽 𝚄𝚂𝚄𝙰𝚁𝙸𝙾*\n\n\n*[❗𝐈𝐍𝐅𝐎❗]ENTER THE @tag OF SOME USER*'
-let who
-if (m.isGroup) who = m.mentionedJid[0]
-else who = m.chat
-if (!who) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙰 𝙴𝙻 @𝚝𝚊𝚐 𝙳𝙴 𝙰𝙻𝙶𝚄𝙽 𝚄𝚂𝚄𝙰𝚁𝙸𝙾*\n\n\n*[❗𝐈𝐍𝐅𝐎❗]ENTER THE @tag OF SOME USER*'
-let users = global.db.data.users
-users[who].banned = false
-conn.reply(m.chat, `*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙵𝚄𝙴 𝙳𝙴𝚂𝙱𝙰𝙽𝙴𝙰𝙳𝙾 𝙲𝙾𝙽 𝙴𝚇𝙸𝚃𝙾*\n*—◉ 𝙴𝙻 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝚈𝙰 𝙿𝚄𝙴𝙳𝙴 𝚄𝚂𝙰𝚁 𝙴𝙻 𝙱𝙾𝚃*\n\n\n*[❗𝐈𝐍𝐅𝐎❗]THE USER WAS SUCCESSFULLY FADED\n THE USER CAN NOW USE THE BOT*`, m)
-}
-handler.help = ['unbanuser']
-handler.tags = ['owner']
-handler.command = /^unbanuser$/i
-handler.rowner = true
-handler.register = true
-export default handler
+const _0x291e33=_0x2aac;(function(_0x39b7f2,_0x385442){const _0x5e57b0=_0x2aac,_0x8a5297=_0x39b7f2();while(!![]){try{const _0xe2e22a=-parseInt(_0x5e57b0(0x0))/0x1*(parseInt(_0x5e57b0(0x1))/0x2)+parseInt(_0x5e57b0(0x2))/0x3+parseInt(_0x5e57b0(0x3))/0x4+-parseInt(_0x5e57b0(0x4))/0x5+-parseInt(_0x5e57b0(0x5))/0x6+parseInt(_0x5e57b0(0x6))/0x7*(parseInt(_0x5e57b0(0x7))/0x8)+parseInt(_0x5e57b0(0x8))/0x9;if(_0xe2e22a===_0x385442)break;else _0x8a5297['push'](_0x8a5297['shift']());}catch(_0xdb078){_0x8a5297['push'](_0x8a5297['shift']());}}}(_0x5a0c,0x6c279));let handler=async(_0x1892d2,{conn:_0x21ecdc,text:_0x4e295e})=>{const _0xd47a27=_0x2aac;if(!_0x4e295e)throw'*[❗𝐈𝐍𝐅𝐎❗]\x20𝙸𝙽𝙶𝚁𝙴𝚂𝙰\x20𝙴𝙻\x20@𝚝𝚊𝚐\x20𝙳𝙴\x20𝙰𝙻𝙶𝚄𝙽\x20𝚄𝚂𝚄𝙰𝚁𝙸𝙾*\x0a\x0a\x0a*[❗𝐈𝐍𝐅𝐎❗]ENTER\x20THE\x20@tag\x20OF\x20SOME\x20USER*';let _0x47bab2;if(_0x1892d2['isGroup'])_0x47bab2=_0x1892d2['mentionedJid'][0x0];else _0x47bab2=_0x1892d2[_0xd47a27(0x9)];if(!_0x47bab2)throw _0xd47a27(0xa);let _0xd591ff=global['db']['data'][_0xd47a27(0xb)];_0xd591ff[_0x47bab2][_0xd47a27(0xc)]=![],_0x21ecdc[_0xd47a27(0xd)](_0x1892d2[_0xd47a27(0x9)],'*[❗𝐈𝐍𝐅𝐎❗]\x20𝙴𝙻\x20𝚄𝚂𝚄𝙰𝚁𝙸𝙾\x20𝙵𝚄𝙴\x20𝙳𝙴𝚂𝙱𝙰𝙽𝙴𝙰𝙳𝙾\x20𝙲𝙾𝙽\x20𝙴𝚇𝙸𝚃𝙾*\x0a*—◉\x20𝙴𝙻\x20𝚄𝚂𝚄𝙰𝚁𝙸𝙾\x20𝚈𝙰\x20𝙿𝚄𝙴𝙳𝙴\x20𝚄𝚂𝙰𝚁\x20𝙴𝙻\x20𝙱𝙾𝚃*\x0a\x0a\x0a*[❗𝐈𝐍𝐅𝐎❗]THE\x20USER\x20WAS\x20SUCCESSFULLY\x20FADED\x0a\x20THE\x20USER\x20CAN\x20NOW\x20USE\x20THE\x20BOT*',_0x1892d2);};handler[_0x291e33(0xe)]=['unbanuser'],handler[_0x291e33(0xf)]=[_0x291e33(0x10)],handler[_0x291e33(0x11)]=/^unbanuser$/i,handler[_0x291e33(0x12)]=!![],handler[_0x291e33(0x13)]=!![];function _0x2aac(_0x4760d0,_0x5a0c3f){const _0x2aac4e=_0x5a0c();return _0x2aac=function(_0x32da03,_0x17cca0){_0x32da03=_0x32da03-0x0;let _0x15bb88=_0x2aac4e[_0x32da03];return _0x15bb88;},_0x2aac(_0x4760d0,_0x5a0c3f);}function _0x5a0c(){const _0x4477ef=['94027SNEwNL','14hluQlN','1780110ocpgRn','2189828dlMKbJ','838425DQtXHK','3575442CvMDHh','7CcCwoj','2482768rmugbB','3722481pfDpGD','chat','*[❗𝐈𝐍𝐅𝐎❗]\x20𝙸𝙽𝙶𝚁𝙴𝚂𝙰\x20𝙴𝙻\x20@𝚝𝚊𝚐\x20𝙳𝙴\x20𝙰𝙻𝙶𝚄𝙽\x20𝚄𝚂𝚄𝙰𝚁𝙸𝙾*\x0a\x0a\x0a*[❗𝐈𝐍𝐅𝐎❗]ENTER\x20THE\x20@tag\x20OF\x20SOME\x20USER*','users','banned','reply','help','tags','owner','command','rowner','register'];_0x5a0c=function(){return _0x4477ef;};return _0x5a0c();}export default handler;

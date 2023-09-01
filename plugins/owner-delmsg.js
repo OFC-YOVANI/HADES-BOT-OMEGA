@@ -1,14 +1,1 @@
-let handler = async (m, { command, usedPrefix, text }) => {
-let which = command.replace(/eliminar/i, '')
-if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝚄𝚂𝙰𝚁 ${usedPrefix}list${which} 𝙿𝙰𝚁𝙰 𝚅𝙴𝚁 𝙻𝙰 𝙻𝙸𝚂𝚃𝙰*`
-let msgs = global.db.data.msgs
-if (!text in msgs) throw `*[❗𝐈𝐍𝐅𝐎❗] '${text}' 𝙽𝙾 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙰𝙳𝙾 𝙴𝙽 𝙻𝙰 𝙻𝙸𝚂𝚃𝙰 𝙳𝙴 𝙼𝙴𝙽𝚂𝙰𝙹𝙴𝚂*`
-delete msgs[text]
-m.reply(`*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻𝙸𝙼𝙸𝙽𝙾 𝙲𝙾𝙽 𝙴𝚇𝙸𝚃𝙾 𝙴𝙽 𝙻𝙰 𝙻𝙸𝚂𝚃𝙰 𝙳𝙴 𝙼𝙴𝙽𝚂𝙰𝙹𝙴𝚂 𝙴𝙻 𝙼𝙴𝙽𝚂𝙰𝙹𝙴 𝙲𝙾𝙽 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 '${text}'*`)
-}
-handler.help = ['vn', 'msg', 'video', 'audio', 'img', 'sticker'].map(v => 'del' + v + ' <text>')
-handler.tags = ['database']
-handler.command = /^eliminar(vn|msg|video|audio|img|sticker)$/
-handler.rowner = true
-handler.register = true
-export default handler
+const _0x572482=_0x3d1e;(function(_0x5f40e2,_0x24f54a){const _0x1d6d93=_0x3d1e,_0x470389=_0x5f40e2();while(!![]){try{const _0x5dee28=-parseInt(_0x1d6d93(0x0))/0x1+-parseInt(_0x1d6d93(0x1))/0x2*(parseInt(_0x1d6d93(0x2))/0x3)+-parseInt(_0x1d6d93(0x3))/0x4*(parseInt(_0x1d6d93(0x4))/0x5)+-parseInt(_0x1d6d93(0x5))/0x6+parseInt(_0x1d6d93(0x6))/0x7*(parseInt(_0x1d6d93(0x7))/0x8)+parseInt(_0x1d6d93(0x8))/0x9*(parseInt(_0x1d6d93(0x9))/0xa)+parseInt(_0x1d6d93(0xa))/0xb;if(_0x5dee28===_0x24f54a)break;else _0x470389['push'](_0x470389['shift']());}catch(_0x248d2e){_0x470389['push'](_0x470389['shift']());}}}(_0x54ab,0xb041d));function _0x3d1e(_0x7c5fc,_0x54ab85){const _0x3d1eaa=_0x54ab();return _0x3d1e=function(_0x1b3eee,_0x4f1793){_0x1b3eee=_0x1b3eee-0x0;let _0x3df954=_0x3d1eaa[_0x1b3eee];return _0x3df954;},_0x3d1e(_0x7c5fc,_0x54ab85);}function _0x54ab(){const _0x5a2540=['img','sticker','map','del','\x20<text>','tags','rowner','49760fXYLCO','525446nYwrFH','12EJPZWq','92ohRwDY','287870BWFVFF','3162114hRBDFU','231wrxeuN','281968BiucLO','63NLOIyN','1331910kTyOBp','17362037MtLdrI','*[❗𝐈𝐍𝐅𝐎❗]\x20𝚄𝚂𝙰𝚁\x20','list','\x20𝙿𝙰𝚁𝙰\x20𝚅𝙴𝚁\x20𝙻𝙰\x20𝙻𝙸𝚂𝚃𝙰*','*[❗𝐈𝐍𝐅𝐎❗]\x20\x27','\x27\x20𝙽𝙾\x20𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙰𝙳𝙾\x20𝙴𝙽\x20𝙻𝙰\x20𝙻𝙸𝚂𝚃𝙰\x20𝙳𝙴\x20𝙼𝙴𝙽𝚂𝙰𝙹𝙴𝚂*','reply','*[❗𝐈𝐍𝐅𝐎❗]\x20𝙴𝙻𝙸𝙼𝙸𝙽𝙾\x20𝙲𝙾𝙽\x20𝙴𝚇𝙸𝚃𝙾\x20𝙴𝙽\x20𝙻𝙰\x20𝙻𝙸𝚂𝚃𝙰\x20𝙳𝙴\x20𝙼𝙴𝙽𝚂𝙰𝙹𝙴𝚂\x20𝙴𝙻\x20𝙼𝙴𝙽𝚂𝙰𝙹𝙴\x20𝙲𝙾𝙽\x20𝙴𝙻\x20𝙽𝙾𝙼𝙱𝚁𝙴\x20\x27','help','video','audio'];_0x54ab=function(){return _0x5a2540;};return _0x54ab();}let handler=async(_0x2257b5,{command:_0x207543,usedPrefix:_0x16fa16,text:_0x52807a})=>{const _0x4690c3=_0x3d1e;let _0x1b7ec4=_0x207543['replace'](/eliminar/i,'');if(!_0x52807a)throw _0x4690c3(0xb)+_0x16fa16+_0x4690c3(0xc)+_0x1b7ec4+_0x4690c3(0xd);let _0x4a5db5=global['db']['data']['msgs'];if(!_0x52807a in _0x4a5db5)throw _0x4690c3(0xe)+_0x52807a+_0x4690c3(0xf);delete _0x4a5db5[_0x52807a],_0x2257b5[_0x4690c3(0x10)](_0x4690c3(0x11)+_0x52807a+'\x27*');};handler[_0x572482(0x12)]=['vn','msg',_0x572482(0x13),_0x572482(0x14),_0x572482(0x15),_0x572482(0x16)][_0x572482(0x17)](_0xcbcff2=>_0x572482(0x18)+_0xcbcff2+_0x572482(0x19)),handler[_0x572482(0x1a)]=['database'],handler['command']=/^eliminar(vn|msg|video|audio|img|sticker)$/,handler[_0x572482(0x1b)]=!![],handler['register']=!![];export default handler;
