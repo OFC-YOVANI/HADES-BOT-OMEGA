@@ -1,16 +1,1 @@
-import { webp2png } from '../lib/webp2mp4.js'
-let handler = async (m, { conn, usedPrefix, command }) => {
-const notStickerMessage = `*[❗𝐈𝐍𝐅𝐎❗] 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙰 𝙰𝙻 𝚂𝚃𝙸𝙲𝙺𝙴𝚁 𝚀𝚄𝙴 𝙳𝙴𝚂𝙴𝙴 𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙸𝚁 𝙴𝙽 𝙸𝙼𝙰𝙶𝙴𝙽 𝙲𝙾𝙽 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 ${usedPrefix + command}*\n\n\n*[❗𝐈𝐍𝐅𝐎❗]*REPLY TO THE STICKER YOU WANT TO TURN INTO AN IMAGE WITH THE COMMAND**${usedPrefix + command}*`
-if (!m.quoted) throw notStickerMessage
-const q = m.quoted || m
-let mime = q.mediaType || ''
-if (!/sticker/.test(mime)) throw notStickerMessage
-let media = await q.download()
-let out = await webp2png(media).catch(_ => null) || Buffer.alloc(0)
-await conn.sendFile(m.chat, out, 'error.png', null, m)
-}
-handler.help = ['toimg (reply)']
-handler.tags = ['sticker']
-handler.command = ['toimg', 'jpg', 'img']
-handler.register = true
-export default handler
+const _0x3b7ac5=_0x2937;(function(_0x3c7bb3,_0x1ea4e8){const _0x362964=_0x2937,_0x313e5b=_0x3c7bb3();while(!![]){try{const _0x3e686c=parseInt(_0x362964(0xf9))/0x1+-parseInt(_0x362964(0xfa))/0x2*(-parseInt(_0x362964(0xfb))/0x3)+-parseInt(_0x362964(0xfc))/0x4+-parseInt(_0x362964(0xfd))/0x5+parseInt(_0x362964(0xfe))/0x6*(-parseInt(_0x362964(0xff))/0x7)+parseInt(_0x362964(0x100))/0x8*(-parseInt(_0x362964(0x101))/0x9)+-parseInt(_0x362964(0x102))/0xa*(-parseInt(_0x362964(0x103))/0xb);if(_0x3e686c===_0x1ea4e8)break;else _0x313e5b['push'](_0x313e5b['shift']());}catch(_0x537218){_0x313e5b['push'](_0x313e5b['shift']());}}}(_0x1f01,0x38812));function _0x1f01(){const _0x2abdce=['jpg','img','register','440868iJqVLJ','82fpjnbW','24306tHIYKP','586840eqskjt','2283090oSVGZm','10722eexmKN','903pHhnDx','115936YCapDs','99fTufMb','8770HnhUyp','5665ubJiGK','*[❗𝐈𝐍𝐅𝐎❗]\x20𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙰\x20𝙰𝙻\x20𝚂𝚃𝙸𝙲𝙺𝙴𝚁\x20𝚀𝚄𝙴\x20𝙳𝙴𝚂𝙴𝙴\x20𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙸𝚁\x20𝙴𝙽\x20𝙸𝙼𝙰𝙶𝙴𝙽\x20𝙲𝙾𝙽\x20𝙴𝙻\x20𝙲𝙾𝙼𝙰𝙽𝙳𝙾\x20','*\x0a\x0a\x0a*[❗𝐈𝐍𝐅𝐎❗]*REPLY\x20TO\x20THE\x20STICKER\x20YOU\x20WANT\x20TO\x20TURN\x20INTO\x20AN\x20IMAGE\x20WITH\x20THE\x20COMMAND**','quoted','mediaType','test','catch','alloc','sendFile','chat','error.png','toimg\x20(reply)','sticker'];_0x1f01=function(){return _0x2abdce;};return _0x1f01();}import{webp2png}from'../lib/webp2mp4.js';let handler=async(_0x1df80b,{conn:_0x5d7995,usedPrefix:_0x3a4a26,command:_0x13e411})=>{const _0x328fbc=_0x2937,_0xac6af6=_0x328fbc(0x104)+(_0x3a4a26+_0x13e411)+_0x328fbc(0x105)+(_0x3a4a26+_0x13e411)+'*';if(!_0x1df80b[_0x328fbc(0x106)])throw _0xac6af6;const _0x57c1cb=_0x1df80b['quoted']||_0x1df80b;let _0x43b64a=_0x57c1cb[_0x328fbc(0x107)]||'';if(!/sticker/[_0x328fbc(0x108)](_0x43b64a))throw _0xac6af6;let _0x57a49d=await _0x57c1cb['download'](),_0x55b87f=await webp2png(_0x57a49d)[_0x328fbc(0x109)](_0x1fe2b0=>null)||Buffer[_0x328fbc(0x10a)](0x0);await _0x5d7995[_0x328fbc(0x10b)](_0x1df80b[_0x328fbc(0x10c)],_0x55b87f,_0x328fbc(0x10d),null,_0x1df80b);};handler['help']=[_0x3b7ac5(0x10e)],handler['tags']=[_0x3b7ac5(0x10f)],handler['command']=['toimg',_0x3b7ac5(0x110),_0x3b7ac5(0x111)],handler[_0x3b7ac5(0x112)]=!![];function _0x2937(_0x212a66,_0x4058ec){const _0x1f01e9=_0x1f01();return _0x2937=function(_0x293790,_0x2fa6b4){_0x293790=_0x293790-0xf9;let _0x2cfdfb=_0x1f01e9[_0x293790];return _0x2cfdfb;},_0x2937(_0x212a66,_0x4058ec);}export default handler;

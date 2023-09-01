@@ -1,12 +1,1 @@
-let handler = async (m, { conn, args }) => {
-await conn.groupUpdateDescription(m.chat, `${args.join(" ")}`);
-m.reply('*✅ La descripción del grupo se modifico correctamente*\n\n\n*✅ The description of the group was modified correctly*')
-}
-handler.help = ['Setdesc <text>']
-handler.tags = ['group']
-handler.command = /^setdesk|setdesc$/i
-handler.group = true
-handler.register = true
-handler.admin = true
-handler.botAdmin = true
-export default handler
+const _0x110490=_0x251f;(function(_0x1bb000,_0x5754de){const _0x17ef13=_0x251f,_0x1264c0=_0x1bb000();while(!![]){try{const _0x5d70af=-parseInt(_0x17ef13(0x0))/0x1*(-parseInt(_0x17ef13(0x1))/0x2)+-parseInt(_0x17ef13(0x2))/0x3*(-parseInt(_0x17ef13(0x3))/0x4)+parseInt(_0x17ef13(0x4))/0x5*(-parseInt(_0x17ef13(0x5))/0x6)+parseInt(_0x17ef13(0x6))/0x7*(-parseInt(_0x17ef13(0x7))/0x8)+parseInt(_0x17ef13(0x8))/0x9*(-parseInt(_0x17ef13(0x9))/0xa)+parseInt(_0x17ef13(0xa))/0xb*(parseInt(_0x17ef13(0xb))/0xc)+parseInt(_0x17ef13(0xc))/0xd*(-parseInt(_0x17ef13(0xd))/0xe);if(_0x5d70af===_0x5754de)break;else _0x1264c0['push'](_0x1264c0['shift']());}catch(_0x57bf3a){_0x1264c0['push'](_0x1264c0['shift']());}}}(_0x2c9e,0x8c342));function _0x251f(_0x2dc45e,_0x2c9ea8){const _0x251f98=_0x2c9e();return _0x251f=function(_0x1f0bd0,_0xf21ee7){_0x1f0bd0=_0x1f0bd0-0x0;let _0x2ef6e2=_0x251f98[_0x1f0bd0];return _0x2ef6e2;},_0x251f(_0x2dc45e,_0x2c9ea8);}function _0x2c9e(){const _0x1c0bfc=['2861076Olabsu','35zgnWIe','1043848vWkWFF','5774751XgUXlD','10WrFPyX','11tWjPgT','12928392dYRhud','3659682qoRiEm','42ZYodGc','groupUpdateDescription','chat','reply','*✅\x20La\x20descripción\x20del\x20grupo\x20se\x20modifico\x20correctamente*\x0a\x0a\x0a*✅\x20The\x20description\x20of\x20the\x20group\x20was\x20modified\x20correctly*','help','Setdesc\x20<text>','tags','group','command','register','admin','botAdmin','7sTpmHr','309158gZZvcX','65763ZfcYAc','188sfaAIj','5iQMYRV'];_0x2c9e=function(){return _0x1c0bfc;};return _0x2c9e();}let handler=async(_0x5d3641,{conn:_0x31ff72,args:_0x62a328})=>{const _0x304701=_0x251f;await _0x31ff72[_0x304701(0xe)](_0x5d3641[_0x304701(0xf)],''+_0x62a328['join']('\x20')),_0x5d3641[_0x304701(0x10)](_0x304701(0x11));};handler[_0x110490(0x12)]=[_0x110490(0x13)],handler[_0x110490(0x14)]=[_0x110490(0x15)],handler[_0x110490(0x16)]=/^setdesk|setdesc$/i,handler[_0x110490(0x15)]=!![],handler[_0x110490(0x17)]=!![],handler[_0x110490(0x18)]=!![],handler[_0x110490(0x19)]=!![];export default handler;

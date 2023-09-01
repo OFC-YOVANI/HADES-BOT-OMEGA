@@ -1,17 +1,1 @@
-let handler = async (m, { conn, isOwner }) => {
-let adv = Object.entries(global.db.data.users).filter(user => user[1].warn)
-let warns = global.db.data.users.warn
-let user = global.db.data.users
-let imagewarn = './src/warn.jpg'
-let caption = `⚠️ 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂 𝙰𝙳𝚅𝙴𝚁𝚃𝙸𝙳𝙾𝚂\n 
-*╔═══════════════════·•*
-║ *Total : ${adv.length} Usuarios* ${adv ? '\n' + adv.map(([jid, user], i) => `
-║
-║ 1.- ${isOwner ? '@' + jid.split`@`[0] : jid} *(${user.warn}/3)*\n║\n║ - - - - - - - - -`.trim()).join('\n') : ''}
-*╚═══════════════════·•*`
-await conn.sendButton(m.chat, caption, wm, imagewarn, [['𝐌 𝐄 𝐍 𝐔 🌠', '#menu']], m, {mentions: await conn.parseMention(caption)})}
-handler.command = /^(listwarn)$/i 
-handler.group = true
-handler.admin = true
-handler.register = true
-export default handler
+const _0x380c7c=_0x4ee4;(function(_0x3fd153,_0x4d6acc){const _0x27a277=_0x4ee4,_0x1aa104=_0x3fd153();while(!![]){try{const _0x4e3183=-parseInt(_0x27a277(0x0))/0x1+-parseInt(_0x27a277(0x1))/0x2+parseInt(_0x27a277(0x2))/0x3+parseInt(_0x27a277(0x3))/0x4+parseInt(_0x27a277(0x4))/0x5+parseInt(_0x27a277(0x5))/0x6+-parseInt(_0x27a277(0x6))/0x7;if(_0x4e3183===_0x4d6acc)break;else _0x1aa104['push'](_0x1aa104['shift']());}catch(_0x4431be){_0x1aa104['push'](_0x1aa104['shift']());}}}(_0x3004,0x52441));function _0x4ee4(_0x1543e3,_0x300441){const _0x4ee465=_0x3004();return _0x4ee4=function(_0x364cc5,_0x17b5bd){_0x364cc5=_0x364cc5-0x0;let _0x517b61=_0x4ee465[_0x364cc5];return _0x517b61;},_0x4ee4(_0x1543e3,_0x300441);}function _0x3004(){const _0x5761af=['\x0a*╚═══════════════════·•*','chat','#menu','command','admin','455887yTetfO','948400cwqONU','1187109kuOxOP','972592TmFQck','3015390RfqTna','3467772OLCLsd','3869901YOvwHH','data','users','filter','warn','./src/warn.jpg','⚠️\x20𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂\x20𝙰𝙳𝚅𝙴𝚁𝚃𝙸𝙳𝙾𝚂\x0a\x20\x0a*╔═══════════════════·•*\x0a║\x20*Total\x20:\x20','length','\x20Usuarios*\x20','map','split','\x20*(','/3)*\x0a║\x0a║\x20-\x20-\x20-\x20-\x20-\x20-\x20-\x20-\x20-','trim','join'];_0x3004=function(){return _0x5761af;};return _0x3004();}let handler=async(_0x2890df,{conn:_0x2aacf9,isOwner:_0x12c62b})=>{const _0x398d13=_0x4ee4;let _0x4125f4=Object['entries'](global['db'][_0x398d13(0x7)][_0x398d13(0x8)])[_0x398d13(0x9)](_0x1a9b3b=>_0x1a9b3b[0x1]['warn']),_0x3bfac7=global['db'][_0x398d13(0x7)][_0x398d13(0x8)][_0x398d13(0xa)],_0x34ef85=global['db'][_0x398d13(0x7)][_0x398d13(0x8)],_0x41d89b=_0x398d13(0xb),_0x530ddb=_0x398d13(0xc)+_0x4125f4[_0x398d13(0xd)]+_0x398d13(0xe)+(_0x4125f4?'\x0a'+_0x4125f4[_0x398d13(0xf)](([_0x1954f9,_0xee3ae9],_0x3152e1)=>('\x0a║\x0a║\x201.-\x20'+(_0x12c62b?'@'+_0x1954f9[_0x398d13(0x10)]`@`[0x0]:_0x1954f9)+_0x398d13(0x11)+_0xee3ae9[_0x398d13(0xa)]+_0x398d13(0x12))[_0x398d13(0x13)]())[_0x398d13(0x14)]('\x0a'):'')+_0x398d13(0x15);await _0x2aacf9['sendButton'](_0x2890df[_0x398d13(0x16)],_0x530ddb,wm,_0x41d89b,[['𝐌\x20𝐄\x20𝐍\x20𝐔\x20🌠',_0x398d13(0x17)]],_0x2890df,{'mentions':await _0x2aacf9['parseMention'](_0x530ddb)});};handler[_0x380c7c(0x18)]=/^(listwarn)$/i,handler['group']=!![],handler[_0x380c7c(0x19)]=!![],handler['register']=!![];export default handler;

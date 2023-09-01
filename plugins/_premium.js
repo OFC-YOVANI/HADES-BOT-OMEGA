@@ -1,16 +1,1 @@
-let handler = m => m
-
-export async function all(m) {
-    for (const user of Object.values(global.db.data.users)) {
-        if (user.premiumTime != 0 && user.premium) {
-            if (new Date() * 1 >= user.premiumTime) {
-                user.premiumTime = 0
-                user.premium = false
-                let JID = Object.keys(global.db.data.users).find(key => global.db.data.users[key] === user)
-                let usuarioJid = JID.split`@`[0]
-                let textoo = `*[❗] @${usuarioJid} 𝚃𝚄 𝚃𝙸𝙴𝙼𝙿𝙾 𝙲𝙾𝙼𝙾 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙿𝚁𝙴𝙼𝙸𝚄𝙼 𝙷𝙰 𝙴𝚇𝙿𝙸𝚁𝙰𝙳𝙾, 𝚈𝙰 𝙽𝙾 𝙴𝚁𝙴𝚂 𝚄𝙽 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙿𝚁𝙴𝙼𝙸𝚄𝙼*`
-                await this.sendMessage(JID, { text: textoo, mentions: [JID] }, { quoted: ''})
-            }
-        }
-    }
-}
+(function(_0x2ed65e,_0x36d51b){const _0x46fb9c=_0x4a7e,_0x318e75=_0x2ed65e();while(!![]){try{const _0x534cf9=parseInt(_0x46fb9c(0xa3))/0x1+-parseInt(_0x46fb9c(0xa4))/0x2*(-parseInt(_0x46fb9c(0xa5))/0x3)+-parseInt(_0x46fb9c(0xa6))/0x4*(-parseInt(_0x46fb9c(0xa7))/0x5)+parseInt(_0x46fb9c(0xa8))/0x6+-parseInt(_0x46fb9c(0xa9))/0x7+-parseInt(_0x46fb9c(0xaa))/0x8+parseInt(_0x46fb9c(0xab))/0x9*(-parseInt(_0x46fb9c(0xac))/0xa);if(_0x534cf9===_0x36d51b)break;else _0x318e75['push'](_0x318e75['shift']());}catch(_0x280b28){_0x318e75['push'](_0x318e75['shift']());}}}(_0x3850,0x2a7d2));function _0x4a7e(_0xd0ef82,_0x25353e){const _0x38503d=_0x3850();return _0x4a7e=function(_0x4a7ebf,_0x27d69b){_0x4a7ebf=_0x4a7ebf-0xa3;let _0xf37405=_0x38503d[_0x4a7ebf];return _0xf37405;},_0x4a7e(_0xd0ef82,_0x25353e);}function _0x3850(){const _0x4f3ad0=['premium','keys','find','split','*[❗]\x20@','sendMessage','254007eUlHER','24SyIfWp','27522mpjehO','36UsmSgD','101725pbpFcx','1339650eucGHm','891373UrieOO','2697120glJMBH','9yQdgRD','1319620vYIzmI','values','data','users','premiumTime'];_0x3850=function(){return _0x4f3ad0;};return _0x3850();}let handler=_0x3668fe=>_0x3668fe;export async function all(_0x4962e1){const _0x652dcc=_0x4a7e;for(const _0x226557 of Object[_0x652dcc(0xad)](global['db'][_0x652dcc(0xae)][_0x652dcc(0xaf)])){if(_0x226557['premiumTime']!=0x0&&_0x226557['premium']){if(new Date()*0x1>=_0x226557[_0x652dcc(0xb0)]){_0x226557[_0x652dcc(0xb0)]=0x0,_0x226557[_0x652dcc(0xb1)]=![];let _0x3a4a33=Object[_0x652dcc(0xb2)](global['db'][_0x652dcc(0xae)][_0x652dcc(0xaf)])[_0x652dcc(0xb3)](_0x45a891=>global['db'][_0x652dcc(0xae)][_0x652dcc(0xaf)][_0x45a891]===_0x226557),_0x545548=_0x3a4a33[_0x652dcc(0xb4)]`@`[0x0],_0x27a787=_0x652dcc(0xb5)+_0x545548+'\x20𝚃𝚄\x20𝚃𝙸𝙴𝙼𝙿𝙾\x20𝙲𝙾𝙼𝙾\x20𝚄𝚂𝚄𝙰𝚁𝙸𝙾\x20𝙿𝚁𝙴𝙼𝙸𝚄𝙼\x20𝙷𝙰\x20𝙴𝚇𝙿𝙸𝚁𝙰𝙳𝙾,\x20𝚈𝙰\x20𝙽𝙾\x20𝙴𝚁𝙴𝚂\x20𝚄𝙽\x20𝚄𝚂𝚄𝙰𝚁𝙸𝙾\x20𝙿𝚁𝙴𝙼𝙸𝚄𝙼*';await this[_0x652dcc(0xb6)](_0x3a4a33,{'text':_0x27a787,'mentions':[_0x3a4a33]},{'quoted':''});}}}}

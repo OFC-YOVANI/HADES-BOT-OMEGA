@@ -1,14 +1,1 @@
-let handler = async (m, { conn, usedPrefix, command }) => {
-let q = m.quoted ? m.quoted : m
-let mime = (q.msg || q).mimetype || q.mediaType || ''
-if (/image/.test(mime)) {
-let img = await q.download()
-if (!img) throw '*⚠️️ Responde a una imagen.*\n\n*⚠️️ Respond to an image.*'
-await conn.updateProfilePicture(m.chat, img).then(_ => m.reply('⚘ *_Imagen actualizada con éxito._*\n\n⚘ *_Image updated successfully._*'))
-} else throw '*⚠️️ Responde a una imagen.*\n\n*⚠️️ Respond to an image.*'}
-handler.command = /^setpp(group|grup|gc)?$/i
-handler.group = true
-handler.admin = true
-handler.botAdmin = true
-handler.register = true
-export default handler
+const _0x400086=_0x30b3;function _0x30b3(_0x52d987,_0x478551){const _0x30b354=_0x4785();return _0x30b3=function(_0xd9458a,_0x5943ac){_0xd9458a=_0xd9458a-0x0;let _0x4ddb17=_0x30b354[_0xd9458a];return _0x4ddb17;},_0x30b3(_0x52d987,_0x478551);}function _0x4785(){const _0xdc8d0e=['mediaType','test','download','*⚠️️\x20Responde\x20a\x20una\x20imagen.*\x0a\x0a*⚠️️\x20Respond\x20to\x20an\x20image.*','chat','reply','⚘\x20*_Imagen\x20actualizada\x20con\x20éxito._*\x0a\x0a⚘\x20*_Image\x20updated\x20successfully._*','command','group','admin','botAdmin','727083pMAKLs','192670dhNuQd','701037RYNakN','16Uqigoh','3924075DUNset','3896940ZnZRja','344260CqvTRo','9059752pBxuqO','quoted','mimetype'];_0x4785=function(){return _0xdc8d0e;};return _0x4785();}(function(_0x41eb66,_0x339e58){const _0x290908=_0x30b3,_0x3ac359=_0x41eb66();while(!![]){try{const _0x3b056e=-parseInt(_0x290908(0x0))/0x1+-parseInt(_0x290908(0x1))/0x2+-parseInt(_0x290908(0x2))/0x3*(parseInt(_0x290908(0x3))/0x4)+parseInt(_0x290908(0x4))/0x5+parseInt(_0x290908(0x5))/0x6+-parseInt(_0x290908(0x6))/0x7+parseInt(_0x290908(0x7))/0x8;if(_0x3b056e===_0x339e58)break;else _0x3ac359['push'](_0x3ac359['shift']());}catch(_0x22d1e2){_0x3ac359['push'](_0x3ac359['shift']());}}}(_0x4785,0xb96a4));let handler=async(_0x3c6ee0,{conn:_0x388609,usedPrefix:_0x10e1dc,command:_0x3d6b36})=>{const _0x560ac0=_0x30b3;let _0x5f5944=_0x3c6ee0[_0x560ac0(0x8)]?_0x3c6ee0[_0x560ac0(0x8)]:_0x3c6ee0,_0x386cfd=(_0x5f5944['msg']||_0x5f5944)[_0x560ac0(0x9)]||_0x5f5944[_0x560ac0(0xa)]||'';if(/image/[_0x560ac0(0xb)](_0x386cfd)){let _0x5c3a4e=await _0x5f5944[_0x560ac0(0xc)]();if(!_0x5c3a4e)throw _0x560ac0(0xd);await _0x388609['updateProfilePicture'](_0x3c6ee0[_0x560ac0(0xe)],_0x5c3a4e)['then'](_0x2d9261=>_0x3c6ee0[_0x560ac0(0xf)](_0x560ac0(0x10)));}else throw'*⚠️️\x20Responde\x20a\x20una\x20imagen.*\x0a\x0a*⚠️️\x20Respond\x20to\x20an\x20image.*';};handler[_0x400086(0x11)]=/^setpp(group|grup|gc)?$/i,handler[_0x400086(0x12)]=!![],handler[_0x400086(0x13)]=!![],handler[_0x400086(0x14)]=!![],handler['register']=!![];export default handler;

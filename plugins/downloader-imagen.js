@@ -1,15 +1,1 @@
-import { googleImage } from '@bochilteam/scraper'
-let handler = async (m, { conn, text, usedPrefix, command }) => {
-if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙹𝙴𝙼𝙿𝙻𝙾 𝙳𝙴 𝚄𝚂𝙾 𝙳𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 ${usedPrefix + command} Minecraft*\n\n\n*[❗𝐈𝐍𝐅𝐎❗]EXAMPLE OF USE OF THE COMMAND${usedPrefix + command} Minecraft*`
-const res = await googleImage(text)
-let image = await res.getRandom()
-let link = image
-conn.sendFile(m.chat, link, 'error.jpg', `🔎 *𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾 𝙳𝙴:* ${text}\n🔗 *𝙻𝙸𝙽𝙺* ${link}\n🌎 *𝙱𝚄𝚂𝙲𝙰𝙳𝙾𝚁:* Google`, m)}
-//let captionn = `🔎 *𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾 𝙳𝙴:* ${text}\n🔗 *𝙻𝙸𝙽𝙺* ${link}\n🌎 *𝙱𝚄𝚂𝙲𝙰𝙳𝙾𝚁:* Google`
-//conn.sendButton(m.chat, captionn, author, link, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `#imagen ${text}`]], m)}
-handler.help = ['gimage <query>', 'imagen <query>']
-handler.tags = ['internet', 'tools']
-handler.command = /^(gimage|image|imagen)$/i
-handler.register = true
-handler.limit = 2
-export default handler
+const _0x2a8d7b=_0xb80f;(function(_0xdfd6c3,_0x51f745){const _0x2d6079=_0xb80f,_0x2375c7=_0xdfd6c3();while(!![]){try{const _0x40ca23=parseInt(_0x2d6079(0x92))/0x1+parseInt(_0x2d6079(0x93))/0x2*(parseInt(_0x2d6079(0x94))/0x3)+-parseInt(_0x2d6079(0x95))/0x4*(parseInt(_0x2d6079(0x96))/0x5)+-parseInt(_0x2d6079(0x97))/0x6+-parseInt(_0x2d6079(0x98))/0x7+-parseInt(_0x2d6079(0x99))/0x8+parseInt(_0x2d6079(0x9a))/0x9;if(_0x40ca23===_0x51f745)break;else _0x2375c7['push'](_0x2375c7['shift']());}catch(_0x289bbc){_0x2375c7['push'](_0x2375c7['shift']());}}}(_0x4ca5,0x8b2b1));function _0x4ca5(){const _0x330eef=['3XzJyUp','212Ipgxap','89710PGUelc','3612468sRofrM','4714129aGKBgT','234896haCwPN','13876902mhpCAg','*[❗𝐈𝐍𝐅𝐎❗]\x20𝙴𝙹𝙴𝙼𝙿𝙻𝙾\x20𝙳𝙴\x20𝚄𝚂𝙾\x20𝙳𝙴𝙻\x20𝙲𝙾𝙼𝙰𝙽𝙳𝙾\x20','\x20Minecraft*\x0a\x0a\x0a*[❗𝐈𝐍𝐅𝐎❗]EXAMPLE\x20OF\x20USE\x20OF\x20THE\x20COMMAND','\x20Minecraft*','chat','error.jpg','🔎\x20*𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾\x20𝙳𝙴:*\x20','\x0a🔗\x20*𝙻𝙸𝙽𝙺*\x20','\x0a🌎\x20*𝙱𝚄𝚂𝙲𝙰𝙳𝙾𝚁:*\x20Google','help','gimage\x20<query>','imagen\x20<query>','internet','command','register','limit','1030355QJHYhU','507226aJXFbW'];_0x4ca5=function(){return _0x330eef;};return _0x4ca5();}import{googleImage}from'@bochilteam/scraper';let handler=async(_0xe1bd57,{conn:_0x2ce4ea,text:_0x1e029b,usedPrefix:_0x1ef7f4,command:_0x2175e6})=>{const _0x48861d=_0xb80f;if(!_0x1e029b)throw _0x48861d(0x9b)+(_0x1ef7f4+_0x2175e6)+_0x48861d(0x9c)+(_0x1ef7f4+_0x2175e6)+_0x48861d(0x9d);const _0x4072f9=await googleImage(_0x1e029b);let _0x2abd4a=await _0x4072f9['getRandom'](),_0x3d53af=_0x2abd4a;_0x2ce4ea['sendFile'](_0xe1bd57[_0x48861d(0x9e)],_0x3d53af,_0x48861d(0x9f),_0x48861d(0xa0)+_0x1e029b+_0x48861d(0xa1)+_0x3d53af+_0x48861d(0xa2),_0xe1bd57);};handler[_0x2a8d7b(0xa3)]=[_0x2a8d7b(0xa4),_0x2a8d7b(0xa5)],handler['tags']=[_0x2a8d7b(0xa6),'tools'],handler[_0x2a8d7b(0xa7)]=/^(gimage|image|imagen)$/i,handler[_0x2a8d7b(0xa8)]=!![],handler[_0x2a8d7b(0xa9)]=0x2;function _0xb80f(_0x282f40,_0x4bdd78){const _0x4ca5ea=_0x4ca5();return _0xb80f=function(_0xb80f62,_0x6e3dba){_0xb80f62=_0xb80f62-0x92;let _0x19e20=_0x4ca5ea[_0xb80f62];return _0x19e20;},_0xb80f(_0x282f40,_0x4bdd78);}export default handler;

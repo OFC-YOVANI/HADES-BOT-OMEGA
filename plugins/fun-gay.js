@@ -1,15 +1,1 @@
-let handler = async (m, { conn }) => {
-let vn = './Plugins/Audios/gay2.mp3'
-let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-conn.sendFile(m.chat, global.API('https://some-random-api.ml', '/canvas/gay', {
-avatar: await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png'),
-}), 'error.png', '*🏳️‍🌈 𝙼𝙸𝚁𝙴𝙽 𝙰 𝙴𝚂𝚃𝙴 𝙶𝙰𝚈 🏳️‍🌈*\n\n*🏳️‍🌈LOOK AT THIS GAY🏳️‍🌈*', m)
-await await await conn.sendFile(m.chat, vn, 'error.mp3', null, m, true, {
-type: 'audioMessage', 
-ptt: true })
-}
-handler.help = ['gay']
-handler.tags = ['maker']
-handler.command = /^(gay)$/i
-handler.register = true
-export default handler
+function _0x1a3a(){const _0x61d8b1=['7540680YlEHhF','2717528OqtWzi','90jJfyRr','./Plugins/Audios/gay2.mp3','mentionedJid','fromMe','user','sender','sendFile','chat','API','https://some-random-api.ml','/canvas/gay','profilePictureUrl','image','catch','https://telegra.ph/file/24fa902ead26340f3df2c.png','error.png','*🏳️‍🌈\x20𝙼𝙸𝚁𝙴𝙽\x20𝙰\x20𝙴𝚂𝚃𝙴\x20𝙶𝙰𝚈\x20🏳️‍🌈*\x0a\x0a*🏳️‍🌈LOOK\x20AT\x20THIS\x20GAY🏳️‍🌈*','audioMessage','help','gay','tags','command','212268gNyZfR','670744tRqUgv','6yRHgwg','4461280ddMkoj','3230290ZaZfPH','3965700bueGsB'];_0x1a3a=function(){return _0x61d8b1;};return _0x1a3a();}const _0x341acd=_0x244d;(function(_0x570fd4,_0x127c54){const _0x189a14=_0x244d,_0x1dc9b2=_0x570fd4();while(!![]){try{const _0x191e1d=-parseInt(_0x189a14(0x183))/0x1+parseInt(_0x189a14(0x184))/0x2*(parseInt(_0x189a14(0x185))/0x3)+parseInt(_0x189a14(0x186))/0x4+parseInt(_0x189a14(0x187))/0x5+parseInt(_0x189a14(0x188))/0x6+parseInt(_0x189a14(0x189))/0x7+parseInt(_0x189a14(0x18a))/0x8*(-parseInt(_0x189a14(0x18b))/0x9);if(_0x191e1d===_0x127c54)break;else _0x1dc9b2['push'](_0x1dc9b2['shift']());}catch(_0x1f0422){_0x1dc9b2['push'](_0x1dc9b2['shift']());}}}(_0x1a3a,0x88fee));let handler=async(_0x485fa2,{conn:_0x2c16be})=>{const _0x4fd0d1=_0x244d;let _0x3c31c0=_0x4fd0d1(0x18c),_0x46cf37=_0x485fa2[_0x4fd0d1(0x18d)]&&_0x485fa2['mentionedJid'][0x0]?_0x485fa2[_0x4fd0d1(0x18d)][0x0]:_0x485fa2[_0x4fd0d1(0x18e)]?_0x2c16be[_0x4fd0d1(0x18f)]['jid']:_0x485fa2[_0x4fd0d1(0x190)];_0x2c16be[_0x4fd0d1(0x191)](_0x485fa2[_0x4fd0d1(0x192)],global[_0x4fd0d1(0x193)](_0x4fd0d1(0x194),_0x4fd0d1(0x195),{'avatar':await _0x2c16be[_0x4fd0d1(0x196)](_0x46cf37,_0x4fd0d1(0x197))[_0x4fd0d1(0x198)](_0x1a6240=>_0x4fd0d1(0x199))}),_0x4fd0d1(0x19a),_0x4fd0d1(0x19b),_0x485fa2),await await await _0x2c16be[_0x4fd0d1(0x191)](_0x485fa2[_0x4fd0d1(0x192)],_0x3c31c0,'error.mp3',null,_0x485fa2,!![],{'type':_0x4fd0d1(0x19c),'ptt':!![]});};function _0x244d(_0xd582ed,_0x5cd065){const _0x1a3aaa=_0x1a3a();return _0x244d=function(_0x244dca,_0x50bbb2){_0x244dca=_0x244dca-0x183;let _0x275148=_0x1a3aaa[_0x244dca];return _0x275148;},_0x244d(_0xd582ed,_0x5cd065);}handler[_0x341acd(0x19d)]=[_0x341acd(0x19e)],handler[_0x341acd(0x19f)]=['maker'],handler[_0x341acd(0x1a0)]=/^(gay)$/i,handler['register']=!![];export default handler;
