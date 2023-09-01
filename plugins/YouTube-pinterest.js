@@ -1,18 +1,1 @@
-import { pinterest } from '@bochilteam/scraper'
-let handler = async(m, { conn, text, usedPrefix, command }) => {
-if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙹𝙴𝙼𝙿𝙻𝙾 𝙳𝙴 𝚄𝚂𝙾 𝙳𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 ${usedPrefix + command} Minecraft*\n\n\n*[❗𝐈𝐍𝐅𝐎❗]EXAMPLE USE THE COMMAND  ${usedPrefix + command} Minecraft*`
-const json = await pinterest(text)
-conn.sendFile(m.chat, json.getRandom(), 'error.jpg', `
-*𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂 𝙳𝙴 𝙻𝙰 𝙱𝚄𝚂𝚀𝚄𝙴𝙳𝙰*
-${text}
-
-
-*SEARCH RESULT*
-${text}`.trim(), m)
-}
-handler.help = ['pinterest <keyword>']
-handler.tags = ['internet']
-handler.command = /^(pinterest)$/i
-handler.register = true
-handler.limit = 2
-export default handler
+const _0x5d6244=_0x5206;function _0x503f(){const _0x419883=['error.jpg','\x0a*𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂\x20𝙳𝙴\x20𝙻𝙰\x20𝙱𝚄𝚂𝚀𝚄𝙴𝙳𝙰*\x0a','\x0a\x0a\x0a*SEARCH\x20RESULT*\x0a','trim','help','pinterest\x20<keyword>','7918TscUDj','164LJnLEV','30KuNoTH','99464wcRPEw','4973830PerKYK','6IyqOYn','457261CcgFVg','7512568QFLbWI','15354WhZCxN','6630YNyupx','2723743XvedrS','132fdfMaM','*[❗𝐈𝐍𝐅𝐎❗]\x20𝙴𝙹𝙴𝙼𝙿𝙻𝙾\x20𝙳𝙴\x20𝚄𝚂𝙾\x20𝙳𝙴𝙻\x20𝙲𝙾𝙼𝙰𝙽𝙳𝙾\x20','\x20Minecraft*\x0a\x0a\x0a*[❗𝐈𝐍𝐅𝐎❗]EXAMPLE\x20USE\x20THE\x20COMMAND\x20\x20','\x20Minecraft*','chat','getRandom'];_0x503f=function(){return _0x419883;};return _0x503f();}(function(_0x2410a5,_0x29b3ff){const _0x33e2ed=_0x5206,_0x207559=_0x2410a5();while(!![]){try{const _0x4f672e=-parseInt(_0x33e2ed(0x1bc))/0x1*(-parseInt(_0x33e2ed(0x1bd))/0x2)+parseInt(_0x33e2ed(0x1be))/0x3*(parseInt(_0x33e2ed(0x1bf))/0x4)+-parseInt(_0x33e2ed(0x1c0))/0x5*(parseInt(_0x33e2ed(0x1c1))/0x6)+parseInt(_0x33e2ed(0x1c2))/0x7+-parseInt(_0x33e2ed(0x1c3))/0x8+-parseInt(_0x33e2ed(0x1c4))/0x9*(parseInt(_0x33e2ed(0x1c5))/0xa)+parseInt(_0x33e2ed(0x1c6))/0xb*(parseInt(_0x33e2ed(0x1c7))/0xc);if(_0x4f672e===_0x29b3ff)break;else _0x207559['push'](_0x207559['shift']());}catch(_0x4459b6){_0x207559['push'](_0x207559['shift']());}}}(_0x503f,0x97e07));function _0x5206(_0x2af295,_0x288c03){const _0x503fe2=_0x503f();return _0x5206=function(_0x52064f,_0x2ab421){_0x52064f=_0x52064f-0x1bc;let _0x470912=_0x503fe2[_0x52064f];return _0x470912;},_0x5206(_0x2af295,_0x288c03);}import{pinterest}from'@bochilteam/scraper';let handler=async(_0x38b492,{conn:_0x5edf8a,text:_0x2a275e,usedPrefix:_0x5c40d0,command:_0x551317})=>{const _0x316531=_0x5206;if(!_0x2a275e)throw _0x316531(0x1c8)+(_0x5c40d0+_0x551317)+_0x316531(0x1c9)+(_0x5c40d0+_0x551317)+_0x316531(0x1ca);const _0x5e5793=await pinterest(_0x2a275e);_0x5edf8a['sendFile'](_0x38b492[_0x316531(0x1cb)],_0x5e5793[_0x316531(0x1cc)](),_0x316531(0x1cd),(_0x316531(0x1ce)+_0x2a275e+_0x316531(0x1cf)+_0x2a275e)[_0x316531(0x1d0)](),_0x38b492);};handler[_0x5d6244(0x1d1)]=[_0x5d6244(0x1d2)],handler['tags']=['internet'],handler['command']=/^(pinterest)$/i,handler['register']=!![],handler['limit']=0x2;export default handler;
