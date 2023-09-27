@@ -1,10 +1,10 @@
 {
-  "name": "HADES-BOT-OMEGA",
-  "website": "https://youtube.com/@hades_bot2391",
-  "description": "Super Bot WhatsApp",
-  "repository": "https://github.com/OFC-YOVANI/HADES-BOT-OMEGA.git",
+  "name": "HADES-BOT-MD",
+  "website": "https://github.com/BrunoSobrino",
+  "description": "subscribe to the channel HADES-BOT (≧▽≦)",
+  "repository": "https://github.com/OFC-YOVANI/HADES-BOT-OMEGA ",
   "logo": "https://i.imgur.com/AmzlKVi.jpeg",
-  "success_url": "",
+  "success_url": "https://github.com/OFC-YOVANI/HADES-BOT-OMEGA",
   "keywords": [
     "nodejs",
     "heroku",
@@ -14,12 +14,15 @@
     "spanish",
     "whatsapp",
     "termux",
-    "shadow",
+    "hades",
     "multi-device",
     "md",
     "whatsappbot",
     "oficial",
     "whatsapp-md",
+    "thehadesbot",
+    "thehades-bot",
+    "thehades-bot-md"],
   "image": "heroku/nodejs",
   "buildpacks": [
     {

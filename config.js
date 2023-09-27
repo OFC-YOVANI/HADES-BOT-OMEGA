@@ -1,1 +1,77 @@
-function _0x3b4c(_0x5332ca,_0x4c3d79){const _0x34cd00=_0x34cd();return _0x3b4c=function(_0x3b4c96,_0x5cbac7){_0x3b4c96=_0x3b4c96-0xd7;let _0x2d8bc0=_0x34cd00[_0x3b4c96];return _0x2d8bc0;},_0x3b4c(_0x5332ca,_0x4c3d79);}const _0x144c0b=_0x3b4c;(function(_0x478841,_0x1e5103){const _0xc4bb9c=_0x3b4c,_0x390f64=_0x478841();while(!![]){try{const _0x4c8eda=parseInt(_0xc4bb9c(0xd7))/0x1*(-parseInt(_0xc4bb9c(0xd8))/0x2)+-parseInt(_0xc4bb9c(0xd9))/0x3*(parseInt(_0xc4bb9c(0xda))/0x4)+parseInt(_0xc4bb9c(0xdb))/0x5+-parseInt(_0xc4bb9c(0xdc))/0x6+parseInt(_0xc4bb9c(0xdd))/0x7+parseInt(_0xc4bb9c(0xde))/0x8*(-parseInt(_0xc4bb9c(0xdf))/0x9)+parseInt(_0xc4bb9c(0xe0))/0xa;if(_0x4c8eda===_0x1e5103)break;else _0x390f64['push'](_0x390f64['shift']());}catch(_0x1e8147){_0x390f64['push'](_0x390f64['shift']());}}}(_0x34cd,0x7ca61));import _0x27455d from'fs';import{watchFile,unwatchFile}from'fs';function _0x34cd(){const _0x3dab1f=['author','1.10.90','⫷᭄ʜᴀᴅᴇs-ʙᴏᴛ-ᴍᴅ﹏✍','hadesbot','https://youtu.be/aPu9wQi-z8U','youtube','hadesig','https://github.com/OFC-YOVANI/HADES-BOT-OMEGA.git','https://chat.whatsapp.com/KlAYxPxLAkSGOyZxeXXZkt','nnn','https://chat.whatsapp.com/DDm7HC6e5MF9qcdLqB22RQ','nnngrupo','paypal','donar','*🍀ʀᴇsᴜʟᴛᴀᴅᴏ\x20ᴇɴᴄᴏɴᴛʀᴀᴅᴏ✨*','*⚠️ᴀᴅᴠᴇʀᴛᴇɴᴄɪᴀ⚠️*','advertencia','iig','*📌ɪɴғᴏʀᴍᴀᴄɪᴏɴ*✨','*❌ʟᴏ\x20sᴇɴᴛɪᴍᴏs\x20sᴇ\x20ʜᴀ\x20ɢᴇɴᴇʀᴀᴅᴏ\x20ᴜɴ\x20ᴇʀʀᴏʀ\x20ᴠᴜᴇʟᴠᴇ\x20ɪɴᴛᴇɴᴛᴀʀ❌*','fallo','mal','eeg','*📩ˢᵁ\x20ᴿᴱᴾᴼᴿᵀᴱ\x20ᴴᴬ\x20ˢᴵᴰᴼ\x20ᴱᴺⱽᴵᴬᴰᴼ📩*','exito','©ᴏғᴄ-ʏᴏᴠᴀɴɪ﹏✍\x0a⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍','igfg','wait','imagen1','./views/Menu.jpg','imagen2','./views/nuevobot.jpg','imagen3','readFileSync','./views/Me.jpg','./views/+18.jpg','imagen5','./views/anime.jpg','./views/bot.jpg','./views/minecraft.jpg','multiplier','rpg','toLowerCase','🕹️','keys','map','filter','test','length','url','log','redBright','Update\x20\x27config.js\x27','?update=','now','131429PmNHqL','14APpkJk','70860AWLShL','124MXlbKo','1444235jySIAv','5750436cKjjWj','6905563PqsObH','3807288BqPGcL','9RzhqOh','23217450JhkaVs','owner','5212411233838','𝙾𝙵𝙲\x20𝚈𝙾𝚅𝙰𝙽𝙸','5212412377467','suittag','mods','prems','packname','⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍'];_0x34cd=function(){return _0x3dab1f;};return _0x34cd();}import _0x2edf16 from'chalk';import{fileURLToPath}from'url';global[_0x144c0b(0xe1)]=[[_0x144c0b(0xe2),_0x144c0b(0xe3),!![]],[_0x144c0b(0xe4),_0x144c0b(0xe3),!![]]],global[_0x144c0b(0xe5)]=['5212412477467'],global[_0x144c0b(0xe6)]=[],(global['prems']=[_0x144c0b(0xe2)],global[_0x144c0b(0xe7)]=[_0x144c0b(0xe4)],global[_0x144c0b(0xe8)]=_0x144c0b(0xe9)),global[_0x144c0b(0xea)]='©ᴏғᴄ-ʏᴏᴠᴀɴɪ﹏✍',global['vs']=_0x144c0b(0xeb),global['version']=vs,global['gt']=_0x144c0b(0xec),global[_0x144c0b(0xed)]=gt,global['yt']=_0x144c0b(0xee),global[_0x144c0b(0xef)]=yt,global['ig']='https://www.instagram',global[_0x144c0b(0xf0)]=ig,global['md']=_0x144c0b(0xf1),global['botxdf']=md,global['nn']=_0x144c0b(0xf2),global['nngrupo']=nn,global[_0x144c0b(0xf3)]=_0x144c0b(0xf4),global[_0x144c0b(0xf5)]=nnn,global[_0x144c0b(0xf6)]='https://pay',global[_0x144c0b(0xf7)]=paypal,global['rg']=_0x144c0b(0xf8),global['resultado']=rg,global['ag']=_0x144c0b(0xf9),global[_0x144c0b(0xfa)]=ag,global[_0x144c0b(0xfb)]=_0x144c0b(0xfc),global['informacion']=iig,global['fg']=_0x144c0b(0xfd),global[_0x144c0b(0xfe)]=fg,global['mg']='*❗ᴇsᴛᴇ\x20ᴄᴏᴍᴀɴᴅᴏ\x20ʟᴏ\x20ʜᴀ\x20ᴜsᴀᴅᴏ\x20ɪɴᴄᴏʀʀᴇᴄᴛᴀᴍᴇɴᴛᴇ*',global[_0x144c0b(0xff)]=mg,global[_0x144c0b(0x100)]=_0x144c0b(0x101),global['envio']=eeg,global['eg']='*🍀ʀᴇsᴜʟᴛᴀᴅᴏ\x20ᴇɴᴄᴏɴᴛʀᴀᴅᴏ✨*',global[_0x144c0b(0x102)]=eg,global['wm']=_0x144c0b(0x103),global[_0x144c0b(0x104)]=_0x144c0b(0xe9),global[_0x144c0b(0x105)]='⌛\x20_Cargando..._\x0a▰▰▰▱▱▱▱▱▱',global[_0x144c0b(0x106)]=_0x27455d['readFileSync'](_0x144c0b(0x107)),global[_0x144c0b(0x108)]=_0x27455d['readFileSync'](_0x144c0b(0x109)),global[_0x144c0b(0x10a)]=_0x27455d[_0x144c0b(0x10b)](_0x144c0b(0x10c)),global['imagen4']=_0x27455d[_0x144c0b(0x10b)](_0x144c0b(0x10d)),global[_0x144c0b(0x10e)]=_0x27455d[_0x144c0b(0x10b)](_0x144c0b(0x10f)),global['imagen6']=_0x27455d[_0x144c0b(0x10b)](_0x144c0b(0x110)),global['imagen7']=_0x27455d['readFileSync'](_0x144c0b(0x111)),global[_0x144c0b(0xe6)]=[],global[_0x144c0b(0x112)]=0x41,global[_0x144c0b(0x113)]={'emoticon'(_0x218f85){const _0x2eeca9=_0x144c0b;_0x218f85=_0x218f85[_0x2eeca9(0x114)]();let _0x28dfef={'level':'🏆','limit':'💎','exp':_0x2eeca9(0x115)},_0x419f64=Object[_0x2eeca9(0x116)](_0x28dfef)[_0x2eeca9(0x117)](_0x23d800=>[_0x23d800,new RegExp(_0x23d800,'gi')])[_0x2eeca9(0x118)](_0x12631d=>_0x12631d[0x1][_0x2eeca9(0x119)](_0x218f85));if(!_0x419f64[_0x2eeca9(0x11a)])return'';else return _0x28dfef[_0x419f64[0x0][0x0]];}};let file=fileURLToPath(import.meta[_0x144c0b(0x11b)]);watchFile(file,()=>{const _0xe355=_0x144c0b;unwatchFile(file),console[_0xe355(0x11c)](_0x2edf16[_0xe355(0x11d)](_0xe355(0x11e))),import(file+_0xe355(0x11f)+Date[_0xe355(0x120)]());});
+import {watchFile, unwatchFile} from 'fs';
+import chalk from 'chalk';
+import {fileURLToPath} from 'url';
+import fs from 'fs'; 
+import cheerio from 'cheerio';
+import fetch from 'node-fetch';
+import axios from 'axios';
+import moment from 'moment-timezone';
+
+global.owner = [
+  ['5212412377467', 'CREADOR', true],
+  ['5212411233838', 'CREADOR', true],
+  ['5212411719888', 'CREADOR', true],
+  ['5212414147874', 'CREADOR', true]
+  
+];
+
+global.suittag = ['5212414147874'];
+global.prems = ['5212414147874'];
+
+global.packname = '乂✰ʜᴀᴅᴇs-ʙᴏᴛ-ᴍᴅ✰乂';
+global.author = '©ᴏғᴄ-ʏᴏᴠᴀɴɪ﹏✍';
+global.vs = '1.10.90';
+global.version = vs
+global.gt = '乂✰ʜᴀᴅᴇs-ʙᴏᴛ-ᴍᴅ✰乂';
+global.hadesbot = gt
+global.yt = 'https://youtu.be/aPu9wQi-z8U';
+global.youtube = yt
+global.ig = 'https://www.instagram';
+global.hadesig = ig
+global.md = 'https://github.com/OFC-YOVANI/HADES-BOT-OMEGA.git';
+global.botxdf = md
+global.nn = 'https://chat.whatsapp.com/KlAYxPxLAkSGOyZxeXXZkt';
+global.nngrupo = nn
+global.nnn = 'https://chat.whatsapp.com/DDm7HC6e5MF9qcdLqB22RQ';
+global.nnngrupo = nnn
+global.paypal = 'https://pay'
+global.donar = paypal
+global.rg = '*🍀ʀᴇsᴜʟᴛᴀᴅᴏ ᴇɴᴄᴏɴᴛʀᴀᴅᴏ✨*';
+global.resultado = rg
+global.ag = '*⚠️ᴀᴅᴠᴇʀᴛᴇɴᴄɪᴀ⚠️*';
+global.advertencia = ag
+global.iig = '*📌ɪɴғᴏʀᴍᴀᴄɪᴏɴ*✨';
+global.informacion = iig
+global.fg = '*❌ʟᴏ sᴇɴᴛɪᴍᴏs sᴇ ʜᴀ ɢᴇɴᴇʀᴀᴅᴏ ᴜɴ ᴇʀʀᴏʀ ᴠᴜᴇʟᴠᴇ ɪɴᴛᴇɴᴛᴀʀ❌*';
+global.fallo = fg
+global.mg = '*❗ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅᴏ ʟᴏ ʜᴀ ᴜsᴀᴅᴏ ɪɴᴄᴏʀʀᴇᴄᴛᴀᴍᴇɴᴛᴇ*';
+global.mal = mg
+global.eeg = '*📩ˢᵁ ᴿᴱᴾᴼᴿᵀᴱ ᴴᴬ ˢᴵᴰᴼ ᴱᴺⱽᴵᴬᴰᴼ📩*';
+global.envio = eeg
+global.eg = '*🍀ʀᴇsᴜʟᴛᴀᴅᴏ ᴇɴᴄᴏɴᴛʀᴀᴅᴏ✨*';
+global.exito = eg
+
+global.wm = '©ᴏғᴄ-ʏᴏᴠᴀɴɪ﹏✍\n乂✰ʜᴀᴅᴇs-ʙᴏᴛ-ᴍᴅ✰乂';
+global.igfg = '乂✰ʜᴀᴅᴇs-ʙᴏᴛ-ᴍᴅ✰乂';
+global.wait = '⌛ _Cargando..._\n▰▰▰▱▱▱▱▱▱';
+
+global.imagen1 = fs.readFileSync('./views/Menu.jpg');
+global.imagen2 = fs.readFileSync('./views/nuevobot.jpg');
+global.imagen3 = fs.readFileSync('./views/Me.jpg');
+global.imagen4 = fs.readFileSync('./views/+18.jpg');
+global.imagen5 = fs.readFileSync('./views/anime.jpg');
+global.imagen6 = fs.readFileSync('./views/bot.jpg');
+global.imagen7 = fs.readFileSync('./views/minecraft.jpg');
+
+
+global.mods = [] 
+
+global.multiplier = 65
+
+
+const file = fileURLToPath(import.meta.url);
+watchFile(file, () => {
+  unwatchFile(file);
+  console.log(chalk.redBright('Update \'config.js\''));
+  import(`${file}?update=${Date.now()}`);
+});

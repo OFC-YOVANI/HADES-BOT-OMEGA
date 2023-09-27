@@ -2,10 +2,12 @@
 
 .github
 node_modules
-Session-activa
+Session-activas
 tmp
 jadibts
 pluginpilot
+plugins/supersecretlistener.js
+datasecret
 
 #| Files |#
 
