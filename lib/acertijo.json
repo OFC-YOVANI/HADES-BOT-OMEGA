@@ -1,1 +1,218 @@
-[{'question':'¿Qué\x20le\x20dice\x20un\x20pingüino\x20a\x20otro\x20pingüino?','response':'Te\x20quiero\x20como\x20a\x20ningüino'},{'question':'¿Qué\x20le\x20dice\x20un\x20ciego\x20a\x20otro\x20ciego?','response':'Después\x20nos\x20vemos'},{'question':'¿En\x20qué\x20se\x20parece\x20un\x20alfiler\x20a\x20un\x20policía?','response':'En\x20que\x20los\x20dos\x20prenden'},{'question':'¿Qué\x20se\x20congela\x20cuando\x20se\x20calienta?','response':'La\x20computadora'},{'question':'¿Qué\x20fruta\x20tiene\x20muchos\x20ojos,\x20pero\x20no\x20puede\x20ver?','response':'La\x20piña'},{'question':'¿En\x20qué\x20idioma\x20se\x20comunican\x20las\x20tortugas?','response':'En\x20tortugués'},{'question':'¿Cómo\x20llama\x20un\x20policía\x20sevillano\x20a\x20su\x20pistola?','response':'Mi\x20arma'},{'question':'¿Qué\x20es\x20todo\x20para\x20uno\x20y\x20nada\x20para\x20lo\x20demás?','response':'La\x20mente'},{'question':'¿Cuál\x20es\x20el\x20colmo\x20de\x20una\x20aspiradora?','response':'Ser\x20alérgica\x20al\x20polvo'},{'question':'¿Qué\x20es\x20aquello\x20que\x20si\x20nombras,\x20desaparece?','response':'El\x20silencio'},{'question':'¿Qué\x20necesitamos\x20para\x20escribir\x20durmiendo?','response':'Estar\x20despiertos'},{'question':'¿Qué\x20objeto\x20puede\x20tener\x20cara\x20sin\x20poseer\x20cuerpo?','response':'Una\x20moneda'},{'question':'Alimenta\x20la\x20casa,\x20Gabinete\x20con\x20hielo','response':'La\x20nevera'},{'question':'¿Qué\x20tienen\x20las\x20mujeres\x20en\x20medio\x20de\x20las\x20piernas?','response':'Las\x20rodillas'},{'question':'Entra\x20duro\x20y\x20seco\x20y\x20sale\x20blandito\x20y\x20mojado\x20¿Qué\x20es?','response':'Un\x20chicle'},{'question':'Estoy\x20en\x20todo\x20y\x20estoy\x20en\x20nada\x20¿qué\x20soy?','response':'La\x20letra\x20d'},{'question':'Continuas\x20en\x20rojo,\x20pero\x20te\x20paras\x20en\x20verde.\x20¿Qué\x20soy?','response':'Una\x20sandía'},{'question':'¿Qué\x20es\x20negro\x20cuando\x20lo\x20compras,\x20rojo\x20cuando\x20lo\x20usas,\x20y\x20gris\x20cuando\x20lo\x20tiras?','response':'El\x20carbón'},{'question':'¿Qué\x20hay\x20delante\x20de\x20ti\x20siempre\x20pero\x20que\x20no\x20se\x20puede\x20ver?','response':'El\x20futuro'},{'question':'¿Qué\x20mes\x20tiene\x2028\x20días?','response':'Todos'},{'question':'¿Cómo\x20puede\x20estar\x20alguien\x20sin\x20dormir\x20diez\x20días\x20y\x20no\x20tener\x20sueño?','response':'Durmiendo\x20por\x20las\x20noches'},{'question':'¿De\x20qué\x20llenarías\x20un\x20barril\x20para\x20que\x20pese\x20lo\x20menos\x20posible?','response':'De\x20agujeros'},{'question':'Si\x20durante\x20una\x20carrera\x20adelantas\x20a\x20quien\x20va\x20segundo,\x20¿en\x20qué\x20posición\x20estás?','response':'Segundo'},{'question':'¿En\x20qué\x20lugar\x20el\x20jueves\x20va\x20antes\x20que\x20el\x20miércoles?','response':'En\x20el\x20diccionario'},{'question':'¿Qué\x20sube\x20y\x20baja\x20pero\x20se\x20queda\x20siempre\x20en\x20el\x20mismo\x20sitio?','response':'Las\x20escaleras'},{'question':'¿Cómo\x20llaman\x20a\x20un\x20ascensor\x20en\x20China?','response':'Apretando\x20el\x20botón'},{'question':'¿Qué\x20es\x20lo\x20primero\x20que\x20hace\x20un\x20elefante\x20al\x20salir\x20el\x20sol?','response':'Sombra'},{'question':'¿Por\x20qué\x20un\x20Tiranosaurus\x20Rex\x20no\x20puede\x20aplaudir?','response':'Porque\x20se\x20extinguió'},{'question':'¿Qué\x20animal\x20siempre\x20está\x20lleno?','response':'La\x20ballena'},{'question':'¿Qué\x20es\x20lo\x20primero\x20que\x20todos\x20hacemos\x20al\x20despertar?','response':'Abrir\x20los\x20ojos'},{'question':'¿Cuál\x20es\x20el\x20número\x20que\x20si\x20le\x20quitas\x20la\x20mitad,\x20vale\x200?','response':'El\x20ocho'},{'question':'¿Qué\x20se\x20necesita\x20para\x20encender\x20una\x20vela?','response':'Que\x20esté\x20apagada'},{'question':'¿Cuál\x20es\x20el\x20país\x20donde\x20termina\x20todo?','response':'Finlandia'},{'question':'La\x20respuesta\x20a\x20esta\x20pregunta\x20es\x20#######','response':'#######'},{'question':'Cuál\x20es\x20el\x20final\x20de\x20todo','response':'La\x20letra\x20o'},{'question':'¿Dónde\x20se\x20encuentra\x20una\x20pared\x20con\x20otra\x20pared?','response':'En\x20la\x20esquina'},{'question':'¿Qué\x20tiene\x20muchas\x20palabras,\x20pero\x20nunca\x20habla?','response':'Un\x20libro'},{'question':'¿Qué\x20cosa\x20te\x20pertenece,\x20pero\x20los\x20demás\x20usan\x20más\x20que\x20tú?','response':'Tu\x20nombre'},{'question':'¿En\x20qué\x20momento\x20una\x20persona\x20se\x20convierte\x20en\x20fruta?','response':'Cuando\x20espera'},{'question':'Los\x20padres\x20de\x20José\x20tienen\x20tres\x20hijos:\x20Luis,\x20Raúl\x20y…,\x20¿cómo\x20se\x20llama\x20el\x20tercero?','response':'José'},{'question':'¿Qué\x20palabra\x20del\x20diccionario\x20se\x20escribe\x20incorrectamente?','response':'Incorrectamente'},{'question':'Húmedo\x20por\x20dentro,\x20con\x20pelos\x20por\x20fuera.\x20Comienza\x20por\x20la\x20C.\x20¿De\x20qué\x20se\x20trata?','response':'Un\x20coco'},{'question':'David\x20y\x20Fabián\x20están\x20jugando\x20al\x20ajedrez.\x20Llevan\x205\x20partidas,\x20pero\x20ambos\x20han\x20ganado\x203.\x20¿Cómo\x20es\x20posible?','response':'Porque\x20juegan\x20con\x20más\x20personas'},{'question':'¿Cuántos\x209\x20hay\x20entre\x20el\x201\x20y\x20el\x20100?','response':'20'},{'question':'Son\x20dos\x20abanicos\x20que\x20están\x20todo\x20el\x20día\x20sin\x20parar,\x20pero\x20cuando\x20te\x20duermas\x20se\x20paran\x20y\x20quietos\x20se\x20quedarán','response':'Las\x20pestañas'},{'question':'Oro\x20parece,\x20plata\x20no\x20es\x20y\x20el\x20que\x20no\x20lo\x20adivine\x20un\x20tonto\x20es','response':'Un\x20platano'},{'question':'Círculo\x20bien\x20redondo\x20al\x20que\x20si\x20le\x20pegas,\x20das\x20un\x20brinco\x20del\x20susto','response':'Un\x20tambor'},{'question':'Un\x20caballo\x20blanco\x20entró\x20en\x20el\x20Mar\x20Negro.\x20¿Cómo\x20salió?','response':'Salió\x20mojado'},{'question':'Si\x20un\x20tren\x20eléctrico\x20va\x20de\x20Norte\x20a\x20Sur,\x20¿Hacia\x20qué\x20lado\x20echará\x20el\x20humo?','response':'Es\x20eléctrico,\x20no\x20echa\x20humo'},{'question':'Tiene\x204\x20letras,\x20empieza\x20por\x20C\x20y\x20termina\x20por\x20O\x20y\x20esta\x20en\x20la\x20parte\x20trasera','response':'El\x20codo'},{'question':'Se\x20estrella\x20un\x20avión\x20y\x20mueren\x20todos,\x20justo\x20en\x20la\x20frontera\x20entre\x20España\x20y\x20Portugal\x20¿A\x20que\x20Hospital\x20tienen\x20que\x20llevar\x20a\x20los\x20supervivientes?\x20','response':'No\x20hay\x20supervivientes'},{'question':'Este\x20banco\x20está\x20ocupado\x20por\x20un\x20padre\x20y\x20por\x20un\x20hijo,\x20el\x20padre\x20se\x20llama\x20Juan\x20y\x20el\x20hijo\x20ya\x20te\x20lo\x20he\x20dicho','response':'Esteban'},{'question':'Algunos\x20meses\x20tienen\x2031\x20días,\x20otros\x20solo\x2030.¿Cuantos\x20tienen\x2028\x20días?','response':'Todos'},{'question':'No\x20lo\x20puedes\x20ver,\x20pero\x20no\x20puedes\x20vivir\x20sin\x20él.\x20¿Qué\x20es?','response':'El\x20aire'}];
+[
+    {
+        "question": "¿Qué le dice un pingüino a otro pingüino?",
+        "response": "Te quiero como a ningüino"
+    },
+    {
+        "question": "¿Qué le dice un ciego a otro ciego?",
+        "response": "Después nos vemos"
+    },
+    {
+        "question": "¿En qué se parece un alfiler a un policía?",
+        "response": "En que los dos prenden"
+    },
+    {
+        "question": "¿Qué se congela cuando se calienta?",
+        "response": "La computadora"
+    },
+    {
+        "question": "¿Qué fruta tiene muchos ojos, pero no puede ver?",
+        "response": "La piña"
+    },
+    {
+        "question": "¿En qué idioma se comunican las tortugas?",
+        "response": "En tortugués"
+    },
+    {
+        "question": "¿Cómo llama un policía sevillano a su pistola?",
+        "response": "Mi arma"
+    },
+    {
+        "question": "¿Qué es todo para uno y nada para lo demás?",
+        "response": "La mente"
+    },
+    {
+        "question": "¿Cuál es el colmo de una aspiradora?",
+        "response": "Ser alérgica al polvo"
+    },
+    {
+        "question": "¿Qué es aquello que si nombras, desaparece?",
+        "response": "El silencio"
+    },
+    {
+        "question": "¿Qué necesitamos para escribir durmiendo?",
+        "response": "Estar despiertos"
+    },
+    {
+        "question": "¿Qué objeto puede tener cara sin poseer cuerpo?",
+        "response": "Una moneda"
+    },
+    {
+        "question": "Alimenta la casa, Gabinete con hielo",
+        "response": "La nevera"
+    },
+    {
+        "question": "¿Qué tienen las mujeres en medio de las piernas?",
+        "response": "Las rodillas"
+    },
+    {
+        "question": "Entra duro y seco y sale blandito y mojado ¿Qué es?",
+        "response": "Un chicle"
+    },
+    {
+        "question": "Estoy en todo y estoy en nada ¿qué soy?",
+        "response": "La letra d"
+    },
+    {
+        "question": "Continuas en rojo, pero te paras en verde. ¿Qué soy?",
+        "response": "Una sandía"
+    },
+    {
+        "question": "¿Qué es negro cuando lo compras, rojo cuando lo usas, y gris cuando lo tiras?",
+        "response": "El carbón"
+    },
+    {
+        "question": "¿Qué hay delante de ti siempre pero que no se puede ver?",
+        "response": "El futuro"
+    },
+    {
+        "question": "¿Qué mes tiene 28 días?",
+        "response": "Todos"
+    },
+    {
+        "question": "¿Cómo puede estar alguien sin dormir diez días y no tener sueño?",
+        "response": "Durmiendo por las noches"
+    },
+    {
+        "question": "¿De qué llenarías un barril para que pese lo menos posible?",
+        "response": "De agujeros"
+    },
+    {
+        "question": "Si durante una carrera adelantas a quien va segundo, ¿en qué posición estás?",
+        "response": "Segundo"
+    },
+    {
+        "question": "¿En qué lugar el jueves va antes que el miércoles?",
+        "response": "En el diccionario"
+    },
+    {
+        "question": "¿Qué sube y baja pero se queda siempre en el mismo sitio?",
+        "response": "Las escaleras"
+    },
+    {
+        "question": "¿Cómo llaman a un ascensor en China?",
+        "response": "Apretando el botón"
+    },
+    {
+        "question": "¿Qué es lo primero que hace un elefante al salir el sol?",
+        "response": "Sombra"
+    },
+    {
+        "question": "¿Por qué un Tiranosaurus Rex no puede aplaudir?",
+        "response": "Porque se extinguió"
+    },
+    {
+        "question": "¿Qué animal siempre está lleno?",
+        "response": "La ballena"
+    },
+    {
+        "question": "¿Qué es lo primero que todos hacemos al despertar?",
+        "response": "Abrir los ojos"
+    },
+    {
+        "question": "¿Cuál es el número que si le quitas la mitad, vale 0?",
+        "response": "El ocho"
+    },
+    {
+        "question": "¿Qué se necesita para encender una vela?",
+        "response": "Que esté apagada"
+    },
+    {
+        "question": "¿Cuál es el país donde termina todo?",
+        "response": "Finlandia"
+    },
+    {
+        "question": "La respuesta a esta pregunta es #######",
+        "response": "#######"
+    },
+    {
+        "question": "Cuál es el final de todo",
+        "response": "La letra o"
+    },
+    {
+        "question": "¿Dónde se encuentra una pared con otra pared?",
+        "response": "En la esquina"
+    },
+    {
+        "question": "¿Qué tiene muchas palabras, pero nunca habla?",
+        "response": "Un libro"
+    },
+    {
+        "question": "¿Qué cosa te pertenece, pero los demás usan más que tú?",
+        "response": "Tu nombre"
+    },
+    {
+        "question": "¿En qué momento una persona se convierte en fruta?",
+        "response": "Cuando espera"
+    },
+    {
+        "question": "Los padres de José tienen tres hijos: Luis, Raúl y…, ¿cómo se llama el tercero?",
+        "response": "José"
+    },
+    {
+        "question": "¿Qué palabra del diccionario se escribe incorrectamente?",
+        "response": "Incorrectamente"
+    },
+    {
+        "question": "Húmedo por dentro, con pelos por fuera. Comienza por la C. ¿De qué se trata?",
+        "response": "Un coco"
+    },
+    {
+        "question": "David y Fabián están jugando al ajedrez. Llevan 5 partidas, pero ambos han ganado 3. ¿Cómo es posible?",
+        "response": "Porque juegan con más personas"
+    },
+    {
+        "question": "¿Cuántos 9 hay entre el 1 y el 100?",
+        "response": "20"
+    },
+    {
+        "question": "Son dos abanicos que están todo el día sin parar, pero cuando te duermas se paran y quietos se quedarán",
+        "response": "Las pestañas"
+    },
+    {
+        "question": "Oro parece, plata no es y el que no lo adivine un tonto es",
+        "response": "Un platano"
+    },
+    {
+        "question": "Círculo bien redondo al que si le pegas, das un brinco del susto",
+        "response": "Un tambor"
+    },
+    {
+        "question": "Un caballo blanco entró en el Mar Negro. ¿Cómo salió?",
+        "response": "Salió mojado"
+    },
+    {
+        "question": "Si un tren eléctrico va de Norte a Sur, ¿Hacia qué lado echará el humo?",
+        "response": "Es eléctrico, no echa humo"
+    },
+    {
+       "question": "Tiene 4 letras, empieza por C y termina por O y esta en la parte trasera",
+        "response": "El codo"
+    },
+    {
+       "question": "Se estrella un avión y mueren todos, justo en la frontera entre España y Portugal ¿A que Hospital tienen que llevar a los supervivientes? ",
+        "response": "No hay supervivientes"
+    },
+    {
+       "question": "Este banco está ocupado por un padre y por un hijo, el padre se llama Juan y el hijo ya te lo he dicho",
+        "response": "Esteban"
+    },
+    {
+       "question": "Algunos meses tienen 31 días, otros solo 30.¿Cuantos tienen 28 días?",
+        "response": "Todos"
+    },
+    {
+       "question": "No lo puedes ver, pero no puedes vivir sin él. ¿Qué es?",
+       "response": "El aire"
+}
+]
