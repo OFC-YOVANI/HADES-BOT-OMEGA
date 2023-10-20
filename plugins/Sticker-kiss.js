@@ -1,17 +1,1 @@
-import { sticker } from '../lib/sticker.js'
-import fetch from 'node-fetch'
-import MessageType from '@whiskeysockets/baileys'
-let handler = async (m, { conn}) => {
-try {   
-if(m.quoted?.sender) m.mentionedJid.push(m.quoted.sender)
-if(!m.mentionedJid.length) m.mentionedJid.push(m.sender)
-let res = await fetch('https://nekos.life/api/kiss')
-let json = await res.json()
-let { url } = json
-let stiker = await sticker(null, url, `+${m.sender.split('@')[0]} le dio besos a ${m.mentionedJid.map((user)=>(user === m.sender)? 'alguien ': `+${user.split('@')[0]}`).join(', ')}`)
-conn.sendFile(m.chat, stiker, null, { asSticker: true })
-} catch (e) { }}
-handler.command = /^(kiss|skiss|kis|besos|beso)$/i
-handler.register = true
-handler.premium = true
-export default handler
+import{sticker}from'../lib/sticker.js';import _0x128946 from'node-fetch';import _0xec8d6c from'@whiskeysockets/baileys';let handler=async(_0x734089,{conn:_0x1952bd})=>{try{if(_0x734089['quoted']?.['sender'])_0x734089['mentionedJid']['push'](_0x734089['quoted']['sender']);if(!_0x734089['mentionedJid']['length'])_0x734089['mentionedJid']['push'](_0x734089['sender']);let _0x2d2066=await _0x128946('https://nekos.life/api/kiss'),_0x16385f=await _0x2d2066['json'](),{url:_0x1309b9}=_0x16385f,_0x20fedb=await sticker(null,_0x1309b9,'+'+_0x734089['sender']['split']('@')[0x0]+'\x20le\x20dio\x20besos\x20a\x20'+_0x734089['mentionedJid']['map'](_0x34d5f8=>_0x34d5f8===_0x734089['sender']?'alguien\x20':'+'+_0x34d5f8['split']('@')[0x0])['join'](',\x20'));_0x1952bd['sendFile'](_0x734089['chat'],_0x20fedb,null,{'asSticker':!![]});}catch(_0x44f6c6){}};handler['command']=/^(kiss|skiss|kis|besos|beso)$/i,handler['register']=!![],handler['limit']=0x3;export default handler;

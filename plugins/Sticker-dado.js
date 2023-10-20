@@ -1,7 +1,1 @@
-let handler = async (m, { conn }) => {
-let dir = 'https://api.lolhuman.xyz/api/sticker/dadu?apikey=85faf717d0545d14074659ad'
-conn.sendFile(m.chat, dir, 'error.webp', null, m, { asSticker: true })}
-handler.command = ['dado', 'dados', 'dadu'] 
-handler.register = true
-handler.premium = true
-export default handler
+let handler=async(_0x27d480,{conn:_0x4c4377})=>{let _0x3d6233='https://api.lolhuman.xyz/api/sticker/dadu?apikey=85faf717d0545d14074659ad';_0x4c4377['sendFile'](_0x27d480['chat'],_0x3d6233,'error.webp',null,_0x27d480,{'asSticker':!![]});};handler['command']=['dado','dados','dadu'],handler['register']=!![],handler['limit']=0x3;export default handler;
