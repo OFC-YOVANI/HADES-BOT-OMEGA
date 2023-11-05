@@ -8,34 +8,20 @@ import axios from 'axios';
 import moment from 'moment-timezone';
 
 global.owner = [
-  ['5212412377467', 'CREADOR', true],
-  ['5212411233838', 'CREADOR', true],
-  ['5212411719888', 'CREADOR', true],
-  ['5212414147874', 'CREADOR', true]
-  
+  ['5219516124971', 'CREADOR', true],
 ];
 
 global.suittag = ['5212414147874'];
 global.prems = ['5212414147874'];
 
-global.packname = '乂✰ʜᴀᴅᴇs-ʙᴏᴛ-ᴍᴅ✰乂';
-global.author = '©ᴏғᴄ-ʏᴏᴠᴀɴɪ﹏✍';
+global.packname = '乂✰𝖈𝖍𝖆𝖗𝖑𝖎𝖊-𝖇𝖔𝖙✰乂';
+global.author = '©𝓬𝓱𝓪𝓻𝓵𝓲𝒆';
 global.vs = '1.10.90';
 global.version = vs
-global.gt = '乂✰ʜᴀᴅᴇs-ʙᴏᴛ-ᴍᴅ✰乂';
+global.gt = '乂✰𝖈𝖍𝖆𝖗𝖑𝖎𝖊-𝖇𝖔𝖙✰乂';
 global.hadesbot = gt
-global.yt = 'https://youtu.be/aPu9wQi-z8U';
-global.youtube = yt
-global.ig = 'https://www.instagram';
+global.ig = 'https://www.instagram.com/maquinadefuego_gg/';
 global.hadesig = ig
-global.md = 'https://github.com/OFC-YOVANI/HADES-BOT-OMEGA.git';
-global.botxdf = md
-global.nn = 'https://chat.whatsapp.com/KlAYxPxLAkSGOyZxeXXZkt';
-global.nngrupo = nn
-global.nnn = 'https://chat.whatsapp.com/DDm7HC6e5MF9qcdLqB22RQ';
-global.nnngrupo = nnn
-global.paypal = 'https://pay'
-global.donar = paypal
 global.rg = '*🍀ʀᴇsᴜʟᴛᴀᴅᴏ ᴇɴᴄᴏɴᴛʀᴀᴅᴏ✨*';
 global.resultado = rg
 global.ag = '*⚠️ᴀᴅᴠᴇʀᴛᴇɴᴄɪᴀ⚠️*';
@@ -51,18 +37,15 @@ global.envio = eeg
 global.eg = '*🍀ʀᴇsᴜʟᴛᴀᴅᴏ ᴇɴᴄᴏɴᴛʀᴀᴅᴏ✨*';
 global.exito = eg
 
-global.wm = '©ᴏғᴄ-ʏᴏᴠᴀɴɪ﹏✍\n乂✰ʜᴀᴅᴇs-ʙᴏᴛ-ᴍᴅ✰乂';
-global.igfg = '乂✰ʜᴀᴅᴇs-ʙᴏᴛ-ᴍᴅ✰乂';
+global.wm = '©𝓬𝓱𝓪𝓻𝓵𝓲𝒆\n乂✰𝖈𝖍𝖆𝖗𝖑𝖎𝖊-𝖇𝖔𝖙✰乂';
+global.igfg = '乂✰𝖈𝖍𝖆𝖗𝖑𝖎𝖊-𝖇𝖔𝖙✰乂';
 global.wait = '⌛ _Cargando..._\n▰▰▰▱▱▱▱▱▱';
 
 global.imagen1 = fs.readFileSync('./views/Menu.jpg');
 global.imagen2 = fs.readFileSync('./views/nuevobot.jpg');
 global.imagen3 = fs.readFileSync('./views/Me.jpg');
-global.imagen4 = fs.readFileSync('./views/+18.jpg');
 global.imagen5 = fs.readFileSync('./views/anime.jpg');
 global.imagen6 = fs.readFileSync('./views/bot.jpg');
-global.imagen7 = fs.readFileSync('./views/minecraft.jpg');
-
 
 global.mods = [] 
 
