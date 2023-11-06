@@ -7,8 +7,8 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 import moment from 'moment-timezone';
 
-global.owner = [
-  ['5212412377467', 'CREADOR', true],
+global.owner = ['Guadalupe']
+  ['5493804310440', 'Guadalupe', true],
   ['5212411233838', 'CREADOR', true],
   ['5212411719888', 'CREADOR', true],
   ['5212414147874', 'CREADOR', true]
@@ -18,17 +18,17 @@ global.owner = [
 global.suittag = ['5212414147874'];
 global.prems = ['5212414147874'];
 
-global.packname = '乂✰ʜᴀᴅᴇs-ʙᴏᴛ-ᴍᴅ✰乂';
-global.author = '©ᴏғᴄ-ʏᴏᴠᴀɴɪ﹏✍';
+global.packname = 'Guara✰';
+global.author = '©Guara';
 global.vs = '1.10.90';
 global.version = vs
-global.gt = '乂✰ʜᴀᴅᴇs-ʙᴏᴛ-ᴍᴅ✰乂';
+global.gt = 'Guadalupe✰';
 global.hadesbot = gt
 global.yt = 'https://youtu.be/aPu9wQi-z8U';
 global.youtube = yt
 global.ig = 'https://www.instagram';
 global.hadesig = ig
-global.md = 'https://github.com/OFC-YOVANI/HADES-BOT-OMEGA.git';
+global.md = 'https://github.com/Guadalupe/HADES-BOT-OMEGA.git';
 global.botxdf = md
 global.nn = 'https://chat.whatsapp.com/KlAYxPxLAkSGOyZxeXXZkt';
 global.nngrupo = nn
@@ -51,8 +51,8 @@ global.envio = eeg
 global.eg = '*🍀ʀᴇsᴜʟᴛᴀᴅᴏ ᴇɴᴄᴏɴᴛʀᴀᴅᴏ✨*';
 global.exito = eg
 
-global.wm = '©ᴏғᴄ-ʏᴏᴠᴀɴɪ﹏✍\n乂✰ʜᴀᴅᴇs-ʙᴏᴛ-ᴍᴅ✰乂';
-global.igfg = '乂✰ʜᴀᴅᴇs-ʙᴏᴛ-ᴍᴅ✰乂';
+global.wm = 'Guadalupe';
+global.igfg = 'Guadalupe✰';
 global.wait = '⌛ _Cargando..._\n▰▰▰▱▱▱▱▱▱';
 
 global.imagen1 = fs.readFileSync('./views/Menu.jpg');
