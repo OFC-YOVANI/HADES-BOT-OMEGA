@@ -1,1 +1,72 @@
-import _0x41b7a1 from'node-fetch';import _0x1406a2 from'axios';import _0x58d47a from'instagram-url-direct';import{instagram}from'@xct007/frieren-scraper';import{instagramdl}from'@bochilteam/scraper';import _0x95dfeb from'@sasmeee/igdl';import{fileTypeFromBuffer}from'file-type';const handler=async(_0x57b920,{conn:_0x199511,args:_0x6af084,command:_0xcfe61a,usedPrefix:_0x24b895})=>{let _0xb0783f={'key':{'participants':'0@s.whatsapp.net','remoteJid':'status@broadcast','fromMe':![],'id':'Halo'},'message':{'contactMessage':{'vcard':'BEGIN:VCARD\x0aVERSION:3.0\x0aN:Sy;Bot;;;\x0aFN:y\x0aitem1.TEL;waid='+_0x57b920['sender']['split']('@')[0x0]+':'+_0x57b920['sender']['split']('@')[0x0]+'\x0aitem1.X-ABLabel:Ponsel\x0aEND:VCARD'}},'participant':'0@s.whatsapp.net'};if(!_0x6af084[0x0])return _0x199511['reply'](_0x57b920['chat'],'*[❗𝐈𝐍𝐅𝐎❗]\x20𝙸𝙽𝙶𝚁𝙴𝚂𝙴\x20𝚄𝙽\x20𝙴𝙽𝙻𝙰𝙲𝙴\x20𝙳𝙴\x20𝙸𝙽𝚂𝚃𝙰𝙶𝚁𝙰𝙼,\x20𝙴𝙹𝙴𝙼𝙿𝙻𝙾:\x20'+(_0x24b895+_0xcfe61a)+'*\x20https://www.instagram.com/reel/Cc0NuYBg8CR/?utm_source=ig_web_copy_link',_0xb0783f,_0x57b920);_0x199511['reply'](_0x57b920['chat'],'*[❗]\x20ᴅᴇsᴄᴀʀɢᴀɴᴅᴏ\x20sᴜ\x20ᴠɪᴅᴇᴏ,\x20ᴀɢᴜᴀʀᴅᴇ\x20ᴜɴ\x20ᴍᴏᴍᴇɴᴛᴏ\x20ᴘᴏʀ\x20ғᴀᴠᴏʀ,\x20ᴇsᴛᴇ\x20ᴘʀᴏᴄᴇsᴏ\x20ᴘᴜᴇᴅᴇ\x20ᴅᴜʀᴀʀ\x20ᴇɴᴛʀᴇ\x202\x20ʏ\x2010\x20ᴍɪɴᴜᴛᴏs\x20ᴅᴇᴘᴇɴᴅɪᴇɴᴅᴏ\x20ᴅᴇ\x20ʟᴀ\x20ᴅᴜʀᴀᴄɪᴏɴ\x20ᴅᴇʟ\x20ᴠɪᴅᴇᴏ...*',_0xb0783f,_0x57b920);try{const _0x5255fd=await _0x95dfeb(_0x6af084[0x0]);for(let _0x4d26dc=0x0;_0x4d26dc<_0x5255fd['length'];_0x4d26dc++){const _0x254fe1=await getBuffer(_0x5255fd[_0x4d26dc]['download_link']);if(_0x254fe1['detectedType']['mime']['startsWith']('image/'))await _0x199511['sendMessage'](_0x57b920['chat'],{'image':{'url':_0x5255fd[_0x4d26dc]['download_link']}},{'quoted':_0x57b920});else _0x254fe1['detectedType']['mime']['startsWith']('video/')&&await _0x199511['sendMessage'](_0x57b920['chat'],{'video':{'url':_0x5255fd[_0x4d26dc]['download_link']}},{'quoted':_0x57b920});}}catch{try{const _0x18dba7=await instagram['download'](_0x6af084[0x0]);for(const _0x18aff6 of _0x18dba7){const _0x11a335=await(await _0x41b7a1('https://tinyurl.com/api-create.php?url='+_0x6af084[0x0]))['text'](),_0x1857e6=('🔗\x20*Url:*\x20'+_0x11a335)['trim']();_0x199511['sendFile'](_0x57b920['chat'],_0x18aff6['url'],'error.mp4',_0x1857e6,_0x57b920),await new Promise(_0x45214f=>setTimeout(_0x45214f,0x2710));}}catch{try{const _0x4ca66b=await _0x58d47a(_0x6af084[0x0])['url_list'][0x0],_0x40c60f=await(await _0x41b7a1('https://tinyurl.com/api-create.php?url='+_0x6af084[0x0]))['text'](),_0x475b3e=('🔗\x20*Url:*\x20'+_0x40c60f)['trim']();await _0x199511['sendFile'](_0x57b920['chat'],_0x4ca66b,'error.mp4',_0x475b3e,_0x57b920);}catch{try{const _0x834c68=await instagramdl(_0x6af084[0x0]),_0x2f11ba=await(await _0x41b7a1('https://tinyurl.com/api-create.php?url='+_0x6af084[0x0]))['text'](),_0x4fb984=('🔗\x20*Url:*\x20'+_0x2f11ba)['trim']();for(const {url:_0x1be38c}of _0x834c68)await _0x199511['sendFile'](_0x57b920['chat'],_0x1be38c,'error.mp4',_0x4fb984,_0x57b920);}catch{try{const _0x2ee37e=await _0x41b7a1('https://api.lolhuman.xyz/api/instagram?apikey='+lolkeysapi+'&url='+_0x6af084[0x0]),_0x212cfb=await _0x2ee37e['json'](),_0x5cd516=_0x212cfb['result'],_0x2df86d=await(await _0x41b7a1('https://tinyurl.com/api-create.php?url='+_0x6af084[0x0]))['text'](),_0x1e2979=('🔗\x20*Url:*\x20'+_0x2df86d)['trim']();await _0x199511['sendFile'](_0x57b920['chat'],_0x5cd516,'error.mp4',_0x1e2979,_0x57b920);}catch{throw'*❌ʟᴏ\x20sᴇɴᴛɪᴍᴏs\x20sᴇ\x20ʜᴀ\x20ɢᴇɴᴇʀᴀᴅᴏ\x20ᴜɴ\x20ᴇʀʀᴏʀ\x20ᴠᴜᴇʟᴠᴇ\x20ɪɴᴛᴇɴᴛᴀʀ❌*';}}}}}};handler['command']=/^(instagramdl|instagram|igdl|ig|instagramdl2|instagram2|igdl2|ig2|instagramdl3|instagram3|igdl3|ig3)$/i,handler['premium']=!![],handler['register']=!![];export default handler;const getBuffer=async(_0x1fe1a2,_0x24b61e)=>{_0x24b61e=_0x24b61e||{};const _0x1b0221=await _0x1406a2({'method':'get','url':_0x1fe1a2,'headers':{'DNT':0x1,'Upgrade-Insecure-Request':0x1},..._0x24b61e,'responseType':'arraybuffer'}),_0x3f4bf4=Buffer['from'](_0x1b0221['data'],'binary'),_0x4cf2f1=await fileTypeFromBuffer(_0x3f4bf4);if(!_0x4cf2f1||_0x4cf2f1['mime']!=='image/jpeg'&&_0x4cf2f1['mime']!=='image/png'&&_0x4cf2f1['mime']!=='video/mp4')return null;return{'buffer':_0x3f4bf4,'detectedType':_0x4cf2f1};};
+import fetch from 'node-fetch';
+import axios from 'axios';
+import instagramGetUrl from 'instagram-url-direct';
+import {instagramdl} from '@bochilteam/scraper';
+import instagramDl from '@sasmeee/igdl';
+import {fileTypeFromBuffer} from 'file-type';
+const handler = async (m, {conn, args, command, usedPrefix}) => {
+let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
+  if (!args[0]) return conn.reply(m.chat, `*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝚄𝙽 𝙴𝙽𝙻𝙰𝙲𝙴 𝙳𝙴 𝙸𝙽𝚂𝚃𝙰𝙶𝚁𝙰𝙼, 𝙴𝙹𝙴𝙼𝙿𝙻𝙾: ${usedPrefix + command}* https://www.instagram.com/reel/Cc0NuYBg8CR/?utm_source=ig_web_copy_link`, fkontak, m)
+  conn.reply(m.chat, `*[❗] ᴅᴇsᴄᴀʀɢᴀɴᴅᴏ sᴜ ᴠɪᴅᴇᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ ᴘᴏʀ ғᴀᴠᴏʀ, ᴇsᴛᴇ ᴘʀᴏᴄᴇsᴏ ᴘᴜᴇᴅᴇ ᴅᴜʀᴀʀ ᴇɴᴛʀᴇ 2 ʏ 10 ᴍɪɴᴜᴛᴏs ᴅᴇᴘᴇɴᴅɪᴇɴᴅᴏ ᴅᴇ ʟᴀ ᴅᴜʀᴀᴄɪᴏɴ ᴅᴇʟ ᴠɪᴅᴇᴏ...*`, fkontak, m)
+  try {
+const img = await instagramDl(args[0]);
+for (let i = 0; i < img.length; i++) {
+    const bufferInfo = await getBuffer(img[i].download_link);
+        if (bufferInfo.detectedType.mime.startsWith('image/')) {
+            await conn.sendMessage(m.chat, {image: {url: img[i].download_link}}, {quoted: m});
+        } else if (bufferInfo.detectedType.mime.startsWith('video/')) {
+            await conn.sendMessage(m.chat, {video: {url: img[i].download_link }}, {quoted: m});
+        }
+}
+  } catch {   
+  try {
+    const datTa = await instagram.download(args[0]);
+    for (const urRRl of datTa) {
+      const shortUrRRl = await (await fetch(`https://tinyurl.com/api-create.php?url=${args[0]}`)).text();
+      const tXXxt = `🔗 *Url:* ${shortUrRRl}`.trim();
+      conn.sendFile(m.chat, urRRl.url, 'error.mp4', tXXxt, m);
+      await new Promise((resolve) => setTimeout(resolve, 10000));
+    }
+  } catch {
+      try {
+        const resultss = await instagramGetUrl(args[0]).url_list[0];
+        const shortUrl2 = await (await fetch(`https://tinyurl.com/api-create.php?url=${args[0]}`)).text();
+        const txt2 = `🔗 *Url:* ${shortUrl2}`.trim();
+        await conn.sendFile(m.chat, resultss, 'error.mp4', txt2, m);
+      } catch {
+        try {
+          const resultssss = await instagramdl(args[0]);
+          const shortUrl3 = await (await fetch(`https://tinyurl.com/api-create.php?url=${args[0]}`)).text();
+          const txt4 = `🔗 *Url:* ${shortUrl3}`.trim();
+          for (const {url} of resultssss) await conn.sendFile(m.chat, url, 'error.mp4', txt4, m);
+        } catch {
+          try {
+            const human = await fetch(`https://api.lolhuman.xyz/api/instagram?apikey=${lolkeysapi}&url=${args[0]}`);
+            const json = await human.json();
+            const videoig = json.result;
+            const shortUrl1 = await (await fetch(`https://tinyurl.com/api-create.php?url=${args[0]}`)).text();
+            const txt1 = `🔗 *Url:* ${shortUrl1}`.trim();
+            await conn.sendFile(m.chat, videoig, 'error.mp4', txt1, m);
+          } catch {
+            throw `*❌ʟᴏ sᴇɴᴛɪᴍᴏs sᴇ ʜᴀ ɢᴇɴᴇʀᴀᴅᴏ ᴜɴ ᴇʀʀᴏʀ ᴠᴜᴇʟᴠᴇ ɪɴᴛᴇɴᴛᴀʀ❌*`;
+          }
+        }
+      }
+    }
+  }
+};
+handler.command = /^(instagramdl|instagram|igdl|ig|instagramdl2|instagram2|igdl2|ig2|instagramdl3|instagram3|igdl3|ig3)$/i;
+handler.premium = true
+handler.register = true
+export default handler;
+
+const getBuffer = async (url, options) => {
+    options = options || {};
+    const res = await axios({method: 'get', url, headers: {'DNT': 1, 'Upgrade-Insecure-Request': 1}, ...options, responseType: 'arraybuffer'});
+    const buffer = Buffer.from(res.data, 'binary');
+    const detectedType = await fileTypeFromBuffer(buffer);
+    if (!detectedType || (detectedType.mime !== 'image/jpeg' && detectedType.mime !== 'image/png' && detectedType.mime !== 'video/mp4')) {
+        return null;
+    }
+    return { buffer, detectedType };
+};

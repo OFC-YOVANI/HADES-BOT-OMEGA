@@ -1,1 +1,88 @@
-import _0x520371 from'api-dylux';import _0x539b7f from'node-fetch';import{savefrom,facebookdl,facebookdlv2}from'@bochilteam/scraper';import _0xa0d7d5 from'fb-downloader-scrapper';import{facebook}from'@xct007/frieren-scraper';import _0x2ebaf2 from'axios';let handler=async(_0x2af038,{conn:_0x2c576e,args:_0x2f8a1a,command:_0x12279c,usedPrefix:_0x50dcdb})=>{if(!_0x2f8a1a[0x0])throw'[❗]\x20enter\x20the\x20Facebook\x20link';if(!_0x2f8a1a[0x0]['match'](/www.facebook.com|fb.watch/g))throw'[❗]\x20enter\x20the\x20Facebook\x20link';try{await _0x2af038['reply']('[❗]\x20Please\x20wait,\x20your\x20video\x20is\x20downloading.\x20If\x20it\x20takes\x20a\x20while\x20to\x20download,\x20the\x20video\x20may\x20be\x20very\x20heavy\x20and\x20may\x20not\x20download.');const _0x585bed=await facebook['v1'](_0x2f8a1a[0x0]);let _0x3d1e6c='';_0x585bed['urls']&&_0x585bed['urls']['length']>0x0&&(_0x3d1e6c=''+(_0x585bed['urls'][0x0]?.['hd']||_0x585bed['urls'][0x1]?.['sd']||'')),_0x2c576e['sendFile'](_0x2af038['chat'],_0x3d1e6c,'error.mp4','乂✰here\x20is\x20your\x20video✰乂',_0x2af038);}catch(_0x58e1e8){console['log']('1\x20'+_0x58e1e8);try{const _0x42e57e=await igeh(_0x2f8a1a[0x0]);_0x2c576e['sendMessage'](_0x2af038['chat'],{'video':{'url':_0x42e57e['url_list']}},_0x2af038);}catch(_0x3f0fa1){console['log']('1_2\x20'+_0x3f0fa1);try{let _0x287afe=await _0x539b7f('https://api.lolhuman.xyz/api/facebook?apikey='+lolkeysapi+'&url='+_0x2f8a1a[0x0]),_0x393050=await _0x287afe['json'](),_0x915d26=_0x393050['result'][0x0];if(_0x915d26==''||!_0x915d26||_0x915d26==null)_0x915d26=_0x393050['result'][0x1];_0x2c576e['sendFile'](_0x2af038['chat'],_0x915d26,'error.mp4','乂✰here\x20is\x20your\x20video✰乂',_0x2af038);}catch(_0x8ebd3d){console['log']('2\x20'+_0x8ebd3d);try{let _0x576cb9=await _0x520371['fbdl'](_0x2f8a1a[0x0]),_0x33da0d=await _0x576cb9['data'][0x0]['url'];await _0x2c576e['sendFile'](_0x2af038['chat'],_0x33da0d,'error.mp4','乂✰here\x20is\x20your\x20video✰乂',_0x2af038);}catch(_0x4bf4a8){console['log']('3\x20'+_0x4bf4a8);try{let _0x111360=await _0xa0d7d5(_0x2f8a1a[0x0]);for(let _0x29f0e3 of _0x111360['download']){let _0x25f882=_0x29f0e3['url'];await _0x2c576e['sendFile'](_0x2af038['chat'],_0x25f882,'error.mp4','乂✰here\x20is\x20your\x20video✰乂',_0x2af038);}}catch(_0x5496e8){console['log']('4\x20'+_0x5496e8);try{let _0xedb7fb=await _0x539b7f('https://api.violetics.pw/api/downloader/facebook?apikey=beta&url='+_0x2f8a1a[0x0]),_0xa1eec1=await _0xedb7fb['json'](),_0x534bba=''+(_0xa1eec1['result']['hd']['url']||_0xa1eec1['result']['sd']['url']);await _0x2c576e['sendFile'](_0x2af038['chat'],_0x534bba,'error.mp4','乂✰here\x20is\x20your\x20video✰乂',_0x2af038);}catch(_0x2e31d4){console['log']('5\x20'+_0x2e31d4);try{let _0x96e7f9=await _0x539b7f('https://latam-api.vercel.app/api/facebookdl?apikey=brunosobrino&q='+_0x2f8a1a[0x0]),_0x539625=await _0x96e7f9['json'](),_0x2bcf98=await _0x539625['video'];await _0x2c576e['sendFile'](_0x2af038['chat'],_0x2bcf98,'error.mp4','乂✰here\x20is\x20your\x20video✰乂',_0x2af038);}catch(_0x164e91){console['log']('6\x20'+_0x164e91);try{const {result:_0x597871}=await facebookdl(_0x2f8a1a[0x0])['catch'](async _0x58f981=>await facebookdlv2(_0x2f8a1a[0x0]))['catch'](async _0x263a68=>await savefrom(_0x2f8a1a[0x0]));for(const {url:_0x3bf169,isVideo:_0x2aaf72}of _0x597871['reverse']())await _0x2c576e['sendFile'](_0x2af038['chat'],_0x3bf169,'facebook.'+(!_0x2aaf72?'bin':'mp4'),'乂✰here\x20is\x20your\x20video✰乂',_0x2af038);}catch(_0x5c70c8){console['log']('7\x20'+_0x5c70c8);throw''+_0x520371;}}}}}}}}};handler['command']=/^(facebook|fb|facebookdl|fbdl|facebook2|fb2|facebookdl2|fbdl2|facebook3|fb3|facebookdl3|fbdl3|facebook4|fb4|facebookdl4|fbdl4|facebook5|fb5|facebookdl5|fbdl5)$/i,handler['register']=!![],handler['limit']=0x3,handler['premium']=!![];export default handler;async function igeh(_0x5a398){return new Promise(async(_0x5c759d,_0x245c2f)=>{const _0x430987='https://instasupersave.com/';try{const _0x10e24e=await _0x2ebaf2(_0x430987),_0x57cf72=_0x10e24e['headers']['set-cookie'],_0x51bb58=_0x57cf72[0x0]['split'](';')[0x0]['replace']('XSRF-TOKEN=','')['replace']('%3D','');var _0x327aeb={'method':'post','url':_0x430987+'api/convert','headers':{'origin':'https://instasupersave.com','referer':'https://instasupersave.com/pt/','sec-fetch-dest':'empty','sec-fetch-mode':'cors','sec-fetch-site':'same-origin','user-agent':'Mozilla/5.0\x20(Windows\x20NT\x2010.0;\x20Win64;\x20x64)\x20AppleWebKit/537.36\x20(KHTML,\x20like\x20Gecko)\x20Chrome/107.0.0.0\x20Safari/537.36\x20Edg/107.0.1418.52','x-xsrf-token':_0x51bb58,'Content-Type':'application/json','Cookie':'XSRF-TOKEN='+_0x51bb58+';\x20instasupersave_session='+_0x51bb58},'data':{'url':_0x5a398}};_0x2ebaf2(_0x327aeb)['then'](function(_0x4c3b60){let _0x36ea28=[];Array['isArray'](_0x4c3b60['data'])?_0x4c3b60['data']['forEach'](_0x1a1bae=>{_0x36ea28['push'](_0x1a1bae['sd']===undefined?_0x1a1bae['thumb']:_0x1a1bae['sd']['url']);}):_0x36ea28['push'](_0x4c3b60['data']['url'][0x0]['url']),_0x5c759d({'results_number':_0x36ea28['length'],'url_list':_0x36ea28});})['catch'](function(_0x347e12){_0x245c2f(_0x347e12['message']);});}catch(_0x1bbeb3){_0x245c2f(_0x1bbeb3['message']);}});}
+import fg from 'api-dylux' 
+import fetch from 'node-fetch'
+import { savefrom, facebookdl, facebookdlv2 } from '@bochilteam/scraper'
+import fbDownloader from 'fb-downloader-scrapper'
+import axios from 'axios'
+let handler = async (m, { conn, args, command, usedPrefix }) => {
+if (!args[0]) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝚄𝙽 𝙴𝙽𝙻𝙰𝙲𝙴 𝙳𝙴 𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺, 𝙴𝙹𝙴𝙼𝙿𝙻𝙾: ${usedPrefix + command}* https://fb.watch/fOTpgn6UFQ/` 
+if (!args[0].match(/www.facebook.com|fb.watch/g)) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝚄𝙽 𝙴𝙽𝙻𝙰𝙲𝙴 𝙳𝙴 𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺, 𝙴𝙹𝙴𝙼𝙿𝙻𝙾: ${usedPrefix + command}* https://fb.watch/fOTpgn6UFQ/`
+try {
+await m.reply(`*[❗] ᴅᴇsᴄᴀʀɢᴀɴᴅᴏ sᴜ ᴠɪᴅᴇᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ ᴘᴏʀ ғᴀᴠᴏʀ, ᴇsᴛᴇ ᴘʀᴏᴄᴇsᴏ ᴘᴜᴇᴅᴇ ᴅᴜʀᴀʀ ᴇɴᴛʀᴇ 2 ʏ 10 ᴍɪɴᴜᴛᴏs ᴅᴇᴘᴇɴᴅɪᴇɴᴅᴏ ᴅᴇ ʟᴀ ᴅᴜʀᴀᴄɪᴏɴ ᴅᴇʟ ᴠɪᴅᴇᴏ...*`)      
+const d2ata = await facebook.v1(args[0]);
+let r2es = '';
+if (d2ata.urls && d2ata.urls.length > 0) {
+r2es = `${d2ata.urls[0]?.hd || d2ata.urls[1]?.sd || ''}`}
+conn.sendFile(m.chat, r2es, 'error.mp4', `*𝙰𝚀𝚄𝙸 𝙴𝚂𝚃𝙰 𝚂𝚄 𝚅𝙸𝙳𝙴𝙾*`, m);
+} catch (err1) {
+console.log('1 ' + err1)   
+try {  
+const req = await igeh(args[0])
+conn.sendMessage(m.chat, { video : { url : req.url_list }}, m)   
+} catch (err1_2) {
+console.log('1_2 ' + err1_2)   
+try {
+let Rres = await fetch(`https://api.lolhuman.xyz/api/facebook?apikey=${lolkeysapi}&url=${args[0]}`)
+let Jjson = await Rres.json()
+let VIDEO = Jjson.result[0]
+if (VIDEO == '' || !VIDEO || VIDEO == null) VIDEO = Jjson.result[1]
+conn.sendFile(m.chat, VIDEO, 'error.mp4', `*𝙰𝚀𝚄𝙸 𝙴𝚂𝚃𝙰 𝚂𝚄 𝚅𝙸𝙳𝙴𝙾*`, m)    
+} catch (err2) {
+console.log('2 ' + err2)    
+try {
+let ress = await fg.fbdl(args[0])
+let urll = await ress.data[0].url    
+await conn.sendFile(m.chat, urll, 'error.mp4', '*𝙰𝚀𝚄𝙸 𝙴𝚂𝚃𝙰 𝚂𝚄 𝚅𝙸𝙳𝙴𝙾*', m)     
+} catch (err3) {
+console.log('3 ' + err3)    
+try {
+let res = await fbDownloader(args[0])
+for (let result of res.download) {
+let ur = result.url    
+await conn.sendFile(m.chat, ur, 'error.mp4', '*𝙰𝚀𝚄𝙸 𝙴𝚂𝚃𝙰 𝚂𝚄 𝚅𝙸𝙳𝙴𝙾*', m)}
+} catch (err4) {
+console.log('4 ' + err4)    
+try { 
+let vio = await fetch(`https://api.violetics.pw/api/downloader/facebook?apikey=beta&url=${args[0]}`)  
+let vioo = await vio.json()
+let videovio = `${vioo.result.hd.url || vioo.result.sd.url}`
+await conn.sendFile(m.chat, videovio, `error.mp4`, '*𝙰𝚀𝚄𝙸 𝙴𝚂𝚃𝙰 𝚂𝚄 𝚅𝙸𝙳𝙴𝙾*', m)
+} catch (err5) {
+console.log('5 ' + err5)    
+try {
+let res3 = await fetch(`https://latam-api.vercel.app/api/facebookdl?apikey=brunosobrino&q=${args[0]}`)  
+let json = await res3.json()
+let url3 = await json.video
+await conn.sendFile(m.chat, url3, 'error.mp4', '*𝙰𝚀𝚄𝙸 𝙴𝚂𝚃𝙰 𝚂𝚄 𝚅𝙸𝙳𝙴𝙾*', m)         
+} catch (err6) {
+console.log('6 ' + err6)    
+try {
+const { result } = await facebookdl(args[0]).catch(async _ => await facebookdlv2(args[0])).catch(async _ => await savefrom(args[0]))
+for (const { url, isVideo } of result.reverse()) await conn.sendFile(m.chat, url, `facebook.${!isVideo ? 'bin' : 'mp4'}`, '*𝙰𝚀𝚄𝙸 𝙴𝚂𝚃𝙰 𝚂𝚄 𝚅𝙸𝙳𝙴𝙾*', m)    
+} catch (err7) {
+console.log('7 ' + err7)    
+throw `${fg}`
+}}}}}}}}}
+handler.command = /^(facebook|fb|facebookdl|fbdl|facebook2|fb2|facebookdl2|fbdl2|facebook3|fb3|facebookdl3|fbdl3|facebook4|fb4|facebookdl4|fbdl4|facebook5|fb5|facebookdl5|fbdl5)$/i
+handler.register = true
+handler.limit = 3
+export default handler
+
+async function igeh(url_media) {
+return new Promise(async (resolve,reject)=>{
+const BASE_URL = "https://instasupersave.com/"
+try {
+const resp = await axios(BASE_URL);
+const cookie = resp.headers["set-cookie"]; // get cookie from request
+const session = cookie[0].split(";")[0].replace("XSRF-TOKEN=","").replace("%3D", "")
+var config = { method: 'post', url: `${BASE_URL}api/convert`, headers: { 'origin': 'https://instasupersave.com', 'referer': 'https://instasupersave.com/pt/', 'sec-fetch-dest': 'empty', 'sec-fetch-mode': 'cors', 'sec-fetch-site': 'same-origin', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52', 'x-xsrf-token': session, 'Content-Type': 'application/json', 'Cookie': `XSRF-TOKEN=${session}; instasupersave_session=${session}` }, data: { url: url_media }};
+axios(config).then(function (response) {
+let ig = []
+if(Array.isArray(response.data)){
+response.data.forEach(post => { ig.push(post.sd === undefined ? post.thumb : post.sd.url)})
+} else {
+ig.push(response.data.url[0].url)}
+resolve({ results_number : ig.length, url_list: ig })}).catch(function (error) {
+reject(error.message)})
+} catch (e) {
+reject(e.message)
+}})}
