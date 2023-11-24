@@ -8,7 +8,7 @@ import axios from 'axios';
 import moment from 'moment-timezone';
 
 global.owner = [
-  ['5212412377467', 'CREADOR', true],
+  ['573136821364', 'CREADOR', true],
   ['5212411233838', 'CREADOR', true],
   ['5212411719888', 'CREADOR', true],
   ['5212414147874', 'CREADOR', true]
@@ -18,7 +18,7 @@ global.owner = [
 global.suittag = ['5212414147874'];
 global.prems = ['5212414147874'];
 
-global.packname = '乂✰ʜᴀᴅᴇs-ʙᴏᴛ-ᴍᴅ✰乂';
+global.packname = 'WichoBoot';
 global.author = '©ᴏғᴄ-ʏᴏᴠᴀɴɪ﹏✍';
 global.vs = '1.10.90';
 global.version = vs
