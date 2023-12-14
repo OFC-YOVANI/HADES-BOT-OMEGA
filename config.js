@@ -14,12 +14,12 @@ global.owner = [
   ['5212414147874', 'CREADOR', true]
   
 ];
-
+global.prems = [`59164832948`];
 global.suittag = ['5212414147874'];
 global.prems = ['5212414147874'];
 
 global.packname = '乂✰ʜᴀᴅᴇs-ʙᴏᴛ-ᴍᴅ✰乂';
-global.author = '©ᴏғᴄ-ʏᴏᴠᴀɴɪ﹏✍';
+global.author = '©ᴏғᴄ-LANYU🧿
 global.vs = '1.10.90';
 global.version = vs
 global.gt = '乂✰ʜᴀᴅᴇs-ʙᴏᴛ-ᴍᴅ✰乂';
