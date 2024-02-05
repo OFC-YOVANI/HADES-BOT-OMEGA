@@ -15,8 +15,8 @@ global.owner = [
   
 ];
 
-global.suittag = ['5212414147874'];
-global.prems = ['5212414147874'];
+global.suittag = ['50762670449'];
+global.prems = ['50762670449'];
 
 global.packname = '乂✰ʜᴀᴅᴇs-ʙᴏᴛ-ᴍᴅ✰乂';
 global.author = '©ᴏғᴄ-ʏᴏᴠᴀɴɪ﹏✍';
@@ -28,7 +28,7 @@ global.yt = 'https://youtu.be/aPu9wQi-z8U';
 global.youtube = yt
 global.ig = 'https://www.instagram';
 global.hadesig = ig
-global.md = 'https://github.com/OFC-YOVANI/HADES-BOT-OMEGA.git';
+global.md = 'https://github.com/OFC-JIMMY/HADES-BOT-OMEGA.git';
 global.botxdf = md
 global.nn = 'https://chat.whatsapp.com/BgyxmpSY2VYE3MT0UbLAgf';
 global.nngrupo = nn
