@@ -1,10 +1,10 @@
 {
   "name": "HADES-BOT-MD",
-  "website": "https://github.com/OFC-YOVANI",
+  "website": "https://github.com/OFC-YOVANI/HADES-BOT-MD",
   "description": "subscribe to the channel HADES-BOT (≧▽≦)",
-  "repository": "https://github.com/OFC-YOVANI/HADES-BOT-OMEGA ",
+  "repository": "https://github.com/OFC-YOVANI/HADES-BOT-MD",
   "logo": "https://i.imgur.com/AmzlKVi.jpeg",
-  "success_url": "https://github.com/OFC-YOVANI/HADES-BOT-OMEGA",
+  "success_url": "https://github.com/OFC-YOVANI/HADES-BOT-MD",
   "keywords": [
     "nodejs",
     "heroku",
@@ -14,15 +14,12 @@
     "spanish",
     "whatsapp",
     "termux",
-    "hades",
+    "shadow",
     "multi-device",
     "md",
     "whatsappbot",
     "oficial",
-    "whatsapp-md",
-    "thehadesbot",
-    "thehades-bot",
-    "thehades-bot-md"],
+    "whatsapp-md"],
   "image": "heroku/nodejs",
   "buildpacks": [
     {
