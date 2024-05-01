@@ -1,0 +1,1 @@
+const handler=async(_0x31bb00,{conn:_0x481c27})=>{_0x481c27['sendFile'](_0x31bb00['chat'],'https://api.lolhuman.xyz/api/sticker/dadu?apikey='+lolkeysapi,'error.webp','',_0x31bb00,{'asSticker':!![]});};handler['command']=['dado','dados','dadu'],handler['register']=!![],handler['group']=!![];export default handler;
