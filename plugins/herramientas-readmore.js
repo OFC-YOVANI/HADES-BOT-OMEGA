@@ -1,15 +1,1 @@
-let handler = async (m, { conn, text }) => {
-let [l, r] = text.split`|`
-if (!l) l = ''
-if (!r) r = ''
-conn.reply(m.chat, l + readMore + r, m)
-}
-handler.help = ['readmore', 'spoiler'].map(v => v + ' <teks>|<teks>')
-handler.tags = ['tools']
-handler.command = /^(spoiler|hidetext|readmore|selengkapnya)$/i
-handler.register = true
-handler.premium = true
-export default handler
-
-const more = String.fromCharCode(8206)
-const readMore = more.repeat(4001)
+const handler=async(_0x57865f,{conn:_0x226d5c,text:_0x5c75e5})=>{let [_0x5d1b30,_0x73bcdf]=_0x5c75e5['split']`|`;if(!_0x5d1b30)_0x5d1b30='';if(!_0x73bcdf)_0x73bcdf='';_0x226d5c['reply'](_0x57865f['chat'],_0x5d1b30+readMore+_0x73bcdf,_0x57865f);};handler['help']=['readmore','spoiler']['map'](_0x5d762b=>_0x5d762b+'\x20<teks>|<teks>'),handler['tags']=['tools'],handler['command']=/^(spoiler|hidetext|readmore|selengkapnya)$/i,handler['register']=!![],handler['group']=!![];export default handler;const more=String['fromCharCode'](0x200e),readMore=more['repeat'](0xfa1);

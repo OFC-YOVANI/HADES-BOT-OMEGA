@@ -1,17 +1,1 @@
-let handler = async (m, { conn, text}) => {
-let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
-if (!text) return conn.reply(m.chat, `[❗]ENTER THE @tag OF SOME USER`, fkontak, m)
-let who
-if (m.isGroup) who = m.mentionedJid[0]
-else who = m.chat
-if (!who) return conn.reply(m.chat, `[❗]ENTER THE @tag OF SOME USER`, fkontak, m)
-let users = global.db.data.users
-users[who].banned = false
-conn.reply(m.chat, `[❗𝐈𝐍𝐅𝐎❗]THE USER WAS SUCCESSFULLY FADED\n THE USER CAN NOW USE THE BOT`, fkontak, m)
-}
-handler.help = ['unbanuser']
-handler.tags = ['owner']
-handler.command = /^unbanuser$/i
-handler.register = true
-handler.rowner = true
-export default handler
+const handler=async(_0x4c3b47,{conn:_0x550892,text:_0x30e540})=>{if(!_0x30e540)throw'*[❗]\x20𝙸𝙽𝙶𝚁𝙴𝚂𝙰\x20𝙴𝙻\x20@𝚝𝚊𝚐\x20𝙳𝙴\x20𝙰𝙻𝙶𝚄𝙽\x20𝚄𝚂𝚄𝙰𝚁𝙸𝙾*';let _0x3a4e5e;if(_0x4c3b47['isGroup'])_0x3a4e5e=_0x4c3b47['mentionedJid'][0x0];else _0x3a4e5e=_0x4c3b47['chat'];if(!_0x3a4e5e)throw'*[❗]\x20𝙸𝙽𝙶𝚁𝙴𝚂𝙰\x20𝙴𝙻\x20@𝚝𝚊𝚐\x20𝙳𝙴\x20𝙰𝙻𝙶𝚄𝙽\x20𝚄𝚂𝚄𝙰𝚁𝙸𝙾*';const _0x1d9fcb=global['db']['data']['users'];_0x1d9fcb[_0x3a4e5e]['banned']=![],_0x550892['reply'](_0x4c3b47['chat'],'*[❗]\x20𝙴𝙻\x20𝚄𝚂𝚄𝙰𝚁𝙸𝙾\x20𝙵𝚄𝙴\x20𝙳𝙴𝚂𝙱𝙰𝙽𝙴𝙰𝙳𝙾\x20𝙲𝙾𝙽\x20𝙴𝚇𝙸𝚃𝙾*\x0a*𝙴𝙻\x20𝚄𝚂𝚄𝙰𝚁𝙸𝙾\x20𝚈𝙰\x20𝙿𝚄𝙴𝙳𝙴\x20𝚄𝚂𝙰𝚁\x20𝙴𝙻\x20𝙱𝙾𝚃*',_0x4c3b47);};handler['help']=['unbanuser'],handler['tags']=['owner'],handler['command']=/^unbanuser$/i,handler['rowner']=!![],handler['register']=!![],handler['group']=!![];export default handler;

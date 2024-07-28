@@ -1,10 +1,1 @@
-let handler = async (m) => {
-global.db.data.chats[m.chat].isBanned = true
-m.reply('│‼️│THIS CHAT WAS SUCCESSFULLY BANNED🗝')
-}
-handler.help = ['banchat']
-handler.tags = ['owner']
-handler.command = /^banchat$/i
-handler.register = true
-handler.rowner = true
-export default handler
+const handler=async _0x2ad876=>{global['db']['data']['chats'][_0x2ad876['chat']]['isBanned']=!![],_0x2ad876['reply']('*[❗𝐈𝐍𝐅𝐎❗]\x20𝙴𝚂𝚃𝙴\x20𝙲𝙷𝙰𝚃\x20𝙵𝚄𝙴\x20𝙱𝙰𝙽𝙴𝙰𝙳𝙾\x20𝙲𝙾𝙽\x20𝙴𝚇𝙸𝚃𝙾*\x0a\x0a*𝙴𝙻\x20𝙱𝙾𝚃\x20𝙽𝙾\x20𝚁𝙴𝙰𝙲𝙲𝙸𝙾𝙽𝙰𝚁𝙰\x20𝙰\x20𝙽𝙸𝙽𝙶𝚄𝙽\x20𝙲𝙾𝙼𝙰𝙽𝙳𝙾\x20𝙷𝙰𝚂𝚃𝙰\x20𝙳𝙴𝚂𝙱𝙰𝙽𝙴𝙰𝚁\x20𝙴𝚂𝚃𝙴\x20𝙲𝙷𝙰𝚃*');};handler['help']=['banchat'],handler['tags']=['owner'],handler['command']=/^banchat$/i,handler['rowner']=!![],handler['register']=!![],handler['group']=!![];export default handler;

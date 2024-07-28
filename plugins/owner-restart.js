@@ -1,16 +1,1 @@
-import { spawn } from 'child_process'
-let handler = async (m, { conn, isROwner, text }) => {
-    if (!process.send) throw 'Dont: node main.js\nDo: node index.js'
-    if (global.conn.user.jid == conn.user.jid) {
-    await m.reply('```R E S T A R T . . .```')
-    process.send('reset')
-  } else throw '_eeeeeiiittsssss..._'
-}
-
-handler.help = ['restart']
-handler.tags = ['owner']
-handler.command = /^(res(tart)?)$/i
-
-handler.rowner = true
-handler.register = true
-export default handler
+const handler=async(_0xd3457e,{conn:_0x49504d,isROwner:_0x385e6f,text:_0x48a14d})=>{if(!process['send'])throw'Dont:\x20node\x20main.js\x0aDo:\x20node\x20index.js';await _0xd3457e['reply']('*[\x20⚠\x20]\x20Reiniciando\x20el\x20Bot...*\x0a\x0a*—◉\x20Espere\x20un\x20momento\x20para\x20volver\x20a\x20usar\x20el\x20Bot,\x20puede\x20tomar\x20unos\x20minutos.*'),process['send']('reset');};handler['help']=['restart'],handler['tags']=['owner'],handler['command']=['restart','reiniciar'],handler['rowner']=!![],handler['register']=!![],handler['group']=!![];export default handler;

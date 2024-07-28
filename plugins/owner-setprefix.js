@@ -1,12 +1,1 @@
-let handler = async(m, { conn, text }) => {
-  if (!text) throw `[❗] no prefix detected...`
-  global.prefix = new RegExp('^[' + (text || global.opts['prefix'] || '‎xzXZ/i!#$%+£¢€¥^°=¶∆×÷π√✓©®:;?&.\\-').replace(/[|\\{}()[\]^$+*?.\-\^]/g, '\\$&') + ']')
-  await m.reply(`[❗] the prefix has been changed to  ${text}`)
-    // conn.fakeReply(m.chat, '[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝙿𝚁𝙴𝙵𝙸𝙹𝙾 𝙷𝙰 𝚂𝙸𝙳𝙾 𝙲𝙰𝙼𝙱𝙸𝙰𝙳𝙾 𝙰 *${text}*', '0@s.whatsapp.net', 'Set Prefix Bot')
-}
-handler.help = ['setprefix'].map(v => v + ' [prefix]')
-handler.tags = ['owner']
-handler.command = /^(setprefix)$/i
-handler.rowner = true
-handler.register = true
-export default handler 
+const handler=async(_0x10373d,{conn:_0x541c3c,text:_0xef72a2,usedPrefix:_0xd4066c,command:_0x4f8544})=>{if(!_0xef72a2)throw'*[❗]\x20No\x20se\x20encontro\x20ningun\x20prefijo,\x20por\x20favor\x20ingrese\x20el\x20prefijo\x20que\x20quiera\x20establecer.\x20Ejemplo:*\x20'+(_0xd4066c+_0x4f8544)+'\x20/';global['prefix']=new RegExp('^['+(_0xef72a2||global['opts']['prefix']||'‎xzXZ/i!#$%+£¢€¥^°=¶∆×÷π√✓©®:;?&.\x5c-')['replace'](/[|\\{}()[\]^$+*?.\-\^]/g,'\x5c$&')+']'),await _0x10373d['reply']('*[❗]\x20El\x20prefijo\x20actual\x20del\x20Bot\x20se\x20establecio\x20a\x20'+_0xef72a2+'*');};handler['help']=['setprefix']['map'](_0x1d383a=>_0x1d383a+'\x20[prefix]'),handler['tags']=['owner'],handler['command']=/^(setprefix)$/i,handler['rowner']=!![],handler['register']=!![],handler['group']=!![];export default handler;

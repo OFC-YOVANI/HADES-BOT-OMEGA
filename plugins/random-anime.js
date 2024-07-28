@@ -1,12 +1,1 @@
-import axios from "axios"
-let handler = async (m, {command, conn, usedPrefix}) => {
-let res = (await axios.get(`https://raw.githubusercontent.com/OFC-YOVANI/HADES-BOT-MD/master/src/hades/anime-${command}.json`)).data  
-let haha = await res[Math.floor(res.length * Math.random())]    
-conn.sendFile(m.chat, haha, 'error.jpg', `_${command}_`, m)
-//conn.sendButton(m.chat, `_${command}_`.trim(), author, haha, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `${usedPrefix + command}`]], m)    
-}
-handler.command = handler.help = ['akira', 'akiyama', 'anna', 'asuna', 'ayuzawa', 'boruto', 'chiho', 'chitoge', 'deidara', 'erza', 'elaina', 'eba', 'emilia', 'hestia', 'hinata', 'inori', 'isuzu', 'itachi', 'itori', 'kaga', 'kagura', 'kaori', 'keneki', 'kotori', 'kurumi', 'madara', 'mikasa', 'miku', 'minato', 'naruto', 'nezuko', 'sagiri', 'sasuke', 'sakura', 'cosplay']
-handler.tags = ['anime']
-handler.register = true
-handler.premium = true
-export default handler
+import _0x1a0307 from'axios';const handler=async(_0x128eaf,{command:_0x13ce74,conn:_0xee59ab,usedPrefix:_0xe29476})=>{const _0x59336a=(await _0x1a0307['get']('https://raw.githubusercontent.com/OFC-YOVANI/HADES-BOT-MD/master/src/hades/anime-'+_0x13ce74+'.json'))['data'],_0x15993d=await _0x59336a[Math['floor'](_0x59336a['length']*Math['random']())];_0xee59ab['sendFile'](_0x128eaf['chat'],_0x15993d,'error.jpg','_'+_0x13ce74+'_',_0x128eaf);};handler['command']=handler['help']=['akira','akiyama','anna','asuna','ayuzawa','boruto','chiho','chitoge','deidara','erza','elaina','eba','emilia','hestia','hinata','inori','isuzu','itachi','itori','kaga','kagura','kaori','keneki','kotori','kurumi','madara','mikasa','miku','minato','naruto','nezuko','sagiri','sasuke','sakura','cosplay'],handler['tags']=['anime'],handler['register']=!![],handler['group']=!![];export default handler;

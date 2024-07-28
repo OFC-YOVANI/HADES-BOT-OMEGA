@@ -1,14 +1,1 @@
-import { createHash } from 'crypto'
-let handler = async function (m, { args }) {
-if (!args[0]) throw '[❗] enter your serial number'
-let user = global.db.data.users[m.sender]
-let sn = createHash('md5').update(m.sender).digest('hex')
-if (args[0] !== sn) throw '[❗] incorrect serial number '
-user.registered = false
-m.reply(`[ ✔ ] you have deleted your registration `)
-}
-handler.help = ['', 'ister'].map(v => 'unreg' + v + ' <numero de serie>')
-handler.tags = ['xp']
-handler.command = /^unreg(ister)?$/i
-handler.register = true
-export default handler
+import{createHash}from'crypto';let handler=async function(_0x2a4548,{args:_0x359141}){let _0x5c80d4={'key':{'participants':'0@s.whatsapp.net','remoteJid':'status@broadcast','fromMe':![],'id':'Halo'},'message':{'contactMessage':{'vcard':'BEGIN:VCARD\x0aVERSION:3.0\x0aN:Sy;Bot;;;\x0aFN:y\x0aitem1.TEL;waid='+_0x2a4548['sender']['split']('@')[0x0]+':'+_0x2a4548['sender']['split']('@')[0x0]+'\x0aitem1.X-ABLabel:Ponsel\x0aEND:VCARD'}},'participant':'0@s.whatsapp.net'};if(!_0x359141[0x0])return conn['reply'](_0x2a4548['chat'],'[❗]\x20ingrese\x20su\x20numero\x20de\x20serie',_0x5c80d4,_0x2a4548);let _0x45e1c2=global['db']['data']['users'][_0x2a4548['sender']],_0x25ab7c=createHash('md5')['update'](_0x2a4548['sender'])['digest']('hex');if(_0x359141[0x0]!==_0x25ab7c)return conn['reply'](_0x2a4548['chat'],'[❗]\x20número\x20de\x20serie\x20incorrecto',_0x5c80d4,_0x2a4548);_0x45e1c2['registered']=![],conn['reply'](_0x2a4548['chat'],'[\x20✔\x20]\x20\x20has\x20eliminado\x20tu\x20registro',_0x5c80d4,_0x2a4548);};handler['help']=['','ister']['map'](_0x574dc0=>'unreg'+_0x574dc0+'\x20<numero\x20de\x20serie>'),handler['tags']=['xp'],handler['command']=/^unreg(ister)?$/i,handler['register']=!![],handler['group']=!![];export default handler;

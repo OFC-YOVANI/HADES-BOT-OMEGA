@@ -1,13 +1,1 @@
-let handler = async (m, { conn, participants, usedPrefix, command }) => {
-let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
-let BANtext = conn.reply(m.chat, `[❗]TAG A PERSON OR REPLY TO A MESSAGE SENT BY THE USER YOU WANT TO BAN EXAMPLE:\n${usedPrefix + command} @${global.suittag}`, fkontak, m)
-let who
-if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted.sender
-else who = m.chat
-let users = global.db.data.users
-users[who].banned = true
-conn.reply(m.chat, `[❗]THE USER WAS SUCCESSFULLY BANNED*\n*THE USER WILL NOT BE ABLE TO USE THE BOT UNTIL IT IS UNBANED`, fkontak, m)
-}
-handler.command = /^banuser$/i
-handler.rowner = true
-export default handler
+const handler=async(_0x20efd8,{conn:_0x2089d1,participants:_0x15b64f,usedPrefix:_0x9c1f26,command:_0x33a74d})=>{const _0x51b6c5='*[❗]\x20𝙴𝚃𝙸𝚀𝚄𝙴𝚃𝙴\x20𝙰\x20𝚄𝙽𝙰\x20𝙿𝙴𝚁𝚂𝙾𝙽𝙰\x20𝙾\x20𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙰\x20𝙰\x20𝚄𝙽\x20𝙼𝙴𝙽𝚂𝙰𝙹𝙴\x20𝙴𝙽𝚅𝙸𝙰𝙳𝙾\x20𝙿𝙾𝚁\x20𝙴𝙻\x20𝚄𝚂𝚄𝙰𝚁𝙸𝙾\x20𝚀𝚄𝙴\x20𝙳𝙴𝚂𝙴𝙴\x20𝙱𝙰𝙽𝙴𝙰𝚁\x0a\x0a*𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\x0a*'+(_0x9c1f26+_0x33a74d)+'\x20@'+global['suittag']+'*';if(!_0x20efd8['mentionedJid'][0x0]&&!_0x20efd8['quoted'])return _0x20efd8['reply'](_0x51b6c5,_0x20efd8['chat'],{'mentions':_0x2089d1['parseMention'](_0x51b6c5)});let _0x3c910c;if(_0x20efd8['isGroup'])_0x3c910c=_0x20efd8['mentionedJid'][0x0]?_0x20efd8['mentionedJid'][0x0]:_0x20efd8['quoted']['sender'];else _0x3c910c=_0x20efd8['chat'];const _0xb3de2f=global['db']['data']['users'];_0xb3de2f[_0x3c910c]['banned']=!![],_0x20efd8['reply']('[❗❗]\x20𝙴𝙻\x20𝚄𝚂𝚄𝙰𝚁𝙸𝙾\x20𝙵𝚄𝙴\x20𝙱𝙰𝙽𝙴𝙰𝙳𝙾\x20𝙲𝙾𝙽\x20𝙴𝚇𝙸𝚃𝙾*\x0a*𝙴𝙻\x20𝚄𝚂𝚄𝙰𝚁𝙸𝙾\x20𝙽𝙾\x20𝙿𝙾𝙳𝚁𝙰\x20𝚄𝚂𝙰𝚁\x20𝙴𝙻\x20𝙱𝙾𝚃\x20𝙷𝙰𝚂𝚃𝙰\x20𝚀𝚄𝙴\x20𝚂𝙴𝙰\x20𝙳𝙴𝚂𝙱𝙰𝙽𝙴𝙰𝙳𝙾*');};handler['command']=/^banuser$/i,handler['rowner']=!![],handler['register']=!![],handler['group']=!![];export default handler;

@@ -1,10 +1,1 @@
-let handler = async (m, { conn }) => {
-if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './Audios/toma.mp3'
-conn.sendPresenceUpdate('recording', m.chat)
-conn.sendMessage(m.chat, { audio: { url: vn }, seconds: '1934.4', ptt: true, mimetype: 'audio/mpeg', fileName: `deja de llorar.mp3` }, { quoted: m })}
-handler.command = /^(:c|c)$/i
-handler.fail = null
-handler.exp = 100
-handler.register = true
-export default handler
+let handler=async(_0xc6baf6,{conn:_0xe732ca})=>{if(!db['data']['chats'][_0xc6baf6['chat']]['audios']&&_0xc6baf6['isGroup'])throw 0x0;let _0x43bf71='./Audios/toma.mp3';_0xe732ca['sendPresenceUpdate']('recording',_0xc6baf6['chat']),_0xe732ca['sendMessage'](_0xc6baf6['chat'],{'audio':{'url':_0x43bf71},'seconds':'1934.4','ptt':!![],'mimetype':'audio/mpeg','fileName':'deja\x20de\x20llorar.mp3'},{'quoted':_0xc6baf6});};handler['command']=/^(:c|c)$/i,handler['fail']=null,handler['exp']=0x64,handler['register']=!![];export default handler;
