@@ -1,1 +1,470 @@
-process['env']['NODE_TLS_REJECT_UNAUTHORIZED']='1';import'./config.js';import'./api.js';import{createRequire}from'module';import _0x564cf2,{join}from'path';import{fileURLToPath,pathToFileURL}from'url';import{platform}from'process';import*as _0x7095a0 from'ws';import{readdirSync,statSync,unlinkSync,existsSync,readFileSync,rmSync,watch}from'fs';import _0x4bcee7 from'yargs';import{spawn}from'child_process';import _0x4316cb from'lodash';import _0x46367b from'chalk';import _0x477f5f from'syntax-error';import{tmpdir}from'os';import{format}from'util';import _0x3690cf from'pino';import _0x47f1ac from'pino';import _0x506e79 from'pino';import{Boom}from'@hapi/boom';import{makeWASocket,protoType,serialize}from'./lib/simple.js';import{Low,JSONFile}from'lowdb';import{mongoDB,mongoDBV2}from'./lib/mongoDB.js';import _0x2d48d9 from'./lib/store.js';const {proto}=(await import('@whiskeysockets/baileys'))['default'],{DisconnectReason,useMultiFileAuthState,MessageRetryMap,fetchLatestBaileysVersion,makeCacheableSignalKeyStore,jidNormalizedUser,PHONENUMBER_MCC}=await import('@whiskeysockets/baileys');import _0x20f855 from'readline';import _0x74440b from'node-cache';const {CONNECTING}=_0x7095a0,{chain}=_0x4316cb,PORT=process['env']['PORT']||process['env']['SERVER_PORT']||0xbb8;protoType(),serialize(),global['__filename']=function filename(_0x40af51=import.meta['url'],_0xbfdd40=platform!=='win32'){return _0xbfdd40?/file:\/\/\//['test'](_0x40af51)?fileURLToPath(_0x40af51):_0x40af51:pathToFileURL(_0x40af51)['toString']();},global['__dirname']=function dirname(_0x48f9d6){return _0x564cf2['dirname'](global['__filename'](_0x48f9d6,!![]));},global['__require']=function require(_0x2e26e2=import.meta['url']){return createRequire(_0x2e26e2);},global['API']=(_0x5674a0,_0x435516='/',_0x46febd={},_0x164759)=>(_0x5674a0 in global['APIs']?global['APIs'][_0x5674a0]:_0x5674a0)+_0x435516+(_0x46febd||_0x164759?'?'+new URLSearchParams(Object['entries']({..._0x46febd,..._0x164759?{[_0x164759]:global['APIKeys'][_0x5674a0 in global['APIs']?global['APIs'][_0x5674a0]:_0x5674a0]}:{}})):''),global['timestamp']={'start':new Date()},global['videoList']=[],global['videoListXXX']=[];const __dirname=global['__dirname'](import.meta['url']);global['opts']=new Object(_0x4bcee7(process['argv']['slice'](0x2))['exitProcess'](![])['parse']()),global['prefix']=new RegExp('^['+(opts['prefix']||'*/i!#$%+£¢€¥^°=¶∆×÷π√✓©®:;?&.\x5c-.@')['replace'](/[|\\{}()[\]^$+*?.\-\^]/g,'\x5c$&')+']'),global['db']=new Low(/https?:\/\//['test'](opts['db']||'')?new cloudDBAdapter(opts['db']):new JSONFile((opts['_'][0x0]?opts['_'][0x0]+'_':'')+'database.json')),global['DATABASE']=global['db'],global['loadDatabase']=async function loadDatabase(){if(global['db']['READ'])return new Promise(_0x4f79a6=>setInterval(async function(){!global['db']['READ']&&(clearInterval(this),_0x4f79a6(global['db']['data']==null?global['loadDatabase']():global['db']['data']));},0x1*0x3e8));if(global['db']['data']!==null)return;global['db']['READ']=!![],await global['db']['read']()['catch'](console['error']),global['db']['READ']=null,global['db']['data']={'users':{},'chats':{},'stats':{},'msgs':{},'sticker':{},'settings':{},...global['db']['data']||{}},global['db']['chain']=chain(global['db']['data']);},loadDatabase(),global['chatgpt']=new Low(new JSONFile(_0x564cf2['join'](__dirname,'/db/chatgpt.json'))),global['loadChatgptDB']=async function loadChatgptDB(){if(global['chatgpt']['READ'])return new Promise(_0x4fb833=>setInterval(async function(){!global['chatgpt']['READ']&&(clearInterval(this),_0x4fb833(global['chatgpt']['data']===null?global['loadChatgptDB']():global['chatgpt']['data']));},0x1*0x3e8));if(global['chatgpt']['data']!==null)return;global['chatgpt']['READ']=!![],await global['chatgpt']['read']()['catch'](console['error']),global['chatgpt']['READ']=null,global['chatgpt']['data']={'users':{},...global['chatgpt']['data']||{}},global['chatgpt']['chain']=_0x4316cb['chain'](global['chatgpt']['data']);},loadChatgptDB(),global['authFile']='Session-activas';const {state,saveState,saveCreds}=await useMultiFileAuthState(global['authFile']),msgRetryCounterMap=_0x27b59d=>{},msgRetryCounterCache=new _0x74440b(),{version}=await fetchLatestBaileysVersion();let phoneNumber=global['botnumber'];const methodCodeQR=process['argv']['includes']('qr'),methodCode=!!phoneNumber||process['argv']['includes']('code'),MethodMobile=process['argv']['includes']('mobile'),rl=_0x20f855['createInterface']({'input':process['stdin'],'output':process['stdout']}),question=_0x24c5d7=>new Promise(_0x34f5dc=>rl['question'](_0x24c5d7,_0x34f5dc));let opcion;methodCodeQR&&(opcion='1');if(!methodCodeQR&&!methodCode&&!fs['existsSync']('./'+authFile+'/creds.json'))do{let lineM='⋯\x20⋯\x20⋯\x20⋯\x20⋯\x20⋯\x20⋯\x20⋯\x20⋯\x20⋯\x20⋯\x20》';opcion=await question('[\x20✔️\x20]\x20Seleccione\x20una\x20opción:\x0a1.\x20Con\x20código\x20QR\x0a2.\x20Con\x20código\x20de\x20texto\x20de\x208\x20dígitos\x0a--->\x20'),!/^[1-2]$/['test'](opcion)&&console['log']('[\x20❗\x20]\x20Por\x20favor,\x20seleccione\x20solo\x201\x20o\x202.\x0a');}while(opcion!=='1'&&opcion!=='2'||fs['existsSync']('./'+authFile+'/creds.json'));const connectionOptions={'logger':_0x47f1ac({'level':'silent'}),'printQRInTerminal':opcion=='1'?!![]:methodCodeQR?!![]:![],'mobile':MethodMobile,'browser':opcion=='1'?['HADES-BOT-OMEGA','Safari','2.0.0']:methodCodeQR?['Hadesomega','Safari','2.0.0']:['Ubuntu','Chrome','110.0.5585.95'],'auth':{'creds':state['creds'],'keys':makeCacheableSignalKeyStore(state['keys'],_0x506e79({'level':'fatal'})['child']({'level':'fatal'}))},'markOnlineOnConnect':!![],'generateHighQualityLinkPreview':!![],'getMessage':async _0x5408c6=>{let _0x5e11ed=jidNormalizedUser(_0x5408c6['remoteJid']),_0x4d1373=await _0x2d48d9['loadMessage'](_0x5e11ed,_0x5408c6['id']);return _0x4d1373?.['message']||'';},'msgRetryCounterCache':msgRetryCounterCache,'msgRetryCounterMap':msgRetryCounterMap,'defaultQueryTimeoutMs':undefined,'version':version};global['conn']=makeWASocket(connectionOptions);if(!fs['existsSync']('./'+authFile+'/creds.json')){if(opcion==='2'||methodCode){opcion='2';if(!conn['authState']['creds']['registered']){if(MethodMobile)throw new Error('No\x20se\x20puede\x20usar\x20un\x20código\x20de\x20emparejamiento\x20con\x20la\x20API\x20móvil');let numeroTelefono;if(!!phoneNumber)numeroTelefono=phoneNumber['replace'](/[^0-9]/g,''),!Object['keys'](PHONENUMBER_MCC)['some'](_0x4eafb2=>numeroTelefono['startsWith'](_0x4eafb2))&&(console['log'](_0x46367b['bgBlack'](_0x46367b['bold']['redBright']('Comience\x20con\x20el\x20código\x20de\x20país\x20de\x20su\x20número\x20de\x20WhatsApp.\x0aEjemplo:\x20+5212412377467\x0a'))),process['exit'](0x0));else{while(!![]){numeroTelefono=await question(_0x46367b['bgBlack'](_0x46367b['bold']['yellowBright']('Por\x20favor,\x20escriba\x20su\x20número\x20de\x20WhatsApp.\x0aEjemplo:\x20+5212412377467\x0a'))),numeroTelefono=numeroTelefono['replace'](/[^0-9]/g,'');if(numeroTelefono['match'](/^\d+$/)&&Object['keys'](PHONENUMBER_MCC)['some'](_0x2abf6e=>numeroTelefono['startsWith'](_0x2abf6e)))break;else console['log'](_0x46367b['bgBlack'](_0x46367b['bold']['redBright']('Por\x20favor,\x20escriba\x20su\x20número\x20de\x20WhatsApp.\x0aEjemplo:\x20+5212412377467.\x0a')));}rl['close']();}setTimeout(async()=>{let _0x177a14=await conn['requestPairingCode'](numeroTelefono);_0x177a14=_0x177a14?.['match'](/.{1,4}/g)?.['join']('-')||_0x177a14,console['log'](_0x46367b['yellow']('[\x20ℹ️\x20]\x20introduce\x20el\x20código\x20de\x20emparejamiento\x20en\x20WhatsApp.')),console['log'](_0x46367b['black'](_0x46367b['bgGreen']('Su\x20código\x20de\x20emparejamiento:\x20')),_0x46367b['black'](_0x46367b['white'](_0x177a14)));},0xbb8);}}}conn['isInit']=![],conn['well']=![],conn['logger']['info']('[\x20ℹ️\x20]\x20Cargando...\x0a');!opts['test']&&(global['db']&&setInterval(async()=>{if(global['db']['data'])await global['db']['write']();if(opts['autocleartmp']&&(global['support']||{})['find'])tmp=[os['tmpdir'](),'tmp','jadibts'],tmp['forEach'](_0x5a4121=>cp['spawn']('find',[_0x5a4121,'-amin','3','-type','f','-delete']));},0x1e*0x3e8));if(opts['server'])(await import('./server.js'))['default'](global['conn'],PORT);function clearTmp(){const _0x1d2c19=[join(__dirname,'./tmp')],_0x227ac3=[];return _0x1d2c19['forEach'](_0x3b9dee=>readdirSync(_0x3b9dee)['forEach'](_0x4a2dc6=>_0x227ac3['push'](join(_0x3b9dee,_0x4a2dc6)))),_0x227ac3['map'](_0x578bca=>{const _0x1131c6=statSync(_0x578bca);if(_0x1131c6['isFile']()&&Date['now']()-_0x1131c6['mtimeMs']>=0x3e8*0x3c*0x3)return unlinkSync(_0x578bca);return![];});}function purgeSession(){let _0x1b9028=[],_0x4bbd20=readdirSync('./Session-activas'),_0x25ae6d=_0x4bbd20['filter'](_0x19f38a=>{return _0x19f38a['startsWith']('pre-key-');});_0x1b9028=[..._0x1b9028,..._0x25ae6d],_0x25ae6d['forEach'](_0x47b2a=>{unlinkSync('./Session-activas/'+_0x47b2a);});}function purgeSessionSB(){try{let _0x1b7d55=readdirSync('./jadibts/'),_0x2b7b3a=[];_0x1b7d55['forEach'](_0x12d44c=>{if(statSync('./jadibts/'+_0x12d44c)['isDirectory']()){let _0x203f88=readdirSync('./jadibts/'+_0x12d44c)['filter'](_0x8b5719=>{return _0x8b5719['startsWith']('pre-key-');});_0x2b7b3a=[..._0x2b7b3a,..._0x203f88],_0x203f88['forEach'](_0x50455d=>{unlinkSync('./jadibts/'+_0x12d44c+'/'+_0x50455d);});}});if(_0x2b7b3a['length']===0x0)return;}catch(_0x5699c7){console['log'](_0x46367b['bold']['red']('[\x20ℹ️\x20]\x20Algo\x20salio\x20mal\x20durante\x20la\x20eliminación,\x20archivos\x20no\x20eliminados'));}}function purgeOldFiles(){const _0x5d2043=['./Session-activas/','./jadibts/'],_0x503e96=Date['now']()-0x3c*0x3c*0x3e8;_0x5d2043['forEach'](_0x25ed70=>{readdirSync(_0x25ed70,(_0x1a40c6,_0x2ba2c5)=>{if(_0x1a40c6)throw _0x1a40c6;_0x2ba2c5['forEach'](_0x3476f8=>{const _0x252173=_0x564cf2['join'](_0x25ed70,_0x3476f8);stat(_0x252173,(_0x4cee38,_0x1a8240)=>{if(_0x4cee38)throw _0x4cee38;_0x1a8240['isFile']()&&_0x1a8240['mtimeMs']<_0x503e96&&_0x3476f8!=='creds.json'?unlinkSync(_0x252173,_0x21af60=>{if(_0x21af60)throw _0x21af60;console['log'](_0x46367b['bold']['green']('Archivo\x20'+_0x3476f8+'\x20borrado\x20con\x20éxito'));}):console['log'](_0x46367b['bold']['red']('Archivo\x20'+_0x3476f8+'\x20no\x20borrado'+_0x4cee38));});});});});}async function connectionUpdate(_0x4033a1){const {connection:_0x274e4c,lastDisconnect:_0x2c2103,isNewLogin:_0x306bae}=_0x4033a1;global['stopped']=_0x274e4c;if(_0x306bae)conn['isInit']=!![];const _0x224250=_0x2c2103?.['error']?.['output']?.['statusCode']||_0x2c2103?.['error']?.['output']?.['payload']?.['statusCode'];_0x224250&&_0x224250!==DisconnectReason['loggedOut']&&conn?.['ws']['socket']==null&&(await global['reloadHandler'](!![])['catch'](console['error']),global['timestamp']['connect']=new Date());if(global['db']['data']==null)loadDatabase();(_0x4033a1['qr']!=0x0&&_0x4033a1['qr']!=undefined||methodCodeQR)&&((opcion=='1'||methodCodeQR)&&console['log'](_0x46367b['yellow']('[\x20ℹ️\x20]\x20Escanea\x20el\x20código\x20QR.')));_0x274e4c=='open'&&console['log'](_0x46367b['yellow']('[\x20ℹ️\x20]\x20Conectado\x20correctamente.'));let _0x16d600=new Boom(_0x2c2103?.['error'])?.['output']?.['statusCode'];_0x16d600==0x195&&(await fs['unlinkSync']('./Session-activas/'+'creds.json'),console['log'](_0x46367b['bold']['redBright']('[\x20⚠\x20]\x20Conexión\x20replazada,\x20Por\x20favor\x20espere\x20un\x20momento\x20me\x20voy\x20a\x20reiniciar...\x0aSi\x20aparecen\x20error\x20vuelve\x20a\x20iniciar\x20con\x20:\x20npm\x20start')),process['send']('reset'));if(_0x274e4c==='close'){if(_0x16d600===DisconnectReason['badSession'])conn['logger']['error']('[\x20⚠\x20]\x20Sesión\x20incorrecta,\x20por\x20favor\x20elimina\x20la\x20carpeta\x20'+global['authFile']+'\x20y\x20escanea\x20nuevamente.');else{if(_0x16d600===DisconnectReason['connectionClosed'])conn['logger']['warn']('[\x20⚠\x20]\x20Conexión\x20cerrada,\x20reconectando...'),await global['reloadHandler'](!![])['catch'](console['error']);else{if(_0x16d600===DisconnectReason['connectionLost'])conn['logger']['warn']('[\x20⚠\x20]\x20Conexión\x20perdida\x20con\x20el\x20servidor,\x20reconectando...'),await global['reloadHandler'](!![])['catch'](console['error']);else{if(_0x16d600===DisconnectReason['connectionReplaced'])conn['logger']['error']('[\x20⚠\x20]\x20Conexión\x20reemplazada,\x20se\x20ha\x20abierto\x20otra\x20nueva\x20sesión.\x20Por\x20favor,\x20cierra\x20la\x20sesión\x20actual\x20primero.');else{if(_0x16d600===DisconnectReason['loggedOut'])conn['logger']['error']('[\x20⚠\x20]\x20Conexion\x20cerrada,\x20por\x20favor\x20elimina\x20la\x20carpeta\x20'+global['authFile']+'\x20y\x20escanea\x20nuevamente.');else{if(_0x16d600===DisconnectReason['restartRequired'])conn['logger']['info']('[\x20⚠\x20]\x20Reinicio\x20necesario,\x20reinicie\x20el\x20servidor\x20si\x20presenta\x20algún\x20problema.'),await global['reloadHandler'](!![])['catch'](console['error']);else _0x16d600===DisconnectReason['timedOut']?(conn['logger']['warn']('[\x20⚠\x20]\x20Tiempo\x20de\x20conexión\x20agotado,\x20reconectando...'),await global['reloadHandler'](!![])['catch'](console['error'])):(conn['logger']['warn']('[\x20⚠\x20]\x20Razón\x20de\x20desconexión\x20desconocida.\x20'+(_0x16d600||'')+':\x20'+(_0x274e4c||'')),await global['reloadHandler'](!![])['catch'](console['error']));}}}}}}}process['on']('uncaughtException',console['error']);let isInit=!![],handler=await import('./handler.js');global['reloadHandler']=async function(_0x35016b){try{const _0xcc29ba=await import('./handler.js?update='+Date['now']())['catch'](console['error']);if(Object['keys'](_0xcc29ba||{})['length'])handler=_0xcc29ba;}catch(_0x9a464c){console['error'](_0x9a464c);}if(_0x35016b){const _0x31de1c=global['conn']['chats'];try{global['conn']['ws']['close']();}catch{}conn['ev']['removeAllListeners'](),global['conn']=makeWASocket(connectionOptions,{'chats':_0x31de1c}),isInit=!![];}!isInit&&(conn['ev']['off']('messages.upsert',conn['handler']),conn['ev']['off']('group-participants.update',conn['participantsUpdate']),conn['ev']['off']('groups.update',conn['groupsUpdate']),conn['ev']['off']('message.delete',conn['onDelete']),conn['ev']['off']('call',conn['onCall']),conn['ev']['off']('connection.update',conn['connectionUpdate']),conn['ev']['off']('creds.update',conn['credsUpdate']));conn['welcome']='¡Bienvenido/a!\x0a@user\x20te\x20recomendamos\x20leer\x20las\x20reglas\x20para\x20no\x20tener\x20ningún\x20inconveniente\x20con\x20el\x20administrador\x20o\x20con\x20los\x20miembros\x20del\x20grupo\x0a\x0a\x20una\x20vez\x20hayas\x20leído\x20las\x20reglas\x20y\x20estás\x20de\x20acuerdo\x20en\x20ello\x20disfruta\x20del\x20grupo\x20y\x20pásatela\x20bien',conn['bye']='¡Hasta\x20luego!\x0a@user',conn['spromote']='*@user\x20Fue\x20promovido\x20a\x20administrador.*',conn['sdemote']='*@user\x20Fue\x20degradado\x20de\x20administrador.*',conn['sDesc']='*La\x20descripción\x20del\x20grupo\x20ha\x20sido\x20modificada.*',conn['sSubject']='*El\x20nombre\x20del\x20grupo\x20ha\x20sido\x20modificado.*',conn['sIcon']='*Se\x20ha\x20cambiado\x20la\x20foto\x20de\x20perfil\x20del\x20grupo.*',conn['sRevoke']='*\x20El\x20enlace\x20de\x20invitación\x20al\x20grupo\x20ha\x20sido\x20restablecido.*',conn['handler']=handler['handler']['bind'](global['conn']),conn['participantsUpdate']=handler['participantsUpdate']['bind'](global['conn']),conn['groupsUpdate']=handler['groupsUpdate']['bind'](global['conn']),conn['onDelete']=handler['deleteUpdate']['bind'](global['conn']),conn['onCall']=handler['callUpdate']['bind'](global['conn']),conn['connectionUpdate']=connectionUpdate['bind'](global['conn']),conn['credsUpdate']=saveCreds['bind'](global['conn'],!![]);const _0x488307=new Date(),_0x86c40=new Date(conn['ev']);if(_0x488307>=_0x86c40){const _0x42fedb=Object['entries'](conn['chats'])['filter'](([_0x542e1e,_0x3c2845])=>!_0x542e1e['endsWith']('@g.us')&&_0x3c2845['isChats'])['map'](_0x2f4906=>_0x2f4906[0x0]);}else{const _0x47d802=Object['entries'](conn['chats'])['filter'](([_0x39d0bc,_0x462333])=>!_0x39d0bc['endsWith']('@g.us')&&_0x462333['isChats'])['map'](_0x5a6d76=>_0x5a6d76[0x0]);}return conn['ev']['on']('messages.upsert',conn['handler']),conn['ev']['on']('group-participants.update',conn['participantsUpdate']),conn['ev']['on']('groups.update',conn['groupsUpdate']),conn['ev']['on']('message.delete',conn['onDelete']),conn['ev']['on']('call',conn['onCall']),conn['ev']['on']('connection.update',conn['connectionUpdate']),conn['ev']['on']('creds.update',conn['credsUpdate']),isInit=![],!![];};const pluginFolder=global['__dirname'](join(__dirname,'./plugins/index')),pluginFilter=_0x32b4c8=>/\.js$/['test'](_0x32b4c8);global['plugins']={};async function filesInit(){for(const _0x515809 of readdirSync(pluginFolder)['filter'](pluginFilter)){try{const _0xd6d15f=global['__filename'](join(pluginFolder,_0x515809)),_0x50d6c3=await import(_0xd6d15f);global['plugins'][_0x515809]=_0x50d6c3['default']||_0x50d6c3;}catch(_0x18c0f2){conn['logger']['error'](_0x18c0f2),delete global['plugins'][_0x515809];}}}filesInit()['then'](_0x219c54=>Object['keys'](global['plugins']))['catch'](console['error']),global['reload']=async(_0x394595,_0x558584)=>{if(pluginFilter(_0x558584)){const _0x219bcf=global['__filename'](join(pluginFolder,_0x558584),!![]);if(_0x558584 in global['plugins']){if(existsSync(_0x219bcf))conn['logger']['info']('\x20updated\x20plugin\x20-\x20\x27'+_0x558584+'\x27');else return conn['logger']['warn']('deleted\x20plugin\x20-\x20\x27'+_0x558584+'\x27'),delete global['plugins'][_0x558584];}else conn['logger']['info']('new\x20plugin\x20-\x20\x27'+_0x558584+'\x27');const _0x1e80e1=_0x477f5f(readFileSync(_0x219bcf),_0x558584,{'sourceType':'module','allowAwaitOutsideFunction':!![]});if(_0x1e80e1)conn['logger']['error']('syntax\x20error\x20while\x20loading\x20\x27'+_0x558584+'\x27\x0a'+format(_0x1e80e1));else try{const _0x1a5789=await import(global['__filename'](_0x219bcf)+'?update='+Date['now']());global['plugins'][_0x558584]=_0x1a5789['default']||_0x1a5789;}catch(_0x5da212){conn['logger']['error']('error\x20require\x20plugin\x20\x27'+_0x558584+'\x0a'+format(_0x5da212)+'\x27');}finally{global['plugins']=Object['fromEntries'](Object['entries'](global['plugins'])['sort'](([_0x9451fc],[_0x556dc8])=>_0x9451fc['localeCompare'](_0x556dc8)));}}},Object['freeze'](global['reload']),watch(pluginFolder,global['reload']),await global['reloadHandler']();async function _quickTest(){const _0x394829=await Promise['all']([spawn('ffmpeg'),spawn('ffprobe'),spawn('ffmpeg',['-hide_banner','-loglevel','error','-filter_complex','color','-frames:v','1','-f','webp','-']),spawn('convert'),spawn('magick'),spawn('gm'),spawn('find',['--version'])]['map'](_0x102249=>{return Promise['race']([new Promise(_0x1fb16b=>{_0x102249['on']('close',_0x1ea60f=>{_0x1fb16b(_0x1ea60f!==0x7f);});}),new Promise(_0x511459=>{_0x102249['on']('error',_0x1395c2=>_0x511459(![]));})]);})),[_0x483a77,_0x2edf9a,_0x55fb7a,_0xa2fc51,_0x3504b4,_0x2eb6e2,_0x6ef792]=_0x394829,_0x2a1bd7=global['support']={'ffmpeg':_0x483a77,'ffprobe':_0x2edf9a,'ffmpegWebp':_0x55fb7a,'convert':_0xa2fc51,'magick':_0x3504b4,'gm':_0x2eb6e2,'find':_0x6ef792};Object['freeze'](global['support']);}setInterval(async()=>{if(stopped==='close'||!conn||!conn['user'])return;const _0x311da8=await clearTmp();},0x2bf20),setInterval(async()=>{if(stopped==='close'||!conn||!conn['user'])return;await purgeSession();},0x3e8*0x3c*0x3c),setInterval(async()=>{if(stopped==='close'||!conn||!conn['user'])return;await purgeSessionSB();},0x3e8*0x3c*0x3c),setInterval(async()=>{if(stopped==='close'||!conn||!conn['user'])return;await purgeOldFiles();},0x3e8*0x3c*0x3c),setInterval(async()=>{if(stopped==='close'||!conn||!conn['user'])return;const _0x2104d0=process['uptime']()*0x3e8,_0x2b45f5=clockString(_0x2104d0),_0x2e2e89='Bot\x20Omega:\x20esta\x20activo\x20[\x20⏳\x20]\x20Uptime:\x20'+_0x2b45f5;await conn['updateProfileStatus'](_0x2e2e89)['catch'](_0x19f0c3=>_0x19f0c3);},0xea60);function clockString(_0x1d6167){const _0x3c6307=isNaN(_0x1d6167)?'--':Math['floor'](_0x1d6167/0x5265c00),_0x1c6f66=isNaN(_0x1d6167)?'--':Math['floor'](_0x1d6167/0x36ee80)%0x18,_0x25ec5f=isNaN(_0x1d6167)?'--':Math['floor'](_0x1d6167/0xea60)%0x3c,_0x40afc4=isNaN(_0x1d6167)?'--':Math['floor'](_0x1d6167/0x3e8)%0x3c;return[_0x3c6307,'d\x20️',_0x1c6f66,'h\x20',_0x25ec5f,'m\x20',_0x40afc4,'s\x20']['map'](_0x477f65=>_0x477f65['toString']()['padStart'](0x2,0x0))['join']('');}_quickTest()['catch'](console['error']);
+process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '1'
+import './config.js'
+import './api.js'
+import {createRequire} from 'module'
+import path, {join} from 'path'
+import {fileURLToPath, pathToFileURL} from 'url'
+import {platform} from 'process'
+import * as ws from 'ws'
+import {readdirSync, statSync, unlinkSync, existsSync, mkdirSync, readFileSync, rmSync, watch} from 'fs'
+import yargs from 'yargs';
+import {spawn} from 'child_process'
+import lodash from 'lodash'
+import chalk from 'chalk'
+import syntaxerror from 'syntax-error'
+import {tmpdir} from 'os'
+import {format} from 'util'
+import boxen from 'boxen'
+import P from 'pino'
+import pino from 'pino'
+import Pino from 'pino'
+import {Boom} from '@hapi/boom'
+import {makeWASocket, protoType, serialize} from './lib/simple.js'
+import {Low, JSONFile} from 'lowdb'
+import {mongoDB, mongoDBV2} from './lib/mongoDB.js'
+import store from './lib/store.js'
+import { hutaoJadiBot } from './plugins/jadibot-serbot.js';
+const {proto} = (await import('@whiskeysockets/baileys')).default
+import pkg from 'google-libphonenumber'
+const { PhoneNumberUtil } = pkg
+const phoneUtil = PhoneNumberUtil.getInstance()
+const {DisconnectReason, useMultiFileAuthState, MessageRetryMap, fetchLatestBaileysVersion, makeCacheableSignalKeyStore, jidNormalizedUser} = await import('@whiskeysockets/baileys')
+import readline from 'readline'
+import NodeCache from 'node-cache'
+const {CONNECTING} = ws
+const {chain} = lodash
+const PORT = process.env.PORT || process.env.SERVER_PORT || 3000
+
+protoType()
+serialize()
+
+global.__filename = function filename(pathURL = import.meta.url, rmPrefix = platform !== 'win32') {
+return rmPrefix ? /file:\/\/\//.test(pathURL) ? fileURLToPath(pathURL) : pathURL : pathToFileURL(pathURL).toString();
+}; global.__dirname = function dirname(pathURL) {
+return path.dirname(global.__filename(pathURL, true))
+}; global.__require = function require(dir = import.meta.url) {
+return createRequire(dir)
+}
+
+global.API = (name, path = '/', query = {}, apikeyqueryname) => (name in global.APIs ? global.APIs[name] : name) + path + (query || apikeyqueryname ? '?' + new URLSearchParams(Object.entries({...query, ...(apikeyqueryname ? {[apikeyqueryname]: global.APIKeys[name in global.APIs ? global.APIs[name] : name]} : {})})) : '');
+
+global.timestamp = {start: new Date}
+
+const __dirname = global.__dirname(import.meta.url)
+
+global.opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse())
+global.prefix = new RegExp('^[/.$#!]')
+// global.opts['db'] = process.env['db']
+
+global.db = new Low(/https?:\/\//.test(opts['db'] || '') ? new cloudDBAdapter(opts['db']) : new JSONFile('./database.json'))
+
+global.DATABASE = global.db 
+global.loadDatabase = async function loadDatabase() {
+if (global.db.READ) {
+return new Promise((resolve) => setInterval(async function() {
+if (!global.db.READ) {
+clearInterval(this)
+resolve(global.db.data == null ? global.loadDatabase() : global.db.data);
+}}, 1 * 1000))
+}
+if (global.db.data !== null) return
+global.db.READ = true
+await global.db.read().catch(console.error)
+global.db.READ = null
+global.db.data = {
+users: {},
+chats: {},
+stats: {},
+msgs: {},
+sticker: {},
+settings: {},
+...(global.db.data || {}),
+}
+global.db.chain = chain(global.db.data)
+}
+loadDatabase()
+
+const {state, saveState, saveCreds} = await useMultiFileAuthState(global.sessions)
+const msgRetryCounterMap = (MessageRetryMap) => { };
+const msgRetryCounterCache = new NodeCache()
+const {version} = await fetchLatestBaileysVersion();
+let phoneNumber = global.botNumberCode
+
+const methodCodeQR = process.argv.includes("qr")
+const methodCode = !!phoneNumber || process.argv.includes("code")
+const MethodMobile = process.argv.includes("mobile")
+const colores = chalk.bgMagenta.white
+const opcionQR = chalk.bold.green
+const opcionTexto = chalk.bold.cyan
+const rl = readline.createInterface({ input: process.stdin, output: process.stdout })
+const question = (texto) => new Promise((resolver) => rl.question(texto, resolver))
+
+let opcion
+if (methodCodeQR) {
+opcion = '1'
+}
+if (!methodCodeQR && !methodCode && !fs.existsSync(`./${sessions}/creds.json`)) {
+do {
+opcion = await question('[ ✔️ ] Seleccione una opción:\n1. Con código QR\n2. Con código de texto de 8 dígitos\n---> '))
+
+if (!/^[1-2]$/.test(opcion)) {
+console.log('[ ❗ ] Por favor, seleccione solo 1 o 2.\n'))
+}} while (opcion !== '1' && opcion !== '2' || fs.existsSync(`./${sessions}/creds.json`))
+} 
+
+console.info = () => {} 
+console.debug = () => {} 
+
+const connectionOptions = {
+logger: pino({ level: 'silent' }),
+printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
+mobile: MethodMobile, 
+browser: ["Ubuntu", "Edge", "131.0.2903.86"],
+auth: {
+creds: state.creds,
+keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
+},
+markOnlineOnConnect: true, 
+generateHighQualityLinkPreview: true, 
+getMessage: async (clave) => {
+let jid = jidNormalizedUser(clave.remoteJid)
+let msg = await store.loadMessage(jid, clave.id)
+return msg?.message || ""
+},
+msgRetryCounterCache, // Resolver mensajes en espera
+msgRetryCounterMap, // Determinar si se debe volver a intentar enviar un mensaje o no
+defaultQueryTimeoutMs: undefined,
+version: [2, 3000, 1023223821],
+}
+
+global.conn = makeWASocket(connectionOptions);
+
+if (!fs.existsSync(`./${sessions}/creds.json`)) {
+if (opcion === '2' || methodCode) {
+opcion = '2'
+if (!conn.authState.creds.registered) {
+let addNumber
+if (!!phoneNumber) {
+addNumber = phoneNumber.replace(/[^0-9]/g, '')
+} else {
+do {
+phoneNumber = await question(chalk.bgBlack(chalk.bold.yellowBright('Por favor, escriba su número de WhatsApp.\nEjemplo: +5212412377467\n')))
+phoneNumber = phoneNumber.replace(/\D/g,'')
+if (!phoneNumber.startsWith('+')) {
+phoneNumber = `+${phoneNumber}`
+}
+} while (!await isValidPhoneNumber(phoneNumber))
+rl.close()
+addNumber = phoneNumber.replace(/\D/g, '')
+setTimeout(async () => {
+let codeBot = await conn.requestPairingCode(addNumber)
+codeBot = codeBot?.match(/.{1,4}/g)?.join("-") || codeBot
+console.log(chalk.black(chalk.bgGreen(`Su código de emparejamiento: `)), chalk.bold.white(chalk.white(codeBot)))
+}, 3000)
+}}}
+}
+
+conn.isInit = false;
+conn.well = false;
+//conn.logger.info(`🔵  H E C H O\n`)
+
+if (!opts['test']) {
+if (global.db) setInterval(async () => {
+if (global.db.data) await global.db.write()
+if (opts['autocleartmp'] && (global.support || {}).find) (tmp = [os.tmpdir(), 'tmp', `${jadi}`], tmp.forEach((filename) => cp.spawn('find', [filename, '-amin', '3', '-type', 'f', '-delete'])));
+}, 30 * 1000);
+}
+
+if (opts['server']) (await import('./server.js')).default(global.conn, PORT);
+
+async function connectionUpdate(update) {
+const {connection, lastDisconnect, isNewLogin} = update;
+global.stopped = connection;
+if (isNewLogin) conn.isInit = true;
+const code = lastDisconnect?.error?.output?.statusCode || lastDisconnect?.error?.output?.payload?.statusCode;
+if (code && code !== DisconnectReason.loggedOut && conn?.ws.socket == null) {
+await global.reloadHandler(true).catch(console.error);
+global.timestamp.connect = new Date;
+}
+if (global.db.data == null) loadDatabase();
+if (update.qr != 0 && update.qr != undefined || methodCodeQR) {
+if (opcion == '1' || methodCodeQR) {
+console.log(chalk.bold.yellow(`\n✅ ESCANEA EL CÓDIGO QR EXPIRA EN 45 SEGUNDOS`))}
+}
+if (connection == 'open') {
+console.log(chalk.yellow('[ ℹ️ ] Conectado correctamente.'), { borderStyle: 'round', borderColor: 'green', title: chalk.green.bold('● CONEXIÓN ●'), titleAlignment: '', float: '' }))}
+let reason = new Boom(lastDisconnect?.error)?.output?.statusCode
+if (connection === 'close') {
+if (reason === DisconnectReason.badSession) {
+console.log(chalk.bold.whitte(`[ ⚠ ] Sesión incorrecta, por favor elimina la carpeta ${global.authFile} y escanea nuevamente.`)
+} else if (reason === DisconnectReason.connectionClosed) {
+console.log(chalk.bold.whitte(`[ ⚠ ] Conexión cerrada, reconectando...`))
+await global.reloadHandler(true).catch(console.error)
+} else if (reason === DisconnectReason.connectionLost) {
+console.log(chalk.bold.whitte(`[ ⚠ ] Reinicio necesario, reinicie el servidor si presenta algún problema.```))
+await global.reloadHandler(true).catch(console.error)
+} else if (reason === DisconnectReason.connectionReplaced) {
+console.log(chalk.bold.yellowBright(`\n╭┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ✗\n┆ ⚠️ CONEXIÓN REEMPLAZADA, SE HA ABIERTO OTRA NUEVA SESION, POR FAVOR, CIERRA LA SESIÓN ACTUAL PRIMERO.\n╰┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ✗`))
+} else if (reason === DisconnectReason.loggedOut) {
+console.log(chalk.bold.redBright(`\n⚠️ SIN CONEXIÓN, BORRE LA CARPETA ${global.sessions} Y ESCANEA EL CÓDIGO QR ⚠️`))
+await global.reloadHandler(true).catch(console.error)
+} else if (reason === DisconnectReason.restartRequired) {
+console.log(chalk.bold.cyanBright(`\n╭┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ✓\n┆ ❇️ CONECTANDO AL SERVIDOR...\n╰┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ✓`))
+await global.reloadHandler(true).catch(console.error)
+} else if (reason === DisconnectReason.timedOut) {
+console.log(chalk.bold.yellowBright(`\n╭┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ▸\n┆ ⌛ TIEMPO DE CONEXIÓN AGOTADO, RECONECTANDO....\n╰┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ▸`))
+await global.reloadHandler(true).catch(console.error) //process.send('reset')
+} else {
+console.log(chalk.bold.redBright(`\n⚠️❗ RAZON DE DESCONEXIÓN DESCONOCIDA: ${reason || 'No encontrado'} >> ${connection || 'No encontrado'}`))
+}}
+}
+process.on('uncaughtException', console.error)
+
+let isInit = true;
+let handler = await import('./handler.js')
+global.reloadHandler = async function(restatConn) {
+try {
+const Handler = await import(`./handler.js?update=${Date.now()}`).catch(console.error);
+if (Object.keys(Handler || {}).length) handler = Handler
+} catch (e) {
+console.error(e);
+}
+if (restatConn) {
+const oldChats = global.conn.chats
+try {
+global.conn.ws.close()
+} catch { }
+conn.ev.removeAllListeners()
+global.conn = makeWASocket(connectionOptions, {chats: oldChats})
+isInit = true
+}
+if (!isInit) {
+conn.ev.off('messages.upsert', conn.handler)
+conn.ev.off('connection.update', conn.connectionUpdate)
+conn.ev.off('creds.update', conn.credsUpdate)
+}
+      conn.welcome = '¡Bienvenido/a!\n@user te recomendamos leer las reglas para no tener ningún inconveniente con el administrador o con los miembros del grupo\n\n una vez hayas leído las reglas y estás de acuerdo en ello disfruta del grupo y pásatela bien';
+  conn.bye = '¡Hasta luego!\n@user';
+  conn.spromote = '*@user Fue promovido a administrador.*';
+  conn.sdemote = '*@user Fue degradado de administrador.*';
+  conn.sDesc = '*La descripción del grupo ha sido modificada.*';
+  conn.sSubject = '*El nombre del grupo ha sido modificado.*';
+  conn.sIcon = '*Se ha cambiado la foto de perfil del grupo.*';
+  conn.sRevoke = '* El enlace de invitación al grupo ha sido restablecido.*';
+    
+
+conn.handler = handler.handler.bind(global.conn)
+conn.connectionUpdate = connectionUpdate.bind(global.conn)
+conn.credsUpdate = saveCreds.bind(global.conn, true)
+
+const currentDateTime = new Date()
+const messageDateTime = new Date(conn.ev)
+if (currentDateTime >= messageDateTime) {
+const chats = Object.entries(conn.chats).filter(([jid, chat]) => !jid.endsWith('@g.us') && chat.isChats).map((v) => v[0])
+
+} else {
+const chats = Object.entries(conn.chats).filter(([jid, chat]) => !jid.endsWith('@g.us') && chat.isChats).map((v) => v[0])
+}
+
+conn.ev.on('messages.upsert', conn.handler)
+conn.ev.on('connection.update', conn.connectionUpdate)
+conn.ev.on('creds.update', conn.credsUpdate)
+isInit = false
+return true
+};
+
+/** Arranque nativo para subbots by - ReyEndymion >> https://github.com/ReyEndymion
+ */
+global.rutaJadiBot = join(__dirname, `./${jadi}`)
+
+if (global.hadesJadibts) {
+if (!existsSync(global.rutaJadiBot)) {
+mkdirSync(global.rutaJadiBot, { recursive: true }) 
+console.log(chalk.bold.cyan(`La carpeta: ${jadi} se creó correctamente.`))
+} else {
+console.log(chalk.bold.cyan(`La carpeta: ${jadi} ya está creada.`)) 
+}
+
+const readRutaJadiBot = readdirSync(rutaJadiBot)
+if (readRutaJadiBot.length > 0) {
+const creds = 'creds.json'
+for (const gjbts of readRutaJadiBot) {
+const botPath = join(rutaJadiBot, gjbts)
+const readBotPath = readdirSync(botPath)
+if (readBotPath.includes(creds)) {
+Jadibots({pathJadibots: botPath, m: null, conn, args: '', usedPrefix: '/', command: 'serbot'})
+}
+}
+}
+}
+
+const pluginFolder = global.__dirname(join(__dirname, './plugins/index'))
+const pluginFilter = (filename) => /\.js$/.test(filename)
+global.plugins = {}
+async function filesInit() {
+for (const filename of readdirSync(pluginFolder).filter(pluginFilter)) {
+try {
+const file = global.__filename(join(pluginFolder, filename))
+const module = await import(file)
+global.plugins[filename] = module.default || module
+} catch (e) {
+conn.logger.error(e)
+delete global.plugins[filename]
+}}}
+filesInit().then((_) => Object.keys(global.plugins)).catch(console.error);
+
+global.reload = async (_ev, filename) => {
+if (pluginFilter(filename)) {
+const dir = global.__filename(join(pluginFolder, filename), true);
+if (filename in global.plugins) {
+if (existsSync(dir)) conn.logger.info(` updated plugin - '${filename}'`)
+else {
+conn.logger.warn(`deleted plugin - '${filename}'`)
+return delete global.plugins[filename]
+}} else conn.logger.info(`new plugin - '${filename}'`);
+const err = syntaxerror(readFileSync(dir), filename, {
+sourceType: 'module',
+allowAwaitOutsideFunction: true,
+});
+if (err) conn.logger.error(`syntax error while loading '${filename}'\n${format(err)}`)
+else {
+try {
+const module = (await import(`${global.__filename(dir)}?update=${Date.now()}`));
+global.plugins[filename] = module.default || module;
+} catch (e) {
+conn.logger.error(`error require plugin '${filename}\n${format(e)}'`)
+} finally {
+global.plugins = Object.fromEntries(Object.entries(global.plugins).sort(([a], [b]) => a.localeCompare(b)))
+}}
+}}
+Object.freeze(global.reload)
+watch(pluginFolder, global.reload)
+await global.reloadHandler()
+async function _quickTest() {
+const test = await Promise.all([
+spawn('ffmpeg'),
+spawn('ffprobe'),
+spawn('ffmpeg', ['-hide_banner', '-loglevel', 'error', '-filter_complex', 'color', '-frames:v', '1', '-f', 'webp', '-']),
+spawn('convert'),
+spawn('magick'),
+spawn('gm'),
+spawn('find', ['--version']),
+].map((p) => {
+return Promise.race([
+new Promise((resolve) => {
+p.on('close', (code) => {
+resolve(code !== 127);
+});
+}),
+new Promise((resolve) => {
+p.on('error', (_) => resolve(false));
+})]);
+}));
+const [ffmpeg, ffprobe, ffmpegWebp, convert, magick, gm, find] = test;
+const s = global.support = {ffmpeg, ffprobe, ffmpegWebp, convert, magick, gm, find};
+Object.freeze(global.support);
+}
+
+function clearTmp() {
+const tmpDir = join(__dirname, 'tmp')
+const filenames = readdirSync(tmpDir)
+filenames.forEach(file => {
+const filePath = join(tmpDir, file)
+unlinkSync(filePath)})
+}
+
+function purgeSession() {
+let prekey = []
+let directorio = readdirSync(`./${sessions}`)
+let filesFolderPreKeys = directorio.filter(file => {
+return file.startsWith('pre-key-')
+})
+prekey = [...prekey, ...filesFolderPreKeys]
+filesFolderPreKeys.forEach(files => {
+unlinkSync(`./${sessions}/${files}`)
+})
+} 
+
+function purgeSessionSB() {
+try {
+const listaDirectorios = readdirSync(`./${jadi}/`);
+let SBprekey = [];
+listaDirectorios.forEach(directorio => {
+if (statSync(`./${jadi}/${directorio}`).isDirectory()) {
+const DSBPreKeys = readdirSync(`./${jadi}/${directorio}`).filter(fileInDir => {
+return fileInDir.startsWith('pre-key-')
+})
+SBprekey = [...SBprekey, ...DSBPreKeys];
+DSBPreKeys.forEach(fileInDir => {
+if (fileInDir !== 'creds.json') {
+unlinkSync(`./${jadi}/${directorio}/${fileInDir}`)
+}})
+}})
+if (SBprekey.length === 0) {
+console.log(chalk.bold.green(`\n╭» 🟡 ${jadi} 🟡\n│→ NADA POR ELIMINAR \n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― 🗑️♻️`))
+} else {
+console.log(chalk.bold.cyanBright(`\n╭» ⚪ ${jadi} ⚪\n│→ ARCHIVOS NO ESENCIALES ELIMINADOS\n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― 🗑️♻️`))
+}} catch (err) {
+console.log(chalk.bold.red(`\n╭» 🔴 ${jadi} 🔴\n│→ OCURRIÓ UN ERROR\n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― 🗑️♻️\n` + err))
+}}
+
+function purgeOldFiles() {
+const directories = [`./${sessions}/`, `./${jadi}/`]
+directories.forEach(dir => {
+readdirSync(dir, (err, files) => {
+if (err) throw err
+files.forEach(file => {
+if (file !== 'creds.json') {
+const filePath = path.join(dir, file);
+unlinkSync(filePath, err => {
+if (err) {
+console.log(chalk.bold.red(`\n╭» 🔴 ARCHIVO 🔴\n│→ ${file} NO SE LOGRÓ BORRAR\n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― 🗑️❌\n` + err))
+} else {
+console.log(chalk.bold.green(`\n╭» 🟣 ARCHIVO 🟣\n│→ ${file} BORRADO CON ÉXITO\n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― 🗑️♻️`))
+} }) }
+}) }) }) }
+
+function redefineConsoleMethod(methodName, filterStrings) {
+const originalConsoleMethod = console[methodName]
+console[methodName] = function() {
+const message = arguments[0]
+if (typeof message === 'string' && filterStrings.some(filterString => message.includes(atob(filterString)))) {
+arguments[0] = ""
+}
+originalConsoleMethod.apply(console, arguments)
+}}
+
+setInterval(async () => {
+if (stopped === 'close' || !conn || !conn.user) return
+await clearTmp()
+console.log(chalk.bold.cyanBright(`\n╭» 🟢 MULTIMEDIA 🟢\n│→ ARCHIVOS DE LA CARPETA TMP ELIMINADAS\n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― 🗑️♻️`))}, 1000 * 60 * 4) // 4 min 
+
+setInterval(async () => {
+if (stopped === 'close' || !conn || !conn.user) return
+await purgeSession()
+console.log(chalk.bold.cyanBright(`\n╭» 🔵 ${global.sessions} 🔵\n│→ SESIONES NO ESENCIALES ELIMINADAS\n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― 🗑️♻️`))}, 1000 * 60 * 10) // 10 min
+
+setInterval(async () => {
+if (stopped === 'close' || !conn || !conn.user) return
+await purgeSessionSB()}, 1000 * 60 * 10) 
+
+setInterval(async () => {
+if (stopped === 'close' || !conn || !conn.user) return
+await purgeOldFiles()
+console.log(chalk.bold.cyanBright(`\n╭» 🟠 ARCHIVOS 🟠\n│→ ARCHIVOS RESIDUALES ELIMINADAS\n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― 🗑️♻️`))}, 1000 * 60 * 10)
+
+_quickTest().then(() => conn.logger.info(chalk.bold(`🔵  H E C H O\n`.trim()))).catch(console.error)
+
+async function isValidPhoneNumber(number) {
+try {
+number = number.replace(/\s+/g, '')
+if (number.startsWith('+521')) {
+number = number.replace('+521', '+52');
+} else if (number.startsWith('+52') && number[4] === '1') {
+number = number.replace('+52 1', '+52');
+}
+const parsedNumber = phoneUtil.parseAndKeepRawInput(number)
+return phoneUtil.isValidNumber(parsedNumber)
+} catch (error) {
+return false
+}}
