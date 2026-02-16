@@ -1,4 +1,4 @@
-Hola saludos lo saluda OFC:YOVANI
+Hola los saluda OFC:YOVANI
 les informo que ya no habrá más actualizaciones para esta versión queda totalmente descontinuada 
 
 pero tranquilos va a tener actualizaciones y futuras mejoras para Hades Md la versión original 
@@ -10,7 +10,7 @@ Hades Md la versión original
 
 https://github.com/OFC-YOVANI/HADES-BOT-MD
 
-Hello, greetings from OFC:YOVANI. I'm informing you that there will be no more updates for this version; it is completely discontinued. 
+Hello, this is OFC:YOVANI. I'm informing you that there will be no more updates for this version; it is completely discontinued. 
 
 But don't worry, it will have updates and future improvements for the original Hades MD version. 
 
